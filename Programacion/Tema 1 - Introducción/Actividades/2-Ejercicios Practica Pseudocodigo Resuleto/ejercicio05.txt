@@ -1,0 +1,13 @@
+Algoritmo: decimalOEntero
+
+Entero: num
+
+INICIO
+    escribir("Dime un numero")
+    leer num
+    si (abs(num) - num == 0) entonces
+        escribir(num, " es un numero entero")
+    sino
+        escribir(num, " es un numero con decimales")
+    finSi
+FIN_ALGORITMO

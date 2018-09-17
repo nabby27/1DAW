@@ -1,0 +1,16 @@
+Algoritmo: sumaYProducto
+
+Entero: x, suma, multiplicacion
+
+INICIO
+    x = 20
+    suma = 0
+    multiplicacion = 1
+    minetras (x <= 40) entonces
+        suma = suma + x
+        multiplicacion = multiplicacion * x
+        x++
+    finMientras
+    escribir("La suma es: ", suma)
+    escribir("La multiplicacion es: ", multiplicacion)
+FIN_ALGORITMO

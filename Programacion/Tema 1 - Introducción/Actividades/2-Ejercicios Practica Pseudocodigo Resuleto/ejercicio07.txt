@@ -1,0 +1,14 @@
+Algoritmo: multiplos
+
+Entero: n, x
+Constantes: num
+
+INICIO
+    x = 0
+    escribir("Dime un numero")
+    leer n
+    minetras (x < n) entonces
+        escribir("Multiplo de num: "x * num)
+        x++
+    finMientras
+FIN_ALGORITMO

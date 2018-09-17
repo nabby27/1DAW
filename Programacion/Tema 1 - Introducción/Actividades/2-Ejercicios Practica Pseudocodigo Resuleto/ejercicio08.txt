@@ -1,0 +1,14 @@
+Algoritmo: sumaKEnteros
+
+Entero: k, x, resultado
+
+INICIO
+    x = 0
+    resultado = 0
+    escribir("Dime un numero")
+    leer k
+    minetras (x < k) entonces
+        resultado = resultado + x
+        x++
+    finMientras
+FIN_ALGORITMO

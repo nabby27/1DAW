@@ -1,0 +1,8 @@
+Algoritmo: factura
+
+Real: 
+Constantes: 
+
+INICIO
+    
+FIN_ALGORITMO
