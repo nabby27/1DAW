@@ -1,0 +1,14 @@
+Algoritmo: multiplica5Numeros
+
+Real: num, x, resultado
+
+INICIO
+    resultado = 1
+    x = 0
+    mientra (x < 5) entonces
+        escribir("Dime un numero")
+        leer num
+        resultado = resultado * num
+        x++
+    finMientras
+FIN_ALGORITMO

@@ -1,0 +1,18 @@
+Algoritmo: paresPositivos
+
+Real: num, x, resultado, cantidad
+
+INICIO
+    resultado = 0
+    x = 0
+    escribir("Dime cuantos numeros quieres sumar")
+    leer cantidad
+    mientra (x < cantidad) entonces
+        escribir("Dime un numero")
+        leer num
+        si ((num > 0) y (num % 2 = 0)) entonces
+            escribir(num, " cumple las condiciones")
+        finSi
+        x++
+    finMientras
+FIN_ALGORITMO

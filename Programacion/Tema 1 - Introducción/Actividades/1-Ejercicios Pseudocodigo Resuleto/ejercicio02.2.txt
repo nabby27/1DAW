@@ -1,0 +1,11 @@
+Algoritmo: calcularPrecioFinal
+
+Real: precio, descuento
+
+INICIO
+    escribir("Dime el precio")
+    leer precio
+    escribir("Dime el descuento")
+    leer descuento
+    escribir("El precio total es: ", (precio * 100) / (100 - descuento))
+FIN_ALGORITMO

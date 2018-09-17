@@ -1,0 +1,12 @@
+Algoritmo: areaTriangulo
+
+Real: base, altura, area
+
+INICIO
+    escribir("Dime el valor de la base")
+    guardar base
+    escribir("Dime el valor de la altura")
+    guardar altura
+    area = (base * altura) / 2
+    escribir("El valor es", area)
+FIN_ALGORITMO

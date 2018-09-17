@@ -1,0 +1,28 @@
+Algoritmo: cienParesDesc
+
+Entero: x
+
+// mientras
+INICIO
+    x = 200
+    minetras (x > 0)
+        escribir(x)
+        x = x - 2
+    finMinetras
+FIN_ALGORITMO
+
+//repetir mientras
+INICIO
+    x = 200
+    repetir
+        escribir(x)
+        x = x - 2
+    mientras (x=0)
+FIN_ALGORITMO
+
+//para
+INICIO
+    para (x = 200; x > 0; x = x - 2)
+        escribir(x)
+    finMinetras
+FIN_ALGORITMO

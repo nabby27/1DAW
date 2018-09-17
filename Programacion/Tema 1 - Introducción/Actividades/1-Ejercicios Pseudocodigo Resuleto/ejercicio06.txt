@@ -1,0 +1,16 @@
+Algoritmo: calcularPotencia
+
+Real: base, exponente, x, resultado
+
+INICIO
+    escribir("Dime la base")
+    leer base
+    escribir("Dime la exponente")
+    leer exponente
+    x = 0
+    resultado = 1
+    mientra (x < exponente) entonces
+        resultado = resultado * base
+        x++
+    finMientras
+FIN_ALGORITMO

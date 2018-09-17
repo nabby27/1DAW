@@ -1,0 +1,15 @@
+Algoritmo: condicionDoble
+
+Real: x, y, z
+
+INICIO
+    escribir("Dime el numero x")
+    leer x
+    escribir("Dime el numero y")
+    leer y
+    si (x >= y) entonces
+        z = x
+    sino
+        z = y
+    finSi
+FIN_ALGORITMO

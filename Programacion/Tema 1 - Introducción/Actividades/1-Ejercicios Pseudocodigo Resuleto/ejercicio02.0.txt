@@ -1,0 +1,14 @@
+Algoritmo: operaciones
+
+Entero: numero1, numero2
+
+INICIO
+    escribir("Dime el primer numero")
+    leer numero1
+    escribir("Dime el segundo numero")
+    leer numero2
+    escribir("La suma es: ", numero1 + numero2)
+    escribir("La resta es: ", numero1 - numero2)
+    escribir("La multiplicación es: ", numero1 * numero2)
+    escribir("La división es: ", numero1 / numero2)
+FIN_ALGORITMO

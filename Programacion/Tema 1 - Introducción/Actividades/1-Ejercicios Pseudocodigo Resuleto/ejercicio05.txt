@@ -1,0 +1,17 @@
+Algoritmo: igualOMenor
+
+Real: x, y
+
+INICIO
+    escribir("Dime x")
+    leer x
+    escribir("Dime y")
+    leer y
+    si (x == y) entonces
+        escribir("x e y son iguales") 
+    sino si (x < y) entonces
+        escribir("x es menor")
+    sino
+        escribir("y es menor")
+    finSi
+FIN_ALGORITMO

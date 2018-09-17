@@ -1,0 +1,17 @@
+Algoritmo: condicionConOr
+
+Real: x, y, z
+
+INICIO
+    escribir("Dime el numero x")
+    leer x
+    escribir("Dime el numero y")
+    leer y
+    escribir("Dime el numero z")
+    leer z
+    si ((x + y = z) o (x + z = y) o (y + z = x)) entonces
+        escribir("Iguales")
+    sino
+        escribir("Diferentes")
+    finSi
+FIN_ALGORITMO

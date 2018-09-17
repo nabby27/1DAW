@@ -1,0 +1,10 @@
+Algoritmo: millasAMetros
+
+Real: millas
+Constantes: conversion=1852
+
+INICIO
+    escribir("Dime el valor en millas")
+    leer millas
+    escribir(milla, " milla/s son ", millas * conversion, " metros")
+FIN_ALGORITMO

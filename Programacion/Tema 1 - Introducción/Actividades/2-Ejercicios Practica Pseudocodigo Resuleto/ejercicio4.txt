@@ -1,0 +1,19 @@
+Algoritmo: 10Numeros
+
+Entero: x, sumaPares, sumaImpares
+
+INICIO
+    x = 0
+    sumaPares = 0
+    sumaImpares = 0
+    mientras (x < 200) entonces
+        x++
+        si (num % 2 == 0) entonces
+            sumaPares = sumaPares + num
+        sino 
+            sumaImpares = sumaImpares + num
+        finSi
+    finMientras
+    escribir("La suma de los numeros pares es:  ", sumaPares)
+    escribir("La suma de los numeros impares es:  ", sumaImpares)
+FIN_ALGORITMO

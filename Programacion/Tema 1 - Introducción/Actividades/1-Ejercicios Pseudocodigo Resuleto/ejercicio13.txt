@@ -1,0 +1,12 @@
+Algoritmo: multiplica10Impares
+
+Entero: x, resultado
+
+INICIO
+    x = 1
+    resultado = 1
+    minetras (x < 20) entonces
+        resultado = resultado * x
+        x = x + 2
+    finMinetras
+FIN_ALGORITMO

@@ -1,0 +1,17 @@
+Algoritmo: cuentaPositivos
+
+Entero: x, num, resultado, cantidad
+
+INICIO
+    x = 0
+    cantidad = 0
+    mientras (x < 10) entonces
+        escribir("Dime un numero")
+        leer num
+        si (num > 0) entonces
+            cantidad++
+        finSi     
+        x++
+    finMientras
+    escribir("Hay ", cantidad, " numeros positivos")
+FIN_ALGORITMO

@@ -1,0 +1,26 @@
+Algoritmo: 10Numeros
+
+Entero: num, x, sumaPares, cantidadPares, sumaImpares, cantidadImpares
+
+INICIO
+    x = 0
+    sumaPares = 0
+    cantidadPares = 0
+    sumaImpares = 0
+    cantidadImpares = 0
+    mientras (x < 10) entonces
+        escribir("Dime el numero")
+        leer num
+        si (num % 2 == 0) entonces
+            sumaPares = sumaPares + num
+            cantidadPares++
+        sino 
+            sumaImpares = sumaImpares + num
+            cantidadImpares++
+        finSi
+        x++
+    finMientras
+    escribir("La suma de los numeros pares es:  ", sumaPares)
+    escribir("Hay ", cantidadPares, " numero/s par/es")
+    escribir("La media de los impares es: ", sumaImpares / cantidadImpares)
+FIN_ALGORITMO

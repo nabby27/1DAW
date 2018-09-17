@@ -1,0 +1,17 @@
+Algoritmo: cuantosCeros
+
+Entero: num, x, cantidad
+
+INICIO
+    x=0
+    cantidad=0
+    mientras (x < 15) entonces
+        escribir("Dime el numero")
+        leer num
+        si (num == 0) entonces
+            cantidad++
+        finSi
+        x++
+    finMientras
+    escribir("La sequencia tiene ", cantidad, " cero/s")
+FIN_ALGORITMO

@@ -1,0 +1,13 @@
+Algoritmo: condicion
+
+Real: x, z
+
+INICIO
+    escribir("Dime x")
+    leer x
+    escribir("Dime z")
+    leer z
+    si (x > z) entonces
+        escribir("Verdadero")
+    finSi
+FIN_ALGORITMO

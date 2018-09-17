@@ -1,0 +1,16 @@
+Algoritmo: calcularSalario
+
+Real: horas, salario
+Constantes: precioHora
+
+INICIO
+    escribir("Dime el numero de horas semanales")
+    leer horas
+    si (horas > 40) entonces
+        salario = 40 * precioHora;
+        horas = horas - 40
+        salario += horas * precioHora * 2 
+    sino
+        salario += horas * precioHora
+    finSi
+FIN_ALGORITMO

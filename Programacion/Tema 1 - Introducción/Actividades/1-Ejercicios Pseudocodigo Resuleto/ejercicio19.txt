@@ -1,0 +1,21 @@
+Algoritmo: cuentaCifras
+
+Entero: num, x, contador
+Boolean: acierto
+
+INICIO
+    x = 1
+    contador = 0
+    acierto = falso
+    escribir("Dime el numero")
+    leer num
+    mientras (acierto == falso) entonces
+        contador++ 
+        si (num < x) entonces 
+            acierto = verdadero
+        sino
+            x *= 10
+        finSi
+    finMinentras
+    escribir("Tiene ", contador, " cifras")
+FIN_ALGORITMO
