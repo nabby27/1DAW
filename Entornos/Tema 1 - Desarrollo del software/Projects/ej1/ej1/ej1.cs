@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HolaMundo
+namespace ej1
 {
-    class HolaMundo
+    class ej1
     {
         static void Main(string[] args)
         {

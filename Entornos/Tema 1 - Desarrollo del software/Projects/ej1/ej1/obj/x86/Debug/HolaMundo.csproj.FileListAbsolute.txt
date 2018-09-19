@@ -2,3 +2,5 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Project
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\HolaMundo\bin\Debug\HolaMundo.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\HolaMundo\obj\x86\Debug\HolaMundo.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\HolaMundo\obj\x86\Debug\HolaMundo.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej1\HolaMundo\obj\x86\Debug\HolaMundo.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej1\HolaMundo\obj\x86\Debug\HolaMundo.pdb
