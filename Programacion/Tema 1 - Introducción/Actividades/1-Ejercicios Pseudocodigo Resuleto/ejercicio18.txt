@@ -3,6 +3,7 @@ Algoritmo: adivina
 Entero: numAdivinar, num, x
 
 INICIO
+    x = 0
     escribir("Dime el numero")
     leer numAdivinar
     mientras (x < 5) entonces

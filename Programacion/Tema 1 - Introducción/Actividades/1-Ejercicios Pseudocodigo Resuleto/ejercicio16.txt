@@ -1,21 +1,22 @@
 Algoritmo: primo
 
-Entero: x, num, resultado
+Entero: x, num
 Booleano: primo
 
 INICIO
-    x = 0
+    x = 2
     primo = verdadero
     escribir("Dime un numero")
     leer num
     mientras (x < num) entonces
-        si ((x != 1) y (x != num) y (num % x == 0)) entonces
+        si ((num % x == 0) y (primo = verdadero)) entonces
             primo = falso
-            finMientras
         finSi     
         x++
     finMientras
     si (primo = verdadero) entonces
         escribir("Es primo")
+    sino 
+        escribir("No es primo")
     finSi
 FIN_ALGORITMO

@@ -1,6 +1,6 @@
 Algoritmo: cuentaPositivos
 
-Entero: x, num, resultado, cantidad
+Entero: x, num, cantidad
 
 INICIO
     x = 0

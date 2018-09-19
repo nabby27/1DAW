@@ -3,11 +3,12 @@ Algoritmo: sumaPositivos
 Entero: num, resultado
 
 INICIO
-    repetir
+    resultado = 0
+    num = 0
+    minetras (num > -1) entonces
         escribir("Dime un numero")
         leer num
-        si (num % 2 == 0)
-            resultado = resultado + num
-        finSi
-    minetras (x % 2 == 0)
+        resultado = resultado + num
+    finMientras
+    escribir("La suma de los numeros positivos es: ", resultado)
 FIN_ALGORITMO
