@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ej1", "HolaMundo\ej1.csproj", "{0C587ACB-54DA-4F7E-9D1B-2A411FC1FBB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ej1", "ej1\ej1.csproj", "{6C1A5235-D101-4E07-A997-EDBF4B111779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C587ACB-54DA-4F7E-9D1B-2A411FC1FBB6}.Debug|x86.ActiveCfg = Debug|x86
-		{0C587ACB-54DA-4F7E-9D1B-2A411FC1FBB6}.Debug|x86.Build.0 = Debug|x86
-		{0C587ACB-54DA-4F7E-9D1B-2A411FC1FBB6}.Release|x86.ActiveCfg = Release|x86
-		{0C587ACB-54DA-4F7E-9D1B-2A411FC1FBB6}.Release|x86.Build.0 = Release|x86
+		{6C1A5235-D101-4E07-A997-EDBF4B111779}.Debug|x86.ActiveCfg = Debug|x86
+		{6C1A5235-D101-4E07-A997-EDBF4B111779}.Debug|x86.Build.0 = Debug|x86
+		{6C1A5235-D101-4E07-A997-EDBF4B111779}.Release|x86.ActiveCfg = Release|x86
+		{6C1A5235-D101-4E07-A997-EDBF4B111779}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

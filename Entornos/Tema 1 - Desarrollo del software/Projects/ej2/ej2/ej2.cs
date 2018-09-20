@@ -24,8 +24,8 @@ namespace ej2
             Console.WriteLine("Dime tu sueldo");
             String sueldo = Console.ReadLine();
 
-            Console.WriteLine("Tu nombre es: " + nombre);
-            Console.WriteLine("Tu fecha de nacimineto es: " + fecha);
+            Console.WriteLine("Tu nombre es: {0,10}", nombre);
+            Console.WriteLine("Tu fecha de nacimineto es: {0,10}", fecha);
             Console.WriteLine("Tu codigo postal es: {0,10}", cp);
             Console.WriteLine("Tu ciudad es: {0,10}", ciudad);
             Console.WriteLine("Tu sueldo es: {0,10}", sueldo);
