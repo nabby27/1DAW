@@ -1,16 +1,17 @@
 Algoritmo: adivina
 
 Entero: numAdivinar, num, x
-
+Booleano: acierto
 INICIO
     x = 0
+    acierto = falso
     escribir("Dime el numero")
     leer numAdivinar
-    mientras (x < 5) entonces
+    mientras ((x < 5) y (no acierto)) entonces
         escribir("Adivina el numero")
         leer num
         si (numAdivinar = num) entonces
-            escribir("Correcto lo has acertado en ", x, " intentos")
+            acierto = verdadero
             x=5
         sino si (numAdivinar > num) entonces
             escribir("Te has quedado corto")
@@ -19,5 +20,9 @@ INICIO
         finSi
         x++
     finMinentras
-    escribir("Se te acabaron los intentos")
+    si (no acierto) 
+        escribir("Se te acabaron los intentos")
+    sino
+        escribir("Correcto! lo hiciste en ", x, " intentos")
+    finSi
 FIN_ALGORITMO

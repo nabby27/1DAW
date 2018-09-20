@@ -10,12 +10,12 @@ INICIO
     escribir("Dime el numero")
     leer num
     mientras (acierto == falso) entonces
-        contador++ 
-        si (num < x) entonces 
+        si (num <= x) entonces 
             acierto = verdadero
         sino
             x *= 10
         finSi
+        contador++ 
     finMinentras
-    escribir("Tiene ", contador, " cifras")
+    escribir("El numero ", num, " tiene ", contador, " cifras")
 FIN_ALGORITMO
