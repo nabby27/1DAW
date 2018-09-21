@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace ej1
 {
-    static class ej1
+    static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
