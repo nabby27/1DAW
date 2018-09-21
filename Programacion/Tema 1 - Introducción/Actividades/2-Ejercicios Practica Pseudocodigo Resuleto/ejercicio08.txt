@@ -12,3 +12,16 @@ INICIO
         x++
     finMientras
 FIN_ALGORITMO
+
+#################################
+
+INICIO
+    x = 0
+    resultado = 0
+    escribir("Dime un numero")
+    leer k
+    hacer
+        resultado = resultado + x
+        x++
+    minetras (x <= k)
+FIN_ALGORITMO

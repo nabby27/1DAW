@@ -1,11 +1,11 @@
 Algoritmo: decimalOEntero
 
-Entero: num
+Real: num
 
 INICIO
     escribir("Dime un numero")
     leer num
-    si (abs(num) - num == 0) entonces
+    si ((abs(num) == num) o (-abs(num) == num)) entonces
         escribir(num, " es un numero entero")
     sino
         escribir(num, " es un numero con decimales")
