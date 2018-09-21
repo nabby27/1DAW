@@ -1,0 +1,35 @@
+Algoritmo: 15YCalcula
+
+Entero: x, sumaPares, productoPares, cantidadNegativos, num
+Boolean: mayor500
+
+INICIO
+    x = 0
+    sumaPares = 0
+    productoPares = 1
+    mayor500 = false
+    cantidadNegativos = 0
+    mientras (x < 15) entonces
+        escribir("Dime el numero")
+        leer num
+        si ((num % 2 == 0) y (num > 19) y (num < 206)) entonces
+            sumaPares = sumaPares + num
+            productoPares = productoPares * num 
+        finSi
+        si (num > 500) entonces
+            mayor500 = true
+        finSi
+        si (num < 0) entonces
+            cantidadNegativos++
+        finSi
+        x++
+    finMientras
+    escribir("La suma de los numeros pares es:  ", sumaPares)
+    escribir("El producto de los numeros pares es:  ", productoPares)
+    escribir("Hay ", cantidadNegativos, " numero/s negativo/s")
+    si (mayo500) entonces
+        escribir("Hay al menos un numero mayor a 500")
+    sino 
+        escribir("No hay ningún numero que supere el 500")
+    finSi
+FIN_ALGORITMO

@@ -1,8 +1,18 @@
 Algoritmo: factura
 
-Real: 
-Constantes: 
+Real: precio
+Entero: cantidad
+Constantes: iva = 21, descuento = 5, precioDescuento = 500
 
 INICIO
-    
+    escribir("Cuanto vale el producto")
+    leer precio
+    escribir("Cuantos has comprado")
+    leer catidad
+    precioTotalNeto = precio * cantidad
+    precioTotalBruto = (precioTotalNeto * iva) / 100
+    si (precioTotalNeto > precioDescuento) entonces
+        precioTotalBruto = (precioTotalBruto * descuento) / 100
+    finSi
+    escirbir("El precio total: ", precioTotalBruto, "€")
 FIN_ALGORITMO
