@@ -1,0 +1,17 @@
+Algoritmo: tablaMultiplicar
+
+Entero: numDias, x, diaTempMinima, diaTempMaxima
+Reales: temperatura, temperaturaMaxima, temperaturaMinima
+
+INICIO
+    x = 0
+    num = 3
+    mientras (x < 11) entonces
+        escribir(num, " x ", x, ": ", num * x)
+        x++
+        si ((x = 10) y (num < 9)) entonces
+            num +=2
+            x = 0
+        finSi
+    finMientras
+FIN_ALGORITMO

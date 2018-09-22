@@ -1,0 +1,9 @@
+Algoritmo: redondeo
+
+Real: num 
+
+INICIO
+    escribir("Dime un numero")
+    leer num
+    escribir("El numero redondeado es: ", round(num))
+FIN_ALGORITMO

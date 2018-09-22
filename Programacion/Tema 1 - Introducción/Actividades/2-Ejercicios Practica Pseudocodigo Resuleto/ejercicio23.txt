@@ -1,0 +1,29 @@
+Algoritmo: alumnos
+
+Entero: x, cantidadSuspensos
+Reales: nota, notaMayor, suma
+
+INICIO
+    x = 0
+    notaMayor = 0
+    cantidadSuspensos = 0
+    mientras (x < 20) entonces
+        escribir("Que nota ha sacado el alumno?") 
+        leer nota
+        si ((nota > -1) y (nota < 11)) entonces
+            suma = suma + nota
+            si (nota < 5) entonces
+                cantidadSuspensos++
+            finSi
+            si (nota > notaMayor) entonces
+                notaMayor = nota
+            finSi
+            x++
+        sino 
+            escribir("La nota no es correcta, tiene que estar entre el 0 y el 10")
+        finSi
+    finMientras
+    escribir("La media de la clase es: ", suma / 20)
+    escribir("La maxima nota de la clase es: ", notaMayor)
+    escribir("Hay ", cantidadSuspensos, " alumno/s suspendido/s")
+FIN_ALGORITMO

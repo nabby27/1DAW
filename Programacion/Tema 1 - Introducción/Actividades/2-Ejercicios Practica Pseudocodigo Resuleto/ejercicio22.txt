@@ -1,0 +1,16 @@
+Algoritmo: multiplicaConSumas
+
+Entero: x, a, n, resultado
+
+INICIO
+    x = 0
+    resultado = 0
+    escribir("Dime a")
+    leer a
+    escribir("Dime n")
+    leer n
+    mientras (x < n) entonces
+        resultado += a 
+        x++
+    finMientras
+FIN_ALGORITMO

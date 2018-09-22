@@ -1,0 +1,29 @@
+Algoritmo: distintosDe0
+
+Real: num, mayor 
+Entero: x
+Boolean: negativo
+
+INICIO
+    x = 0
+    mayor = 0
+    negativo = falso
+    minetras (x < 10) entonces
+        escribir("Dime un numero")
+        leer num
+        si (num != 0) entonces
+            si (num > mayor) entonces
+                mayor = num
+            sino si (num < 0) entonces
+                negativo = verdadero
+            finSi
+            x++
+        finSi
+    finMientras
+    escribir("El numero más alto es el: ", mayor)
+    si (negativo) entonces
+        escribir("Hay alguno numero negativo")
+    sino 
+        escribir("No hay ningun numero negativo")
+    finSi
+FIN_ALGORITMO

@@ -1,0 +1,11 @@
+Algoritmo: sumaParesMenor100
+
+Entero: suma, x
+
+INICIO
+    x = 0
+    mientras (x < 101) entonces
+        suma += x
+        x += 2
+    finMientras
+FIN_ALGORITMO

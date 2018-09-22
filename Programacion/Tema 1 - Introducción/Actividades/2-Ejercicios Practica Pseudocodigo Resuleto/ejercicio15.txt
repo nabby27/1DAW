@@ -1,0 +1,19 @@
+Algoritmo: mediaDeClase
+
+Real: nota, sumaNotas
+Entero: numAlumnos, x
+Boolean: 
+
+INICIO
+    x = 0
+    sumaNotas = 0
+    escribir("Cuantos alumnos hay?")
+    leer numAlumnos
+    mientras (x < numAlumnos) entonces
+        escribir(Dime una nota)
+        leer nota
+        sumaNotas = sumaNotas + nota
+        x++
+    finMientras
+    escribir("La nota media de la clase es: ", sumaNotas/numAlumnos)
+FIN_ALGORITMO

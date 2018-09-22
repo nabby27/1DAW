@@ -9,10 +9,10 @@ INICIO
     leer precio
     escribir("Cuantos has comprado")
     leer catidad
-    precioTotalNeto = precio * cantidad
-    precioTotalBruto = (precioTotalNeto * iva) / 100
+    precioTotalBruto = precio * cantidad
+    precioTotalNeto = precioTotalBruto + ((precioTotalBruto * iva) / 100)
     si (precioTotalNeto > precioDescuento) entonces
-        precioTotalBruto = (precioTotalBruto * descuento) / 100
+        precioTotalNeto = precioTotalNeto - ((precioTotalNeto * descuento) / 100)
     finSi
-    escirbir("El precio total: ", precioTotalBruto, "€")
+    escirbir("El precio total: ", precioTotalNeto, "€")
 FIN_ALGORITMO

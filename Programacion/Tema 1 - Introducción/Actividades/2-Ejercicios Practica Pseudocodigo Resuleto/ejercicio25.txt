@@ -1,0 +1,24 @@
+Algoritmo: factorial
+
+Entero: x, num, resultado
+Boolean: valido
+
+INICIO
+    x = 1
+    resultado = 1
+    valido = falso
+    escribir("Dime un numero menor de 10") 
+    leer num
+    si (num < 10) entonces
+        valido = verdadero
+        mientras (x <= num) entonces
+            resultado *= x
+            x++
+        finMientras
+    sino
+        escribir("El numero introducido no es menor de 10")
+    finSi
+    si (valido) entonces
+        escribir("El factorial de ", num, " es: ", resultado)
+    finSi
+FIN_ALGORITMO
