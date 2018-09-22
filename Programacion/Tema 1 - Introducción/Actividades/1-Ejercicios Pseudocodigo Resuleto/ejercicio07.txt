@@ -11,4 +11,5 @@ INICIO
         resultado = resultado * num
         x++
     finMientras
+    escribir("El resultado es: ", resultado)
 FIN_ALGORITMO
