@@ -1,0 +1,14 @@
+Algoritmo: tablasDeMultiplicar
+
+Entero: x, y
+
+INICIO
+    x = 1
+    y = 0
+    mientras (x <= 10) entonces
+        escribir("Tabla de multiplicar del ", x)
+        mientras (y <= 10) entonces
+            escribir(x, " x ", y, ": ", x * y)
+        finMientras
+    finMientras
+FIN_ALGORITMO

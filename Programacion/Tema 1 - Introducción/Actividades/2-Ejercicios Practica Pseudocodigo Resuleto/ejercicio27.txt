@@ -1,0 +1,25 @@
+Algoritmo: primoMayor0
+
+Entero: x
+Boolean: primo
+
+INICIO
+    x = 1
+    primo = falso
+    escribir("Dime un numero mayor de 0")
+    leer num
+    si (num > 0) entonces
+        mientras ((num < x) y (!primo)) entonces
+            si (num % x = 0) entonces
+                primo = verdadero
+            finSi
+        finMientras
+        si (primo) entonces
+            escribir("El número ", num, " es primo")
+        sino
+            escribir("El número ", num, " no es primo")
+        finSi
+    sino
+        escribir("El número introducido es negativo")
+    finSi
+FIN_ALGORITMO

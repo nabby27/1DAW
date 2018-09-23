@@ -1,0 +1,33 @@
+Algoritmo: numerosSin0
+
+Entero: x, cantidadNegativos, cantidadPositivos
+Real: suma, num
+Boolean: mayor100
+
+INICIO
+    x = 0
+    cantidadNegativos = 0
+    cantidadPositivos = 0
+    suma = 0
+    mayor100 = falso
+    repetir
+        escribir("Dime un numero (0-salir)")
+        leer num
+        si (num < 0) entonces
+            cantidadNegativos++
+        sino
+            suma += num
+            cantidadPositivos++
+            si (num > 100) entonces
+                mayor100 = verdadero
+            finSi
+        finSi
+    mientras (x != 0) entonces
+    escribir("Hay ", cantidadNegativos, " número/s negativo/s")
+    si (mayor100) entonces
+        escribir("Hay algún número mayor de 100")
+    sino
+        escribir("No hay ningún número mayor de 100")
+    finSi
+    escribir("La media de los números positivos es: ", suma / cantidadPositivos)
+FIN_ALGORITMO

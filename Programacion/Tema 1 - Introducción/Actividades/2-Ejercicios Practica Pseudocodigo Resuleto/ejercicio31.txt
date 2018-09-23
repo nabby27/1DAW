@@ -1,0 +1,27 @@
+Algoritmo: cifras
+
+Entero: x, cantidadCifras, num
+Boolean: condicion
+
+INICIO
+    x = 10
+    cantidadCifras = 0
+    escribir("Dime un número")
+    leer num
+
+    si (num > 0) entonces
+        condicion = num < x
+    sino
+        condicion = num > -x
+    finSi
+
+    mientras (terminado) entonces
+        si (condicion) entonces
+            terminado = verdadero
+        sino 
+            x *= 10
+        finSi
+        cantidadCifras++
+    finMientra   
+    escribir("El número ", num, " tiene ", cantidadCifras, " cifra/s") 
+FIN_ALGORITMO

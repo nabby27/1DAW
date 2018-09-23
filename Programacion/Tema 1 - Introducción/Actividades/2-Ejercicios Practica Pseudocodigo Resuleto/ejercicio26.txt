@@ -1,0 +1,29 @@
+Algoritmo: 100PrimerosPares
+
+Entero: x
+
+INICIO
+    x = 200
+    mientras (x > -1) entonces
+        escribir(x)
+        x -= 2
+    finMientras
+FIN_ALGORITMO
+
+###########################
+
+INICIO
+    para (x = 200; x > -1; x -= 2) entonces
+        escribir(x)
+    finPara
+FIN_ALGORITMO
+
+###########################
+
+INICIO
+    x = 200
+    repite 
+        escribir(x)
+        x -= 2
+    minetras (x > -1)
+FIN_ALGORITMO
