@@ -8,3 +8,10 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 3 - realización de pruebas y formu
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.csproj.GenerateResource.Cache
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\bin\Debug\ej2.exe
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\bin\Debug\ej2.pdb
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.Form1.resources
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.Properties.Resources.resources
+C:\Users\ivanc\Documents\1DAW\Entornos\Tema 3 - realización de pruebas y formulario\Projects\ej2\ej2\obj\x86\Debug\ej2.csproj.GenerateResource.Cache
