@@ -25,7 +25,11 @@ INICIO
         x++
     finMientras
     escribir("La suma de los numeros pares es:  ", sumaPares)
-    escribir("El producto de los numeros pares es:  ", productoPares)
+    si (productoPares = 1) entonces
+        escribir("El producto de los numeros pares es: 0")
+    sino
+        escribir("El producto de los numeros pares es: ", productoPares)
+    finSi
     escribir("Hay ", cantidadNegativos, " numero/s negativo/s")
     si (mayo500) entonces
         escribir("Hay al menos un numero mayor a 500")
