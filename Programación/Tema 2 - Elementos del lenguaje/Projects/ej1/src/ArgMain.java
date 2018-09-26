@@ -8,16 +8,17 @@
  *
  * @author Iván Córdoba Donet
  */
-public class Ej1 {
+public class ArgMain {
     
     /**
-     * Método principal del ejercicio 1
+     * Método principal
      * 
      * @param args 
      */
-    public static void main(String args[]) {
-        Caracter caracter = new Caracter('T');
-        caracter.repetir(5);
+    public static void main (String args[]) {
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
     }
     
 }

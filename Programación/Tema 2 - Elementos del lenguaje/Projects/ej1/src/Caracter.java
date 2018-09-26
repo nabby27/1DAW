@@ -6,20 +6,32 @@
 
 /**
  *
- * @author AlumMati
+ * @author Iván Córdoba Donet
  */
 public class Caracter {
     char character;
     
+    /**
+     * Método constructor de la clase Caracter 
+     * 
+     * @param character
+     */
     public Caracter(char character) {
         this.character = character; 
     }
     
-    public void repetir(int num){
+    /**
+     * Método que sirve para asignar el número de veces 
+     * que se repetira la variable this.character
+     * 
+     * @param num
+     */
+    public void repetir(int num) {
         int x = 0;
         while(x < num){
-            System.out.println(this.character);
+            System.out.println(this.character + " - " + (x+1));
             x++;
         }
     }
+    
 }

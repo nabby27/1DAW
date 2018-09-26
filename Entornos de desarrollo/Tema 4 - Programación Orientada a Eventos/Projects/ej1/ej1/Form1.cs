@@ -45,6 +45,7 @@ namespace ej1
         {
             this.CenterToScreen();
 
+            //NO VA BIEN
             //Screen resPantalla = Screen.PrimaryScreen;
             //int altoPantalla = resPantalla.Bounds.Height;
             //int anchoPantalla = resPantalla.Bounds.Width;
@@ -53,6 +54,12 @@ namespace ej1
             //int posX = (anchoPantalla - anchoFormulario) / 2;
             //int posY = (altoPantalla - altoFormulario) / 2;
             //this.Location = new Point(posX, posY);          
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            posX.Text = System.Convert.ToString(e.X);
+            posY.Text = System.Convert.ToString(e.Y);
         }
 
     }
