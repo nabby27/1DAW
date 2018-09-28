@@ -1,23 +1,23 @@
 Algoritmo: distintosDe0
 
 Real: num, mayor 
-Entero: x
 Boolean: negativo
 
 INICIO
-    x = 0
-    mayor = 0
+    mayor = -99999999999
+    numVueltas = 10
     negativo = falso
-    minetras (x < 10) entonces
+    para (x = 0; x < numVueltas; x++) entonces
         escribir("Dime un numero")
         leer num
         si (num != 0) entonces
-            si (num > mayor) entonces
+            si ((num > mayor) o (x == 0)) entonces
                 mayor = num
             sino si (num < 0) entonces
                 negativo = verdadero
             finSi
-            x++
+        sino
+            numVueltas++
         finSi
     finMientras
     escribir("El numero más alto es el: ", mayor)

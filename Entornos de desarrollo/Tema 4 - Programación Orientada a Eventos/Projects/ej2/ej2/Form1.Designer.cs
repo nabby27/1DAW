@@ -60,9 +60,10 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lResize = new System.Windows.Forms.Label();
+            this.lMouve = new System.Windows.Forms.Label();
+            this.lShown = new System.Windows.Forms.Label();
+            this.lLoad = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.bDerecha = new System.Windows.Forms.Button();
             this.bIzquierda = new System.Windows.Forms.Button();
@@ -75,8 +76,8 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.posXform = new System.Windows.Forms.Label();
+            this.posYform = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -381,9 +382,10 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label17);
+            this.groupBox3.Controls.Add(this.lResize);
+            this.groupBox3.Controls.Add(this.lMouve);
+            this.groupBox3.Controls.Add(this.lShown);
+            this.groupBox3.Controls.Add(this.lLoad);
             this.groupBox3.Location = new System.Drawing.Point(237, 167);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(275, 101);
@@ -391,32 +393,42 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Otros Eventos...";
             // 
-            // label19
+            // lResize
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(213, 23);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(40, 13);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Mouve";
+            this.lResize.AutoSize = true;
+            this.lResize.Location = new System.Drawing.Point(114, 70);
+            this.lResize.Name = "lResize";
+            this.lResize.Size = new System.Drawing.Size(39, 13);
+            this.lResize.TabIndex = 3;
+            this.lResize.Text = "Resize";
+            this.lResize.Visible = false;
             // 
-            // label18
+            // lMouve
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(115, 23);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(40, 13);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "Shown";
+            this.lMouve.AutoSize = true;
+            this.lMouve.Location = new System.Drawing.Point(213, 23);
+            this.lMouve.Name = "lMouve";
+            this.lMouve.Size = new System.Drawing.Size(40, 13);
+            this.lMouve.TabIndex = 2;
+            this.lMouve.Text = "Mouve";
             // 
-            // label17
+            // lShown
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(13, 23);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(31, 13);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Load";
+            this.lShown.AutoSize = true;
+            this.lShown.Location = new System.Drawing.Point(115, 23);
+            this.lShown.Name = "lShown";
+            this.lShown.Size = new System.Drawing.Size(40, 13);
+            this.lShown.TabIndex = 1;
+            this.lShown.Text = "Shown";
+            // 
+            // lLoad
+            // 
+            this.lLoad.AutoSize = true;
+            this.lLoad.Location = new System.Drawing.Point(13, 23);
+            this.lLoad.Name = "lLoad";
+            this.lLoad.Size = new System.Drawing.Size(31, 13);
+            this.lLoad.TabIndex = 0;
+            this.lLoad.Text = "Load";
             // 
             // groupBox4
             // 
@@ -441,6 +453,7 @@
             this.bDerecha.TabIndex = 4;
             this.bDerecha.Text = "Derecha";
             this.bDerecha.UseVisualStyleBackColor = true;
+            this.bDerecha.Click += new System.EventHandler(this.bDerecha_Click);
             // 
             // bIzquierda
             // 
@@ -450,6 +463,7 @@
             this.bIzquierda.TabIndex = 3;
             this.bIzquierda.Text = "Izquierda";
             this.bIzquierda.UseVisualStyleBackColor = true;
+            this.bIzquierda.Click += new System.EventHandler(this.bIzquierda_Click);
             // 
             // bArriba
             // 
@@ -459,6 +473,7 @@
             this.bArriba.TabIndex = 2;
             this.bArriba.Text = "Arriba";
             this.bArriba.UseVisualStyleBackColor = true;
+            this.bArriba.Click += new System.EventHandler(this.bArriba_Click);
             // 
             // bAbajo
             // 
@@ -468,6 +483,7 @@
             this.bAbajo.TabIndex = 1;
             this.bAbajo.Text = "Abajo";
             this.bAbajo.UseVisualStyleBackColor = true;
+            this.bAbajo.Click += new System.EventHandler(this.bAbajo_Click);
             // 
             // bCentro
             // 
@@ -477,6 +493,7 @@
             this.bCentro.TabIndex = 0;
             this.bCentro.Text = "Centro";
             this.bCentro.UseVisualStyleBackColor = true;
+            this.bCentro.Click += new System.EventHandler(this.bCentro_Click);
             // 
             // groupBox5
             // 
@@ -498,6 +515,7 @@
             this.bSalir.TabIndex = 1;
             this.bSalir.Text = "Salir del programa";
             this.bSalir.UseVisualStyleBackColor = true;
+            this.bSalir.Click += new System.EventHandler(this.bSalir_Click);
             // 
             // bVolcado
             // 
@@ -535,31 +553,29 @@
             this.label22.TabIndex = 7;
             this.label22.Text = "y";
             // 
-            // label36
+            // posXform
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(334, 433);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(41, 13);
-            this.label36.TabIndex = 8;
-            this.label36.Text = "label36";
+            this.posXform.AutoSize = true;
+            this.posXform.Location = new System.Drawing.Point(334, 433);
+            this.posXform.Name = "posXform";
+            this.posXform.Size = new System.Drawing.Size(0, 13);
+            this.posXform.TabIndex = 8;
             // 
-            // label37
+            // posYform
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(418, 433);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 13);
-            this.label37.TabIndex = 9;
-            this.label37.Text = "label37";
+            this.posYform.AutoSize = true;
+            this.posYform.Location = new System.Drawing.Point(418, 433);
+            this.posYform.Name = "posYform";
+            this.posYform.Size = new System.Drawing.Size(0, 13);
+            this.posYform.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 457);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label36);
+            this.Controls.Add(this.posYform);
+            this.Controls.Add(this.posXform);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -568,15 +584,22 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDoubleClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseHover += new System.EventHandler(this.Form1_MouseHover);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            this.Move += new System.EventHandler(this.Form1_Move);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -611,9 +634,9 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lMouve;
+        private System.Windows.Forms.Label lShown;
+        private System.Windows.Forms.Label lLoad;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button bDerecha;
         private System.Windows.Forms.Button bIzquierda;
@@ -639,8 +662,9 @@
         private System.Windows.Forms.Label keyUp;
         private System.Windows.Forms.Label teclaEsp;
         private System.Windows.Forms.Label tecla;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label posXform;
+        private System.Windows.Forms.Label posYform;
+        private System.Windows.Forms.Label lResize;
     }
 }
 

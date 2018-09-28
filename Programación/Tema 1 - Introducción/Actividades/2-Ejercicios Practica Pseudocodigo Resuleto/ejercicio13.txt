@@ -3,7 +3,12 @@ Algoritmo: redondeo
 Real: num 
 
 INICIO
-    escribir("Dime un numero")
-    leer num
-    escribir("El numero redondeado es: ", round(num))
+    repite
+        escribir("Dime un numero de 4 cifras")
+        leer num
+        si (num <= 999) y (num > 9999)()
+            escribir("El número tiene que ser de 4 cifras")
+    mientras ((num <= 999) y (num > 9999)) entonces
+    num = round(num / 100) * 100
+    escribir("El numero redondeado es: ", num)        
 FIN_ALGORITMO
