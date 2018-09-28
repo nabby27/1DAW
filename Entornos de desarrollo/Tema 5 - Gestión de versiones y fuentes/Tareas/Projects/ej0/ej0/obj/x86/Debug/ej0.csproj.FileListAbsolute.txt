@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\bin\Debug\ej0.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\bin\Debug\ej0.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\obj\x86\Debug\ej0.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\obj\x86\Debug\ej0.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\obj\x86\Debug\ej0.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\obj\x86\Debug\ej0.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej0\ej0\obj\x86\Debug\ej0.pdb

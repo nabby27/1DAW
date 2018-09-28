@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\obj\x86\Debug\ej1.Form1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\obj\x86\Debug\ej1.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\obj\x86\Debug\ej1.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\bin\Debug\ej1.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\bin\Debug\ej1.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\obj\x86\Debug\ej1.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ej1\obj\x86\Debug\ej1.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej1\ej1\obj\x86\Debug\ej1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej1\ej1\obj\x86\Debug\ej1.pdb
