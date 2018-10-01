@@ -10,19 +10,22 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class ejercicio01 {
+public class ejercicio08 {
     
     public static void main(String[] args) {
-        System.out.println("AREA DEL TRIANGULO");
+        System.out.println("MULTIPLICA 5 NÚMEROS");
         
+        float resultado = 1;
+        float num = 0;
         Scanner teclado = new Scanner(System.in);
         
-        System.out.print("Dime el valor de la base:");
-        float base = teclado.nextShort();
-        System.out.print("Dime el valor de la altura:");
-        float altura = teclado.nextShort();
+        for (int x = 0; x < 5; x++) {
+            System.out.print("Dime el número " + (x+1) + ": ");
+            num = teclado.nextFloat();
+            resultado *= num;
+        }
         
-        System.out.println("El area es: " + (base * altura) / 2);
+        System.out.println("El resultado es: " + resultado);
     }
     
 }

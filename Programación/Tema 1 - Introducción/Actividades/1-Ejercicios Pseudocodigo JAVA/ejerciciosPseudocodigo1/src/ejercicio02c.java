@@ -10,19 +10,19 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class ejercicio01 {
-    
+public class ejercicio02c {
+   
     public static void main(String[] args) {
-        System.out.println("AREA DEL TRIANGULO");
+        System.out.println("CALCULAR DESCUENTO");
         
         Scanner teclado = new Scanner(System.in);
         
-        System.out.print("Dime el valor de la base:");
-        float base = teclado.nextShort();
-        System.out.print("Dime el valor de la altura:");
-        float altura = teclado.nextShort();
+        System.out.print("Dime el precio inicial: ");
+        float precioInicial = teclado.nextFloat();
+        System.out.print("Dime el precio final: ");
+        float precioFinal = teclado.nextFloat();
         
-        System.out.println("El area es: " + (base * altura) / 2);
+        System.out.println("El precio total es: " + ((1 - (precioFinal / precioInicial)) * 100));
     }
     
 }

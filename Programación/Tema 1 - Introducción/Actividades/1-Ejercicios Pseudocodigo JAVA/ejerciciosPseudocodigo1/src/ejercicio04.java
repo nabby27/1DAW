@@ -10,19 +10,26 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class ejercicio01 {
+public class ejercicio04 {
     
     public static void main(String[] args) {
-        System.out.println("AREA DEL TRIANGULO");
+        System.out.println("Z será el mayor");
         
+        float z;
         Scanner teclado = new Scanner(System.in);
         
-        System.out.print("Dime el valor de la base:");
-        float base = teclado.nextShort();
-        System.out.print("Dime el valor de la altura:");
-        float altura = teclado.nextShort();
+        System.out.print("Dime X: ");
+        float x = teclado.nextFloat();
+        System.out.print("Dime Y: ");
+        float y = teclado.nextFloat();
         
-        System.out.println("El area es: " + (base * altura) / 2);
+        if (x > y) {
+            z = x; 
+        } else {
+            z = y;
+        }
+        
+        System.out.println("Z es: " + z);
     }
     
 }

@@ -1,4 +1,4 @@
-Algoritmo: multiplicaNumeros
+Algoritmo: sumaNumeros
 
 Real: num, x, resultado, cantidad
 

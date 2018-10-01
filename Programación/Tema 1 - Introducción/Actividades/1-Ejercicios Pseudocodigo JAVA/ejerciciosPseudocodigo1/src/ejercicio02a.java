@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 /*
@@ -18,9 +17,13 @@ public class ejercicio02a {
     
     public static void main(String[] args) {
         System.out.println("DE MILLAS A METROS");
-        System.out.print("Dime el valor en millas:");
+        
         Scanner teclado = new Scanner(System.in);
-        float millas = teclado.nextShort();
+        
+        System.out.print("Dime el valor en millas:");
+        float millas = teclado.nextFloat();
+        
         System.out.println(millas + " milla/s son " + (millas * conversion) + " metro/s");
     }
+    
 }

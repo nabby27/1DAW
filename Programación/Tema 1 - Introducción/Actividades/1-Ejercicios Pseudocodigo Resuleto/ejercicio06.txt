@@ -5,7 +5,7 @@ Real: base, exponente, x, resultado
 INICIO
     escribir("Dime la base")
     leer base
-    escribir("Dime la exponente")
+    escribir("Dime el exponente")
     leer exponente
     x = 0
     resultado = 1

@@ -7,5 +7,5 @@ INICIO
     leer precio
     escribir("Dime el descuento")
     leer descuento
-    escribir("El precio total es: ", (precio * 100) / (100 - descuento))
+    escribir("El precio total es: ", precio - ((descuento * precio) / 100))
 FIN_ALGORITMO
