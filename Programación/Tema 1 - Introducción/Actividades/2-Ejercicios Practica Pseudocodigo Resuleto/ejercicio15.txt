@@ -6,18 +6,19 @@ Boolean:
 
 INICIO
     x = 0
+    y = 0
     sumaNotas = 0
     sumaNumNotas = 0
     escribir("Cuantos alumnos hay?")
     leer numAlumnos
     mientras (x < numAlumnos) entonces
-        escribir(Dime el numero de notas que tiene)
+        escribir("Dime el numero de notas que tiene el alumno ", x+1)
         leer numNotas
-        sumaNumNotas = sumaNumNotas + numNotas
+        sumaNumNotas += numNotas
         mientras (y < numNotas) entonces
-            escribir(Dime una nota)
+            escribir("Dime la nota ", y+1, " del alumno ", x+1)
             leer nota
-            sumaNotas = sumaNotas + nota
+            sumaNotas += nota
             y++
         finMientras
         x++

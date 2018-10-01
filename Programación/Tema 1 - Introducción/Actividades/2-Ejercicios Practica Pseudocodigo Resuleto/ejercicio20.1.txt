@@ -1,0 +1,14 @@
+Algoritmo: tablaMultiplicar
+
+Entero: num, x 
+Reales:
+
+INICIO
+    x = 0
+    escribir("Dime un numero")
+    leer num
+    mientras (x < 11) entonces
+        escribir(num, " x ", x, ": ", num * x)
+        x++
+    finMientras
+FIN_ALGORITMO
