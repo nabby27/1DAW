@@ -22,11 +22,10 @@ public class ejercicio03 {
         System.out.print("Dime Z: ");
         float z = teclado.nextFloat();
         
-        if (x > z) {
+        if (x > z)
             System.out.println("Verdadero");
-        } else {
+        else
             System.out.println("Falso");
-        }
     }
     
 }

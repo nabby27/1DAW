@@ -5,10 +5,16 @@ Entero: num, resultado
 INICIO
     resultado = 0
     num = 0
-    minetras (num > -1) entonces
+    repetir 
         escribir("Dime un numero")
         leer num
-        resultado = resultado + num
-    finMientras
-    escribir("La suma de los numeros positivos es: ", resultado)
+        si (num > 0) entonces
+            resultado = resultado + num
+        finSi
+    minetras (num > -1)
+    si (resultado > 0) entonces
+        escribir("La suma de los numeros positivos es: ", resultado)
+    sino
+        escribir("No se ha sumado ningún número")
+    finSi
 FIN_ALGORITMO

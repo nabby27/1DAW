@@ -23,11 +23,10 @@ public class ejercicio04 {
         System.out.print("Dime Y: ");
         float y = teclado.nextFloat();
         
-        if (x > y) {
+        if (x > y)
             z = x; 
-        } else {
+        else
             z = y;
-        }
         
         System.out.println("Z es: " + z);
     }

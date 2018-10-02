@@ -13,7 +13,6 @@ INICIO
         leer num
         si (numAdivinar = num) entonces
             acierto = verdadero
-            x=5
         sino si (numAdivinar > num) entonces
             escribir("Te has quedado corto")
         sino

@@ -1,11 +1,10 @@
 Algoritmo: paresPositivos
 
-Real: num, x, resultado, cantidad
+Real: num, x, cantidad
 
 INICIO
-    resultado = 0
     x = 0
-    escribir("Dime cuantos numeros quieres sumar")
+    escribir("Dime cuantos numeros quieres probar")
     leer cantidad
     mientra (x < cantidad) entonces
         escribir("Dime un numero")

@@ -5,7 +5,7 @@ Entero: x, resultado
 INICIO
     x = 1
     resultado = 1
-    minetras (x < 20) entonces
+    minetras (x <= 21) entonces
         resultado = resultado * x
         x = x + 2
     finMinetras

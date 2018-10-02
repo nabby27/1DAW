@@ -22,7 +22,7 @@ public class ejercicio09 {
         System.out.println("¿Cuantos números quieres sumar?");
         int cantidad = teclado.nextInt();
         for (int x = 0; x < cantidad; x++) {
-            System.out.print("Dime el número " + (x+1) + ": ");
+            System.out.print("Dime el número (" + (x+1) + "/" + cantidad + "): ");
             num = teclado.nextFloat();
             resultado += num;
         }

@@ -24,13 +24,10 @@ public class ejercicio04a {
         System.out.print("Dime Z: ");
         float z = teclado.nextFloat();
         
-        if ((x + y == z) || (z + x == y) || (y + z == x)) {
+        if ((x + y == z) || (z + x == y) || (y + z == x))
             System.out.println("Sí");
-        } else {
+        else
             System.out.println("No");
-        }
-        
-        
     }
     
 }

@@ -1,6 +1,6 @@
 Algoritmo: multiploDe3
 
-Entero: x
+Entero: x, num
 Boolean: flag
 
 INICIO

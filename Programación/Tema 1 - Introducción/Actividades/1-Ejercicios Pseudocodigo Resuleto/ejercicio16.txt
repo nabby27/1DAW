@@ -8,13 +8,13 @@ INICIO
     primo = verdadero
     escribir("Dime un numero")
     leer num
-    mientras (x < num) entonces
-        si ((num % x == 0) y (primo = verdadero)) entonces
+    mientras ((x < num) && primo) entonces
+        si (num % x == 0) entonces
             primo = falso
         finSi     
         x++
     finMientras
-    si (primo = verdadero) entonces
+    si (primo) entonces
         escribir("Es primo")
     sino 
         escribir("No es primo")

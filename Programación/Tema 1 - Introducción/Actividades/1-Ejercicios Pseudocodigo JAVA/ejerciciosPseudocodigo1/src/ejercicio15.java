@@ -10,24 +10,26 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class ejercicio07 {
+public class ejercicio15 {
     
     public static void main(String[] args) {
-        System.out.println("MULTIPLICA 5 NÚMEROS");
+        System.out.println("SUMA POSITIVOS");
         
-        float resultado = 1;
+        float resultado = 0;
         float num = 0;
-        byte x = 0;
         Scanner teclado = new Scanner(System.in);
         
-        while (x < 5) {
-            System.out.print("Dime el número (" + (x+1) + "/5): ");
+        do {
+            System.out.print("Dime un número: ");
             num = teclado.nextFloat();
-            resultado *= num;
-            x++;
-        }
+            if (num > 0)
+                resultado += num;
+        } while (num > -1);
         
-        System.out.println("El resultado es: " + resultado);
+        if (resultado > 0)
+            System.out.println("La suma de los numeros positivos es: " + resultado);
+        else
+            System.out.println("No se ha sumado ningún número");
     }
     
 }

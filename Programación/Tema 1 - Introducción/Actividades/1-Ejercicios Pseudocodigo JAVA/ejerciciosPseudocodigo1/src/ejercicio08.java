@@ -20,7 +20,7 @@ public class ejercicio08 {
         Scanner teclado = new Scanner(System.in);
         
         for (int x = 0; x < 5; x++) {
-            System.out.print("Dime el número " + (x+1) + ": ");
+            System.out.print("Dime el número (" + (x+1) + "/5): ");
             num = teclado.nextFloat();
             resultado *= num;
         }

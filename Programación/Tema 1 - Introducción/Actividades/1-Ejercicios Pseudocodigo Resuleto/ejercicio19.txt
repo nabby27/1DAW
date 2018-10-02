@@ -4,12 +4,12 @@ Entero: num, x, contador
 Boolean: acierto
 
 INICIO
-    x = 1
+    x = 10
     contador = 0
     acierto = falso
     escribir("Dime el numero")
     leer num
-    mientras (acierto == falso) entonces
+    mientras (num > 0 y !acierto) entonces
         si (num <= x) entonces 
             acierto = verdadero
         sino
@@ -17,5 +17,8 @@ INICIO
         finSi
         contador++ 
     finMinentras
-    escribir("El numero ", num, " tiene ", contador, " cifras")
+    si (num > 0)
+        escribir("El numero ", num, " tiene ", contador, " cifras")
+    sino
+        escribir("El número tiene que ser positivo");
 FIN_ALGORITMO

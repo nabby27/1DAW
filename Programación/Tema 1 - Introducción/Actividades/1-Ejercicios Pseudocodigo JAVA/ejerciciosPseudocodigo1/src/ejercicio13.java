@@ -8,14 +8,18 @@
  *
  * @author Iván Córdoba Donet
  */
-public class ejercicio11 {
+public class ejercicio13 {
     
     public static void main(String[] args) {
-        System.out.println("100 PARES DESCENDENTES");
-                                                      
-        for (int x = 200; x >= 0; x -= 2) {
-            System.out.println(x);
+        System.out.println("SUMA 10 IMPARES");
+        
+        int resultado = 0;
+        
+        for (int x = 1; x <= 21; x += 2) {
+            resultado += x;
         }
+        
+        System.out.println("La suma de los 10 primeros impares es: " + resultado);
     }
     
 }

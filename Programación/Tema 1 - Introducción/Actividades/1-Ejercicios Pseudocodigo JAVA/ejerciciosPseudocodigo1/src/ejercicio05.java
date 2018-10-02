@@ -22,13 +22,12 @@ public class ejercicio05 {
         System.out.print("Dime Y: ");
         float y = teclado.nextFloat();
         
-        if (x < y) {
+        if (x < y)
             System.out.println("X es menor");
-        } else if (y < x) {
+        else if (y < x)
             System.out.println("X es mayor");
-        } else {
+        else
             System.out.println("X e Y son iguales");
-        }
     }
     
 }

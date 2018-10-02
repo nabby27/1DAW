@@ -21,11 +21,10 @@ public class ejercicio10 {
         System.out.println("¿Cuantos números quieres probar?");
         int cantidad = teclado.nextInt();
         for (int x = 0; x < cantidad; x++) {
-            System.out.print("Dime el número " + (x+1) + ": ");
+            System.out.print("Dime el número (" + (x+1) + "/" + cantidad + "): ");
             num = teclado.nextInt();
-            if ((num > 0) && (num %2 == 0)) {
+            if ((num > 0) && (num %2 == 0))
                 System.out.println("El número " + num + " és par y positivo");
-            }
         }
     }
     
