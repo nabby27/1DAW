@@ -1,4 +1,4 @@
-Algoritmo: 10Numeros
+Algoritmo: 200Numeros
 
 Entero: x, sumaPares, sumaImpares
 
@@ -6,13 +6,13 @@ INICIO
     x = 0
     sumaPares = 0
     sumaImpares = 0
-    mientras (x < 200) entonces
-        x++
-        si (num % 2 == 0) entonces
-            sumaPares = sumaPares + num
+    mientras (x <= 200) entonces
+        si (x % 2 == 0) entonces
+            sumaPares = sumaPares + x
         sino 
-            sumaImpares = sumaImpares + num
+            sumaImpares = sumaImpares + x
         finSi
+        x++
     finMientras
     escribir("La suma de los numeros pares es:  ", sumaPares)
     escribir("La suma de los numeros impares es:  ", sumaImpares)

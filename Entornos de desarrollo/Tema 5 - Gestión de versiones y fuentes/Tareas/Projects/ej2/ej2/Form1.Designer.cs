@@ -33,11 +33,11 @@
             this.bRojo = new System.Windows.Forms.Button();
             this.bAzul1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lRaton = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.lTeclado = new System.Windows.Forms.Label();
-            this.lRaton = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -53,7 +53,7 @@
             this.groupBox1.Size = new System.Drawing.Size(526, 118);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Botones";
             // 
             // lText
             // 
@@ -97,6 +97,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ratón";
             // 
+            // lRaton
+            // 
+            this.lRaton.AutoSize = true;
+            this.lRaton.Location = new System.Drawing.Point(6, 63);
+            this.lRaton.Name = "lRaton";
+            this.lRaton.Size = new System.Drawing.Size(35, 13);
+            this.lRaton.TabIndex = 1;
+            this.lRaton.Text = "label4";
+            this.lRaton.Visible = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -118,6 +128,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Teclado";
             // 
+            // lTeclado
+            // 
+            this.lTeclado.AutoSize = true;
+            this.lTeclado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lTeclado.Location = new System.Drawing.Point(7, 64);
+            this.lTeclado.Name = "lTeclado";
+            this.lTeclado.Size = new System.Drawing.Size(64, 25);
+            this.lTeclado.TabIndex = 1;
+            this.lTeclado.Text = "label4";
+            this.lTeclado.Visible = false;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -128,26 +149,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Aprieta una tecla";
             // 
-            // lTeclado
-            // 
-            this.lTeclado.AutoSize = true;
-            this.lTeclado.Location = new System.Drawing.Point(7, 64);
-            this.lTeclado.Name = "lTeclado";
-            this.lTeclado.Size = new System.Drawing.Size(35, 13);
-            this.lTeclado.TabIndex = 1;
-            this.lTeclado.Text = "label4";
-            this.lTeclado.Visible = false;
-            // 
-            // lRaton
-            // 
-            this.lRaton.AutoSize = true;
-            this.lRaton.Location = new System.Drawing.Point(6, 63);
-            this.lRaton.Name = "lRaton";
-            this.lRaton.Size = new System.Drawing.Size(35, 13);
-            this.lRaton.TabIndex = 1;
-            this.lRaton.Text = "label4";
-            this.lRaton.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,9 +157,11 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.KeyPreview = true;
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            this.Text = "Posible examen DAW";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

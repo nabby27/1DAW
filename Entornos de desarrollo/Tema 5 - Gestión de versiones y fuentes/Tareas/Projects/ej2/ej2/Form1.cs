@@ -28,10 +28,18 @@ namespace ej2
             lText.ForeColor = Color.Red;
         }
 
-        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
-            lRaton.Text = "Se ha pulsado el botón en la posición ";
+            lRaton.Visible = true;
+            lRaton.Text = "Se ha pulsado el boton " + e.Button + " en la posición [" + e.X + ", " + e.Y + "]";
         }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            lTeclado.Visible = true;
+            lTeclado.Text = "Has apretado la tecla " + e.KeyChar;
+        }
+
 
     }
 }

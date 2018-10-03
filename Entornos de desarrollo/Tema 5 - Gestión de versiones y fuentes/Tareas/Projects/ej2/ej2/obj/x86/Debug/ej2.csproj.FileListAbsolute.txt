@@ -7,3 +7,8 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\ej2\obj\x86\Debug\ej2.exe
 C:\Users\AlumMati\AppData\Local\Temporary Projects\ej2\obj\x86\Debug\ej2.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\bin\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\bin\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\obj\x86\Debug\ej2.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\obj\x86\Debug\ej2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 5 - Gestión de versiones y fuentes\Tareas\Projects\ej2\ej2\obj\x86\Debug\ej2.csproj.GenerateResource.Cache

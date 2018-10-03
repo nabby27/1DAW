@@ -9,9 +9,9 @@ INICIO
     leer num2
     escribir("Dime el numero 3")
     leer num3
-    si ((num1 => num2) y (num1 => num3)) entonces 
+    si ((num1 >= num2) y (num1 >= num3)) entonces 
         escribir("el numero ", num1, " es el más grande")
-    sino si ((num2 > num1) y (num2 => num3)) entonces
+    sino si ((num2 > num1) y (num2 >= num3)) entonces
         escribir("el numero ", num2, " es el más grande")
     sino
         escribir("el numero ", num3, " es el más grande")
