@@ -3,14 +3,25 @@ Algoritmo: fibonacci
 Entero: x, y, num, contador
 
 INICIO
-    contador = 0
+    contador = 1
     x = 0
     y = 1
-    escribir("Dime un número")
-    leer num
+    repetir
+        escribir("Dime un numero")
+        leer num
+        si (num < 0) entonces
+            escribir("El número no es positivo")
+        finSi
+    mientras (num < 0)
+    si (num = 0) entonces
+        escribir(x)
+    sino 
+        escribir(x, ", ")
+        escribir(y)
+    finSi
     mientras (contador < num) entonces
         resultado = x + y
-        escribir(resultado)
+        escribir(", ", resultado)
         x = y
         y = resultado
         contador++

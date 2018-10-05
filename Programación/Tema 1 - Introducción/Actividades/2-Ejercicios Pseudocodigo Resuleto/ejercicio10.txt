@@ -8,10 +8,10 @@ INICIO
     horasSemanales = 40
     escribir("Dime el numero de horas semanales")
     leer horas
-    mientras (horas - horasSemanales > horasSemanales) entonces
-        salario = horasSemanales * precioHora;
+    si (horas > horasSemanales) entonces
         horas = horas - horasSemanales
-        salario = salario + (horas * precioHora * 1,5) 
+        salario = salario + (horas * precioHora * 2) 
     finMinetras
-        salario = salario + (horas * precioHora)
+    salario = salario + (horas * precioHora)
+    escribir("El salario es ", salario)
 FIN_ALGORITMO

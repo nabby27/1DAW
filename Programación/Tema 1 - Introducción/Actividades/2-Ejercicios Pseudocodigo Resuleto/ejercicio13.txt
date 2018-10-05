@@ -6,7 +6,7 @@ INICIO
     repite
         escribir("Dime un numero de 4 cifras")
         leer num
-        si (num <= 999) y (num > 9999)()
+        si (num <= 999) y (num > 9999)
             escribir("El número tiene que ser de 4 cifras")
     mientras ((num <= 999) y (num > 9999)) entonces
     num = round(num / 100) * 100

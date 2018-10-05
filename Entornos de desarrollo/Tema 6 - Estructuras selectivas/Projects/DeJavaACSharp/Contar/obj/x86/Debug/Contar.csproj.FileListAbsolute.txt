@@ -1,0 +1,2 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar\obj\x86\Debug\Contar2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar\obj\x86\Debug\Contar2.pdb

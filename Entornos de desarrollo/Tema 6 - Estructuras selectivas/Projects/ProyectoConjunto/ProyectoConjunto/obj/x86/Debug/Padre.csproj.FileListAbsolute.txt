@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\bin\Debug\ProyectoConjunto.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\bin\Debug\ProyectoConjunto.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\obj\x86\Debug\ProyectoConjunto.Padre.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\obj\x86\Debug\ProyectoConjunto.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\obj\x86\Debug\Padre.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\obj\x86\Debug\ProyectoConjunto.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\ProyectoConjunto\obj\x86\Debug\ProyectoConjunto.pdb

@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\bin\Debug\Contar2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\bin\Debug\Contar2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\obj\x86\Debug\Contar2.Contar.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\obj\x86\Debug\Contar2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\obj\x86\Debug\Contar2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\obj\x86\Debug\Contar2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Contar2\obj\x86\Debug\Contar2.pdb

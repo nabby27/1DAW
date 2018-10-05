@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\bin\Debug\Hijo1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\bin\Debug\Hijo1.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\obj\x86\Debug\Hijo1.Hijo1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\obj\x86\Debug\Hijo1.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\obj\x86\Debug\Hijo1.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\obj\x86\Debug\Hijo1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo1\obj\x86\Debug\Hijo1.pdb

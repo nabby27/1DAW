@@ -4,23 +4,26 @@ Entero: x, y, num
 
 INICIO
     x = 1
-    escribir("Dime un numero")
-    leer num
-    si ((num > 0) y (num < 20)) entonces
-        mientras (x <= num) entonces
-            y = 1
-            mientras (y <= x) entonces
-                si (y = x) entonces
-                    escribir(num)
-                    escribir()
-                sino
-                    escribir(num)
-                finSi
-                y++
-            finMientra
-            x++
+    repetir
+        escribir("Dime un numero")
+        leer num
+        si ((num < 0) o (num > 20)) entonces
+            escribir("El número no esta entre 0 y 20")
+        finSi
+    mientras ((num < 0) o (num > 20))
+
+    mientras (x <= num) entonces
+        y = 1
+        mientras (y <= x) entonces
+            si (y = x) entonces
+                escribir(num)
+                escribir()
+            sino
+                escribir(num)
+            finSi
+            y++
         finMientra
-    sino 
-        escribir("El número no esta entre 0 y 20")
-    finSi
+        x++
+    finMientra
+
 FIN_ALGORITMO

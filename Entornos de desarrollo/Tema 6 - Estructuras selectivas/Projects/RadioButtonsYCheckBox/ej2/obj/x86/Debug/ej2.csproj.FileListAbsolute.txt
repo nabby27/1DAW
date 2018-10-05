@@ -1,0 +1,14 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\bin\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\bin\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 -\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\RadioButtons y CheckBox\ej2\ej2\obj\x86\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\RadioButtons y CheckBox\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\RadioButtonsYCheckBox\ej2\obj\x86\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\RadioButtonsYCheckBox\ej2\obj\x86\Debug\ej2.pdb

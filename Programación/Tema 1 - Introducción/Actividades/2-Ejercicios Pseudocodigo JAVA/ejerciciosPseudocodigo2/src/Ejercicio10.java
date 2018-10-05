@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,9 +13,25 @@
  */
 public class Ejercicio10 {
     
+    static final int precioHora = 20;
+    static final int horasSemanales = 40;
+    
     public static void main(String[] args) {
         System.out.println("CALCULAR SALARIO");
         
+        float salario = 0;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.print("Dime el número de horas semanales trabajadas: ");
+        float horas = teclado.nextFloat();
+        
+        if (horas > horasSemanales) {
+            horas -= horasSemanales;
+            salario += horas * precioHora * 2;
+        }
+        salario += horasSemanales * precioHora;
+        
+        System.out.println("El salario calculado es: " + salario);
     }
 
 }

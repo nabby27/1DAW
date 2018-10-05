@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\bin\Debug\Hijo2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\bin\Debug\Hijo2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\obj\x86\Debug\Hijo2.Hijo2.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\obj\x86\Debug\Hijo2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\obj\x86\Debug\Hijo2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\obj\x86\Debug\Hijo2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\ProyectoConjunto\Hijo2\obj\x86\Debug\Hijo2.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Padre", "ProyectoConjunto\Padre.csproj", "{D67E702D-FB4E-4C31-B4E2-17CFF47A18B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hijo1", "Hijo1\Hijo1.csproj", "{314D241D-0F5D-450A-82FB-F41895686A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hijo2", "Hijo2\Hijo2.csproj", "{EF20C2C9-2A85-4386-AF87-E8A450E6EC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67E702D-FB4E-4C31-B4E2-17CFF47A18B6}.Debug|x86.ActiveCfg = Debug|x86
+		{D67E702D-FB4E-4C31-B4E2-17CFF47A18B6}.Debug|x86.Build.0 = Debug|x86
+		{D67E702D-FB4E-4C31-B4E2-17CFF47A18B6}.Release|x86.ActiveCfg = Release|x86
+		{D67E702D-FB4E-4C31-B4E2-17CFF47A18B6}.Release|x86.Build.0 = Release|x86
+		{314D241D-0F5D-450A-82FB-F41895686A75}.Debug|x86.ActiveCfg = Debug|x86
+		{314D241D-0F5D-450A-82FB-F41895686A75}.Debug|x86.Build.0 = Debug|x86
+		{314D241D-0F5D-450A-82FB-F41895686A75}.Release|x86.ActiveCfg = Release|x86
+		{314D241D-0F5D-450A-82FB-F41895686A75}.Release|x86.Build.0 = Release|x86
+		{EF20C2C9-2A85-4386-AF87-E8A450E6EC97}.Debug|x86.ActiveCfg = Debug|x86
+		{EF20C2C9-2A85-4386-AF87-E8A450E6EC97}.Debug|x86.Build.0 = Debug|x86
+		{EF20C2C9-2A85-4386-AF87-E8A450E6EC97}.Release|x86.ActiveCfg = Release|x86
+		{EF20C2C9-2A85-4386-AF87-E8A450E6EC97}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
