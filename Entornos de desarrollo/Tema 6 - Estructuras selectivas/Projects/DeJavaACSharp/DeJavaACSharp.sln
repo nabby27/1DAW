@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contar", "Contar\Contar.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contar2", "Contar2\Contar2.csproj", "{B5E0C816-D112-46E0-97C4-4E6843563619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablasDeMultiplicar", "TablasDeMultiplicar\TablasDeMultiplicar.csproj", "{07864C7A-0AFF-426D-846C-4889CADC4B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParOImpar15", "ParOImpar15\ParOImpar15.csproj", "{59448B8A-8E81-48DE-9E80-B58336529C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doble", "Doble\Doble.csproj", "{BEE1E1B2-36A1-47F3-9AC7-8A1AE7FC635A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atras", "Atras\Atras.csproj", "{21EBD100-0320-4275-BDEA-AE35839E45A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +27,22 @@ Global
 		{B5E0C816-D112-46E0-97C4-4E6843563619}.Debug|x86.Build.0 = Debug|x86
 		{B5E0C816-D112-46E0-97C4-4E6843563619}.Release|x86.ActiveCfg = Release|x86
 		{B5E0C816-D112-46E0-97C4-4E6843563619}.Release|x86.Build.0 = Release|x86
+		{07864C7A-0AFF-426D-846C-4889CADC4B18}.Debug|x86.ActiveCfg = Debug|x86
+		{07864C7A-0AFF-426D-846C-4889CADC4B18}.Debug|x86.Build.0 = Debug|x86
+		{07864C7A-0AFF-426D-846C-4889CADC4B18}.Release|x86.ActiveCfg = Release|x86
+		{07864C7A-0AFF-426D-846C-4889CADC4B18}.Release|x86.Build.0 = Release|x86
+		{59448B8A-8E81-48DE-9E80-B58336529C77}.Debug|x86.ActiveCfg = Debug|x86
+		{59448B8A-8E81-48DE-9E80-B58336529C77}.Debug|x86.Build.0 = Debug|x86
+		{59448B8A-8E81-48DE-9E80-B58336529C77}.Release|x86.ActiveCfg = Release|x86
+		{59448B8A-8E81-48DE-9E80-B58336529C77}.Release|x86.Build.0 = Release|x86
+		{BEE1E1B2-36A1-47F3-9AC7-8A1AE7FC635A}.Debug|x86.ActiveCfg = Debug|x86
+		{BEE1E1B2-36A1-47F3-9AC7-8A1AE7FC635A}.Debug|x86.Build.0 = Debug|x86
+		{BEE1E1B2-36A1-47F3-9AC7-8A1AE7FC635A}.Release|x86.ActiveCfg = Release|x86
+		{BEE1E1B2-36A1-47F3-9AC7-8A1AE7FC635A}.Release|x86.Build.0 = Release|x86
+		{21EBD100-0320-4275-BDEA-AE35839E45A0}.Debug|x86.ActiveCfg = Debug|x86
+		{21EBD100-0320-4275-BDEA-AE35839E45A0}.Debug|x86.Build.0 = Debug|x86
+		{21EBD100-0320-4275-BDEA-AE35839E45A0}.Release|x86.ActiveCfg = Release|x86
+		{21EBD100-0320-4275-BDEA-AE35839E45A0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

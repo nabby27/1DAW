@@ -1,0 +1,7 @@
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\bin\Debug\Atras.exe
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\bin\Debug\Atras.pdb
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\obj\x86\Debug\Atras.Atras.resources
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\obj\x86\Debug\Atras.Properties.Resources.resources
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\obj\x86\Debug\Atras.csproj.GenerateResource.Cache
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\obj\x86\Debug\Atras.exe
+C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Atras\obj\x86\Debug\Atras.pdb

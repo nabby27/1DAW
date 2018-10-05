@@ -28,24 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lDesde = new System.Windows.Forms.Label();
+            this.tbDesde = new System.Windows.Forms.TextBox();
+            this.lHasta = new System.Windows.Forms.Label();
+            this.tbHasta = new System.Windows.Forms.TextBox();
+            this.bContar = new System.Windows.Forms.Button();
+            this.bReiniciar = new System.Windows.Forms.Button();
+            this.tbCont = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lDesde
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lDesde.AutoSize = true;
+            this.lDesde.Location = new System.Drawing.Point(12, 9);
+            this.lDesde.Name = "lDesde";
+            this.lDesde.Size = new System.Drawing.Size(38, 13);
+            this.lDesde.TabIndex = 0;
+            this.lDesde.Text = "Desde";
+            // 
+            // tbDesde
+            // 
+            this.tbDesde.Location = new System.Drawing.Point(12, 29);
+            this.tbDesde.Name = "tbDesde";
+            this.tbDesde.Size = new System.Drawing.Size(100, 20);
+            this.tbDesde.TabIndex = 1;
+            // 
+            // lHasta
+            // 
+            this.lHasta.AutoSize = true;
+            this.lHasta.Location = new System.Drawing.Point(12, 73);
+            this.lHasta.Name = "lHasta";
+            this.lHasta.Size = new System.Drawing.Size(35, 13);
+            this.lHasta.TabIndex = 2;
+            this.lHasta.Text = "Hatsa";
+            // 
+            // tbHasta
+            // 
+            this.tbHasta.Location = new System.Drawing.Point(12, 89);
+            this.tbHasta.Name = "tbHasta";
+            this.tbHasta.Size = new System.Drawing.Size(100, 20);
+            this.tbHasta.TabIndex = 3;
+            // 
+            // bContar
+            // 
+            this.bContar.Location = new System.Drawing.Point(12, 161);
+            this.bContar.Name = "bContar";
+            this.bContar.Size = new System.Drawing.Size(100, 23);
+            this.bContar.TabIndex = 4;
+            this.bContar.Text = "Contar";
+            this.bContar.UseVisualStyleBackColor = true;
+            this.bContar.Click += new System.EventHandler(this.contar);
+            // 
+            // bReiniciar
+            // 
+            this.bReiniciar.Location = new System.Drawing.Point(12, 213);
+            this.bReiniciar.Name = "bReiniciar";
+            this.bReiniciar.Size = new System.Drawing.Size(100, 23);
+            this.bReiniciar.TabIndex = 5;
+            this.bReiniciar.Text = "Reiniciar";
+            this.bReiniciar.UseVisualStyleBackColor = true;
+            this.bReiniciar.Click += new System.EventHandler(this.reset);
+            // 
+            // tbCont
+            // 
+            this.tbCont.Location = new System.Drawing.Point(118, 29);
+            this.tbCont.Multiline = true;
+            this.tbCont.Name = "tbCont";
+            this.tbCont.Size = new System.Drawing.Size(76, 207);
+            this.tbCont.TabIndex = 6;
             // 
             // Contar2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(210, 249);
+            this.Controls.Add(this.tbCont);
+            this.Controls.Add(this.bReiniciar);
+            this.Controls.Add(this.bContar);
+            this.Controls.Add(this.tbHasta);
+            this.Controls.Add(this.lHasta);
+            this.Controls.Add(this.tbDesde);
+            this.Controls.Add(this.lDesde);
             this.Name = "Contar2";
             this.Text = "Contar2";
             this.ResumeLayout(false);
@@ -55,7 +118,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lDesde;
+        private System.Windows.Forms.TextBox tbDesde;
+        private System.Windows.Forms.Label lHasta;
+        private System.Windows.Forms.TextBox tbHasta;
+        private System.Windows.Forms.Button bContar;
+        private System.Windows.Forms.Button bReiniciar;
+        private System.Windows.Forms.TextBox tbCont;
     }
 }
 

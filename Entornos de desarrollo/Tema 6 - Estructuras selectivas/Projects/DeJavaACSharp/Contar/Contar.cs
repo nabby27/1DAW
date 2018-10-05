@@ -18,18 +18,20 @@ namespace Contar2
 
         private void contar(object sender, EventArgs e)
         {
-            tbCont.Clear();
-            lDe0.Text = "";
-            int num = Int32.Parse(tbNum.Text);
-            lDe0.Text = "De 0 hasta " + num.ToString();
-            lDe0.Visible = true;
-            if (num > 7)
-            {
-                tbCont.ScrollBars = ScrollBars.Vertical;
-            }
-            for (int x = 0; x <= num; x++ )
-            {
-                tbCont.AppendText(x.ToString() + "\n");
+            if(tbNum.Text.Equals(""))
+                MessageBox.Show("Necesita introducir un número", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else {
+                tbCont.Clear();
+                lDe0.Text = "";
+                int num = Int32.Parse(tbNum.Text);
+                lDe0.Text = "De 0 hasta " + num.ToString();
+                lDe0.Visible = true;
+                if (num > 7)
+                    tbCont.ScrollBars = ScrollBars.Vertical;
+                for (int x = 0; x <= num; x++ )
+                {
+                    tbCont.AppendText(x.ToString() + "\n");
+                }
             }
         }
 
