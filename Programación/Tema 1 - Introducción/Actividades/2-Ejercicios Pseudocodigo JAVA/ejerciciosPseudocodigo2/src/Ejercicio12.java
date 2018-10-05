@@ -22,7 +22,7 @@ public class Ejercicio12 {
         Scanner teclado = new Scanner(System.in);
         
         for (int x = 0; x < 15; x++) {
-            System.out.println("Dime un número: ");
+            System.out.print("Dime un número: ");
             int num = teclado.nextInt();
             if ((num % 2 == 0) && (num > 19) && (num < 206)) {
                 sumaPares = sumaPares + num;
