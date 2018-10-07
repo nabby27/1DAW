@@ -1,4 +1,4 @@
-Algoritmo: sumaParesMenor100
+Algoritmo: 10Y
 
 Entero: num, x, cantidadMenores15, cantidadMayores50, catidadEntre24_45
 
@@ -6,6 +6,7 @@ INICIO
     x = 0
     cantidadMenores15 = 0
     cantidadMayores50 = 0
+    catidadEntre24_45 = 0
     mientras (x < 10) entonces
         escribir("Dime un numero")
         leer num
@@ -16,6 +17,7 @@ INICIO
         sino si ((num > 25) y (num < 45)) entonces
             catidadEntre24_45++
         finSi
+        x++
     finMientras
     escribir("Hay ", cantidadMenores15, " número/s menor/es de 15")
     escribir("Hay ", cantidadMayores50, " número/s mayor/es de 50")

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class Ejercicio18 {
+public class Ejercicio16 {
     
     public static void main(String[] args) {
         System.out.println("ADIVINA");

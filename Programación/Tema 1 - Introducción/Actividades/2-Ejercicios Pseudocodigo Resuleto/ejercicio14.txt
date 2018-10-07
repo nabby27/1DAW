@@ -4,19 +4,22 @@ Real: num, mayor
 Boolean: negativo
 
 INICIO
-    mayor = -99999999999
+    mayor = 0;
     numVueltas = 10
     negativo = falso
     para (x = 0; x < numVueltas; x++) entonces
         escribir("Dime un numero")
         leer num
+        si (x == 0) entonces
+            mayor = num
+        finSi
         si (num != 0) entonces
             si ((num > mayor) o (x == 0)) entonces
                 mayor = num
-            sino si (num < 0) entonces
+            finSi
+            si (num < 0) entonces
                 negativo = verdadero
             finSi
-        sino
             numVueltas++
         finSi
     finMientras
