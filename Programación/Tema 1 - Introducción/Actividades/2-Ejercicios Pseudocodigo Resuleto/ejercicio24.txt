@@ -1,7 +1,6 @@
 Algoritmo: factorial
 
 Entero: x, num, resultado
-Boolean: valido
 
 INICIO
     x = 1

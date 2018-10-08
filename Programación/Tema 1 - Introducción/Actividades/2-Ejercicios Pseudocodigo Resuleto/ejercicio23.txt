@@ -19,7 +19,7 @@ INICIO
         si (nota < 5) entonces
             cantidadSuspensos++
         finSi
-        si (nota > notaMayor) entonces
+        si ((nota > notaMayor) o (x = 0)) entonces
             notaMayor = nota
         finSi
         x++

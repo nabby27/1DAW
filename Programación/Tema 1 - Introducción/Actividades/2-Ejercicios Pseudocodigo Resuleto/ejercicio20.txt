@@ -12,7 +12,7 @@ INICIO
         x++
         si ((x = 10) y (num < 9)) entonces
             num +=2
-            x = 0
+            x = -1
             escribir("TABLA DE MULTIPLICAR DE " num)
         finSi
     finMientras

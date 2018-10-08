@@ -5,13 +5,13 @@ Boolean: primo
 
 INICIO
     x = 1
-    primo = falso
+    primo = verdadero
     escribir("Dime un numero mayor de 0")
     leer num
     si (num > 0) entonces
-        mientras ((num < x) y (!primo)) entonces
+        mientras ((x < num) y (primo)) entonces
             si (num % x = 0) entonces
-                primo = verdadero
+                primo = falso
             finSi
         finMientras
         si (primo) entonces

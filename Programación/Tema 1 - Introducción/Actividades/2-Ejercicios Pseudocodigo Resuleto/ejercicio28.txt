@@ -9,6 +9,8 @@ INICIO
         escribir("Tabla de multiplicar del ", x)
         mientras (y <= 10) entonces
             escribir(x, " x ", y, ": ", x * y)
+            y++
         finMientras
+        x++
     finMientras
 FIN_ALGORITMO

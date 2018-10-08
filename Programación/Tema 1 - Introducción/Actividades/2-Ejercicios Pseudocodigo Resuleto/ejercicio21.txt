@@ -2,31 +2,31 @@ Algoritmo: temperatura
 
 Entero: numDias, x, diaTempMinima, diaTempMaxima
 Reales: temperatura, temperaturaMaxima, temperaturaMinima
-Boolean: flag
 
 INICIO
     x = 0
-    flag = verdadero;
     temperaturaMinima = 0
     temperaturaMaxima = 0
     escribir("Cuantos dias tiene el mes")
     leer numDias
     mientras (x < numDias) entonces
-        escribir("Que temperatura hizo el día ", x)
+        escribir("Que temperatura hizo el día ", x+1)
         leer temperatura
-        si (flag) entonces
+        si (x = 0) entonces
             temperaturaMinima = temperatura
+            diaTempMinima = x+1
             temperaturaMaxima = temperatura
-            flag = falso;
+            diaTempMaxima = x+1
         finSi
         si (temperatura < temperaturaMinima) entonces
             temperaturaMinima = temperatura
-            diaTempMinima = x
+            diaTempMinima = x+1
         finSi
         si (temperatura > temperaturaMaxima) entonces
             temperaturaMaxima = temperatura
-            diaTempMaxima = x
+            diaTempMaxima = x+1
         finSi
+        x++
     finMientras
     escribir("El día más caliente fue el ", diaTempMaxima, " con ", temperaturaMaxima, " ºC")
     escribir("El día más frío fue el ", diaTempMinima, " con ", temperaturaMinima, " ºC")
