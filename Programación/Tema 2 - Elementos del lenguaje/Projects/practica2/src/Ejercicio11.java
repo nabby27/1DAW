@@ -16,11 +16,11 @@ public class Ejercicio11 {
         int perimetro = 0;
         int area = 0;
         
-        perimetro = (((alto^2) + ((ancho/2)^2))*2);
-        area = ((alto * ancho) / 2);
+        perimetro = ((alto * 2) + (ancho* 2));
+        area = (alto * ancho);
         
-        System.out.println("El perímetro del triangulo es: " + perimetro + " cm");
-        System.out.println("El area del triangulo es: " + area + " cm2");
+        System.out.println("El perímetro del rectangulo es: " + perimetro + " cm");
+        System.out.println("El area del rectangulo es: " + area + " cm2");
    }
     
 }
