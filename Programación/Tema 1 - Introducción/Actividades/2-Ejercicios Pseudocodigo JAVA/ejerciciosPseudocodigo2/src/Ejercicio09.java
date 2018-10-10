@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -17,7 +16,6 @@ public class Ejercicio09 {
         
         int suma = 0;
         int multiplicacion = 1;
-        Scanner teclado = new Scanner(System.in);
         
         for (int x = 20; x <= 40; x += 2) {
             suma += x;

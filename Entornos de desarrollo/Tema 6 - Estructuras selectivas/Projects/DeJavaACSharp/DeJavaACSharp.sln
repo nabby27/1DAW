@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adivinar", "Adivinar\Adivin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{301733E0-AEA2-4FFB-93D7-1ADE8CB44ACE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{D8D93503-E3DB-4131-B520-B6F58F36007A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primo", "Primo\Primo.csproj", "{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -55,6 +59,14 @@ Global
 		{301733E0-AEA2-4FFB-93D7-1ADE8CB44ACE}.Debug|x86.Build.0 = Debug|x86
 		{301733E0-AEA2-4FFB-93D7-1ADE8CB44ACE}.Release|x86.ActiveCfg = Release|x86
 		{301733E0-AEA2-4FFB-93D7-1ADE8CB44ACE}.Release|x86.Build.0 = Release|x86
+		{D8D93503-E3DB-4131-B520-B6F58F36007A}.Debug|x86.ActiveCfg = Debug|x86
+		{D8D93503-E3DB-4131-B520-B6F58F36007A}.Debug|x86.Build.0 = Debug|x86
+		{D8D93503-E3DB-4131-B520-B6F58F36007A}.Release|x86.ActiveCfg = Release|x86
+		{D8D93503-E3DB-4131-B520-B6F58F36007A}.Release|x86.Build.0 = Release|x86
+		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Debug|x86.ActiveCfg = Debug|x86
+		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Debug|x86.Build.0 = Debug|x86
+		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Release|x86.ActiveCfg = Release|x86
+		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

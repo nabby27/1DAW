@@ -5,3 +5,5 @@ C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras select
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Doble\obj\x86\Debug\Doble.csproj.GenerateResource.Cache
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Doble\obj\x86\Debug\Doble.exe
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Doble\obj\x86\Debug\Doble.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Doble\obj\x86\Debug\Doble.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Doble\obj\x86\Debug\Doble.pdb

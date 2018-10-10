@@ -1,6 +1,3 @@
-
-import java.util.Calendar;
-import java.util.Locale;
 import java.util.Scanner;
 
 /*
@@ -31,6 +28,17 @@ public class Ejercicio17 {
         horas = ((num - (dias * 86400)) / 3600);
         minutos = ((num - (dias * 86400) - (horas * 3600)) / 60);
         segundos = (num - (dias * 86400) - (horas * 3600) - (minutos * 60));
+        
+        /*
+        min = seg / 60
+        segReal = min % 60
+        
+        horas = min / 60
+        min = min % 60
+        
+        dias = horas / 24
+        horas = horas % 24;
+        */
         
         System.out.println(num + " seg. son: " + dias + " día/s, " + horas + " hora/s, " + minutos + " minuto/s " + segundos + " segundo/s");
    }

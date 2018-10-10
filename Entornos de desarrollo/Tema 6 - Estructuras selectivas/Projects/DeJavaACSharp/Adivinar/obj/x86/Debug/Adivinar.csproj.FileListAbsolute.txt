@@ -5,3 +5,5 @@ C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras select
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Adivinar\obj\x86\Debug\Adivinar.csproj.GenerateResource.Cache
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Adivinar\obj\x86\Debug\Adivinar.exe
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Adivinar\obj\x86\Debug\Adivinar.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Adivinar\obj\x86\Debug\Adivinar.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Adivinar\obj\x86\Debug\Adivinar.pdb

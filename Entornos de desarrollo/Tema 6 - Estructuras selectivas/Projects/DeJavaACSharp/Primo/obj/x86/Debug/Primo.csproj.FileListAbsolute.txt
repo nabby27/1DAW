@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\bin\Debug\Primo.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\bin\Debug\Primo.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\obj\x86\Debug\Primo.Primo.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\obj\x86\Debug\Primo.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\obj\x86\Debug\Primo.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\obj\x86\Debug\Primo.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\Primo\obj\x86\Debug\Primo.pdb

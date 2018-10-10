@@ -10,13 +10,13 @@
  */
 public class Ejercicio12 {
     
-    static final float pi = 3.141592F;
+    static final double pi = Math.PI;
     
     public static void main(String[] args) {
         float diametro = 15.5F;
         float altura = 42.4F;
-        float area = 0;
-        float volumen = 0;
+        double area = 0;
+        double volumen = 0;
         float radio = (diametro / 2); 
         area = (2 * pi * radio * (radio + altura));
         volumen = (pi * radio * radio * altura);
