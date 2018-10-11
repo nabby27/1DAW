@@ -15,42 +15,46 @@ public class Ejercicio19 {
     public static void main(String[] args) {
         
         float precioLitro1 = 0;
-        float marcaKilometros1 = 0;
-        float precioDepositoEntero1 = 0;
-        float precioLitro2 = 0;
-        float precioDepositoEntero2 = 0;
-        float marcaKilometros3 = 0;
+        float pagado1 = 0;
+        float km1 = 0;
         
-        float kilometrosRecorridos = 0;
-        float litrosLlenados2 = 0;
-        float consumo = 0;
-        float coste = 0;
+        float precioLitro2 = 0;
+        float pagado2 = 0;
+        
+        float km3 = 0;
+        
+        float litros1 = 0;
+        float litros2 = 0;
+        float consumo100 = 0;
+        float precioKm = 0;
         Scanner teclado = new Scanner(System.in);
         
         System.out.println("PRIMERA PARADA");
         System.out.println("¿Cuanto es el precio del litro de combustible?");
         precioLitro1 = teclado.nextFloat();
         System.out.println("¿Cuanto te ha costado llenar el deposito entero?");
-        precioDepositoEntero1 = teclado.nextFloat();
+        pagado1 = teclado.nextFloat();
         System.out.println("¿Cuantos kilometros marcaba el cuentakilometros?");
-        marcaKilometros1 = teclado.nextFloat();
+        km1 = teclado.nextFloat();
 
         System.out.println("SEGUNDA PARADA");
         System.out.println("¿Cuanto es el precio del litro de combustible?");
         precioLitro2 = teclado.nextFloat();
         System.out.println("¿Cuanto te ha costado llenar el deposito entero?");
-        precioDepositoEntero2 = teclado.nextFloat();
+        pagado2 = teclado.nextFloat();
         
         System.out.println("TERCERA PARADA");
         System.out.println("¿Cuantos kilometros marcaba el cuentakilometros?");
-        marcaKilometros3 = teclado.nextFloat();
+        km3 = teclado.nextFloat();
 
-        litrosLlenados2 = (precioDepositoEntero2 / precioLitro2);
-        kilometrosRecorridos = (marcaKilometros3 - marcaKilometros1); 
+        litros1 = (pagado1 / precioLitro1);
+        litros2 = (pagado2 / precioLitro2);
+                
+        consumo100 = (((litros1 + litros2) / (km1 + km3)) * 100);
+        precioKm = ((pagado1 + pagado2) / (km1+km3));
         
-        consumo = ((litrosLlenados2 / kilometrosRecorridos) * 100);
-        
-        coste = ((consumo / 100) * precioLitro2);
+        System.out.println("Consumo por cada 100Km: " + consumo100 + " litros");
+        System.out.println("Coste por Km: " + precioKm + "€");
    }
    
 }
