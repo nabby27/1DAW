@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -20,20 +21,31 @@ public class Ejercicio07 {
         int aceptados = 0;
         int fallos = 0;
         int totalNumeros = 0;
+        String numerosAceptados = "";
         Scanner teclado = new Scanner(System.in);
         
         do{
             System.out.print("Introduce un número:");
             nuevoNum = teclado.nextInt();
-            if (num == 0)
+            if (nuevoNum == 0) {
                 System.out.println("Cerrando");
-            else {
-                if (num > nuevoNum) {
+                System.out.println("Aceptados: " + numerosAceptados);
+                System.out.println("Total números: " + totalNumeros);
+                System.out.println("Fallos: " + fallos);
+            } else {
+                if (nuevoNum > num) {
                     num = nuevoNum;
+                    if (numerosAceptados == "")
+                        numerosAceptados += num;
+                    else
+                        numerosAceptados += ", " + num;
                     aceptados++;
+                } else {
+                    fallos++;
                 }
+                totalNumeros++;
             }
-        } while(num != 0);
+        } while(nuevoNum != 0);
         
         
     }
