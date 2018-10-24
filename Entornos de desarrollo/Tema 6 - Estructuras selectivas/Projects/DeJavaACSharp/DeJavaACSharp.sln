@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primo", "Primo\Primo.csproj", "{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComprobarMultiplicacion", "ComprobarMultiplicacion\ComprobarMultiplicacion.csproj", "{AE6FF36A-8576-49DD-9CFC-D6F5B5B3632E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -67,6 +69,10 @@ Global
 		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Debug|x86.Build.0 = Debug|x86
 		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Release|x86.ActiveCfg = Release|x86
 		{6DC4B883-5A7A-4A29-9C57-3364E023DEA3}.Release|x86.Build.0 = Release|x86
+		{AE6FF36A-8576-49DD-9CFC-D6F5B5B3632E}.Debug|x86.ActiveCfg = Debug|x86
+		{AE6FF36A-8576-49DD-9CFC-D6F5B5B3632E}.Debug|x86.Build.0 = Debug|x86
+		{AE6FF36A-8576-49DD-9CFC-D6F5B5B3632E}.Release|x86.ActiveCfg = Release|x86
+		{AE6FF36A-8576-49DD-9CFC-D6F5B5B3632E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,3 +5,5 @@ C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras select
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\TablasDeMultiplicar\bin\Debug\TablasDeMultiplicar.pdb
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\TablasDeMultiplicar\obj\x86\Debug\TablasDeMultiplicar.exe
 C:\Users\ivanc\Documents\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\TablasDeMultiplicar\obj\x86\Debug\TablasDeMultiplicar.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\TablasDeMultiplicar\obj\x86\Debug\TablasDeMultiplicar.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\TablasDeMultiplicar\obj\x86\Debug\TablasDeMultiplicar.pdb
