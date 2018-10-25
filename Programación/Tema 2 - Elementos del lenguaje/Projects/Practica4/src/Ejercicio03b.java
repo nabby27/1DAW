@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author AlumMati
+ * @author Iván Córdoba Donet
  */
 public class Ejercicio03b {
     

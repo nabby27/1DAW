@@ -10,7 +10,7 @@ INICIO
     escribir("Dime el numero")
     leer num
     mientras (num > 0 y !acierto) entonces
-        si (num <= x) entonces 
+        si (num < x) entonces 
             acierto = verdadero
         sino
             x *= 10

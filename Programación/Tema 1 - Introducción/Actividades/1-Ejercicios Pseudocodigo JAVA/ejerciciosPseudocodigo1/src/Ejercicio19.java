@@ -20,10 +20,14 @@ public class Ejercicio19 {
         int num = 0;
         int x = 10;
         Scanner teclado = new Scanner(System.in);
+        do {
+            System.out.print("Dime un número: ");
+            num = teclado.nextInt();
+            if (num < 0)
+                System.out.println("El número tiene que ser positivo");
+        } while (num < 0);
         
-        System.out.print("Dime un número: ");
-        num = teclado.nextInt();
-        while (num > 0 && !acierto) {
+        while (!acierto) {
             if (num < x)
                 acierto = true;
             else

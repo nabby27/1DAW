@@ -1,3 +1,5 @@
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -10,19 +12,23 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class Ejercicio05 {
-
+public class Ejercicio08 {
+    
     public static void main(String[] args) {
-        System.out.println("DECIMAL O ENTERO");
         
+        int n1 = 0;
+        String n2 = "";
         Scanner teclado = new Scanner(System.in);
         
-        System.out.print("Dime un número: ");
-        float num = teclado.nextFloat();
-        if (Math.floor(num) == num)
-            System.out.println("El número " + num + " es entero");
+        System.out.print("Dime el número N1:");        
+        n1 = teclado.nextInt();
+        
+        n2 = n1 + "";
+        if (n2.length() > 2)
+            n2 = n2.substring(1, n2.length()-1);
         else
-            System.out.println("El número " + num + " es decimal");
+            n2 = "0";
+        System.out.println("N2 = " + n2);
     }
-
+    
 }
