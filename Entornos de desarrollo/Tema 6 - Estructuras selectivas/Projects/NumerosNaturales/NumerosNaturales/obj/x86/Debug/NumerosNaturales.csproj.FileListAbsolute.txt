@@ -1,0 +1,7 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\bin\Debug\NumerosNaturales.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\bin\Debug\NumerosNaturales.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.NumerosNaturales.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.pdb

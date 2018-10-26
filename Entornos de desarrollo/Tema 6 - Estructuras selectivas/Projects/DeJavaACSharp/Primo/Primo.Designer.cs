@@ -33,6 +33,7 @@
             this.btCalcular = new System.Windows.Forms.Button();
             this.btReiniciar = new System.Windows.Forms.Button();
             this.lPrimo = new System.Windows.Forms.Label();
+            this.btArreglar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbNum
@@ -81,11 +82,23 @@
             this.lPrimo.TabIndex = 4;
             this.lPrimo.Visible = false;
             // 
+            // btArreglar
+            // 
+            this.btArreglar.Location = new System.Drawing.Point(16, 100);
+            this.btArreglar.Name = "btArreglar";
+            this.btArreglar.Size = new System.Drawing.Size(75, 20);
+            this.btArreglar.TabIndex = 5;
+            this.btArreglar.Text = "Arreglar";
+            this.btArreglar.UseVisualStyleBackColor = true;
+            this.btArreglar.Visible = false;
+            this.btArreglar.Click += new System.EventHandler(this.arreglar);
+            // 
             // Primo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(247, 132);
+            this.Controls.Add(this.btArreglar);
             this.Controls.Add(this.lPrimo);
             this.Controls.Add(this.btReiniciar);
             this.Controls.Add(this.btCalcular);
@@ -105,6 +118,7 @@
         private System.Windows.Forms.Button btCalcular;
         private System.Windows.Forms.Button btReiniciar;
         private System.Windows.Forms.Label lPrimo;
+        private System.Windows.Forms.Button btArreglar;
     }
 }
 

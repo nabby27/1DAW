@@ -19,17 +19,21 @@ public class Ejercicio17 {
         int  cantidadPares = 0;
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Dime el númera 'A': ");
+        System.out.print("Dime el númera 'A': ");
         a = teclado.nextInt();
-        System.out.println("Dime el númera 'B': ");
+        System.out.print("Dime el númera 'B': ");
         b = teclado.nextInt();
         
         System.out.println("Cuenta desde " + a + " hasta " + b + ":");
         for (int x = a; x <= b; x++) {
-            System.out.println(x);
+            if (x == a)
+                System.out.print(x);
+            else
+                System.out.print(", " + x);
             if (x % 2 == 0)
                 cantidadPares++;
         }
+        System.out.println();
         System.out.println("Hay " + cantidadPares + " números pares");
     }
     

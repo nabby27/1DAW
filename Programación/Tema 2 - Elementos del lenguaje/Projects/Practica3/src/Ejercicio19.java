@@ -37,10 +37,10 @@ public class Ejercicio19 {
         porcImpares = ((float) cantidadImpares/repetir) * 100;
         
         System.out.println("Han salido " + cantidadPares + " números pares");
-        System.out.println("El porcentage de pares es: " + porcPares);
+        System.out.println("El porcentage de pares es: " + porcPares + "%");
         
         System.out.println("Han salido " + cantidadImpares + " números impares");
-        System.out.println("El porcentage de impares es: " + porcImpares);
+        System.out.println("El porcentage de impares es: " + porcImpares + "%");
     }
     
 }

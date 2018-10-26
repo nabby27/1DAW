@@ -5,3 +5,4 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selec
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\ComprobarMultiplicacion\obj\x86\Debug\ComprobarMultiplicacion.csproj.GenerateResource.Cache
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\ComprobarMultiplicacion\obj\x86\Debug\ComprobarMultiplicacion.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\ComprobarMultiplicacion\obj\x86\Debug\ComprobarMultiplicacion.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\DeJavaACSharp\ComprobarMultiplicacion\obj\x86\Debug\ComprobarMultiplicacion.csprojResolveAssemblyReference.cache
