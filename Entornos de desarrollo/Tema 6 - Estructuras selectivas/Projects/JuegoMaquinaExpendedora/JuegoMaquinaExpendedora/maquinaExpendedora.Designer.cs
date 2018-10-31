@@ -44,6 +44,7 @@
             this.tbDineroDevolver = new System.Windows.Forms.TextBox();
             this.lDineroDevolver = new System.Windows.Forms.Label();
             this.btReset = new System.Windows.Forms.Button();
+            this.lCantidadNumero = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -158,11 +159,12 @@
             this.tbDinero.Name = "tbDinero";
             this.tbDinero.Size = new System.Drawing.Size(100, 20);
             this.tbDinero.TabIndex = 11;
+            this.tbDinero.KeyDown += new System.Windows.Forms.KeyEventHandler(this.insertMoney);
             // 
             // lCantidadDinero
             // 
             this.lCantidadDinero.AutoSize = true;
-            this.lCantidadDinero.Location = new System.Drawing.Point(147, 176);
+            this.lCantidadDinero.Location = new System.Drawing.Point(136, 176);
             this.lCantidadDinero.Name = "lCantidadDinero";
             this.lCantidadDinero.Size = new System.Drawing.Size(101, 13);
             this.lCantidadDinero.TabIndex = 12;
@@ -193,12 +195,22 @@
             this.btReset.TabIndex = 15;
             this.btReset.Text = "Reiniciar";
             this.btReset.UseVisualStyleBackColor = true;
+            this.btReset.Click += new System.EventHandler(this.reset);
+            // 
+            // lCantidadNumero
+            // 
+            this.lCantidadNumero.AutoSize = true;
+            this.lCantidadNumero.Location = new System.Drawing.Point(244, 176);
+            this.lCantidadNumero.Name = "lCantidadNumero";
+            this.lCantidadNumero.Size = new System.Drawing.Size(0, 13);
+            this.lCantidadNumero.TabIndex = 16;
             // 
             // maquinaExpendedora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(469, 262);
+            this.Controls.Add(this.lCantidadNumero);
             this.Controls.Add(this.btReset);
             this.Controls.Add(this.lDineroDevolver);
             this.Controls.Add(this.tbDineroDevolver);
@@ -217,7 +229,7 @@
             this.Controls.Add(this.label1);
             this.Name = "maquinaExpendedora";
             this.Text = "Máquina expendedora";
-            this.Load += new System.EventHandler(this.maquinaExpendedora_Load);
+            this.Load += new System.EventHandler(this.load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,6 +253,7 @@
         private System.Windows.Forms.TextBox tbDineroDevolver;
         private System.Windows.Forms.Label lDineroDevolver;
         private System.Windows.Forms.Button btReset;
+        private System.Windows.Forms.Label lCantidadNumero;
     }
 }
 

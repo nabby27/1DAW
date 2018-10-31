@@ -33,7 +33,7 @@ public class Ejercicio09 {
                     System.out.println("El número tiene que ser de dos digitos");
             } while (num < 9);
             
-            numText = num + "";
+            numText += "";
             if (numText.contains("0")) {
                 if (result.equals(""))
                     result += numText;

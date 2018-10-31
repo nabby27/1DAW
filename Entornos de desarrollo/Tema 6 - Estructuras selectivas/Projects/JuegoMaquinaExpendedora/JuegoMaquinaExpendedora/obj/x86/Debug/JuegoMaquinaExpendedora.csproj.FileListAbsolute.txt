@@ -7,3 +7,8 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\JuegoMaquinaExpendedora\obj\x
 C:\Users\AlumMati\AppData\Local\Temporary Projects\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.maquinaExpendedora.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\obj\x86\Debug\JuegoMaquinaExpendedora.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\bin\Debug\JuegoMaquinaExpendedora.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoMaquinaExpendedora\JuegoMaquinaExpendedora\bin\Debug\JuegoMaquinaExpendedora.pdb

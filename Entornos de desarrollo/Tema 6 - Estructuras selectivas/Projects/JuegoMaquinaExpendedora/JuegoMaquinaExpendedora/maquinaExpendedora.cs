@@ -29,6 +29,7 @@ namespace JuegoMaquinaExpendedora
                 rbAgua.Enabled = false;
                 rbCafe.Enabled = false;
                 rbRefresco.Enabled = false;
+                btPagar.Enabled = false;
                 if (rbAgua.Checked)
                     dineroAPagar = precioAgua;
                 if (rbCafe.Checked)
@@ -44,6 +45,60 @@ namespace JuegoMaquinaExpendedora
             }
         }
 
+        private void insertMoney(object sender, KeyEventArgs e) 
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (tbDinero.Text.Equals(""))
+                    MessageBox.Show("Introduce dinero", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                {
+                    if (!tbDinero.Text.Equals("10") && !tbDinero.Text.Equals("50") && !tbDinero.Text.Equals("100"))
+                        MessageBox.Show("Solo accepta monedas de 10, 50 o 100", "INFO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                    {
+                        lCantidadDinero.Visible = true;
+                        lCantidadNumero.Visible = true;
+                        dineroIntroducido += Int32.Parse(tbDinero.Text);
+                        lCantidadNumero.Text = dineroIntroducido.ToString();
+                        tbDinero.Clear();
+                        if (dineroIntroducido >= dineroAPagar)
+                            done();
+                    }
+                }
+            }
+        }
+
+        private void done() {
+            tbDinero.Enabled = false;
+            lDineroDevolver.Visible = true;
+            tbDineroDevolver.Visible = true;
+            tbDineroDevolver.Text = (dineroIntroducido - dineroAPagar).ToString();
+            dineroIntroducido = 0;
+            dineroAPagar = 0;
+        }
+
+        private void reset(object sender, EventArgs e)
+        {
+            tbDinero.Enabled = false;
+            tbDineroDevolver.Visible = false;
+            lCantidadDinero.Visible = false;
+            lIntroducirDinero.Visible = false;
+            lDineroDevolver.Visible = false;
+            lCantidadNumero.Visible = false;
+            tbDinero.Visible = false;
+            tbDinero.Enabled = true;
+            rbAgua.Enabled = true;
+            rbCafe.Enabled = true;
+            rbRefresco.Enabled = true;
+            rbAgua.Checked = false;
+            rbCafe.Checked = false;
+            rbRefresco.Checked = false;
+            btPagar.Enabled = true;
+            dineroIntroducido = 0;
+            dineroAPagar = 0;
+        }
+
         private void load(object sender, EventArgs e)
         {
             lPrecioAgua.Text = "67 €";
@@ -53,7 +108,13 @@ namespace JuegoMaquinaExpendedora
             precioCafe = 86;
 
             lPrecioRefresco.Text = "149 €";
-            precioRefresco = 67;
+            precioRefresco = 149;
+
+            tbDinero.Visible = false;
+            tbDineroDevolver.Visible = false;
+            lDineroDevolver.Visible = false;
+            lIntroducirDinero.Visible = false;
+            lCantidadDinero.Visible = false;
         }
 
     }
