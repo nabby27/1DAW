@@ -35,6 +35,7 @@
             this.btPlay = new System.Windows.Forms.Button();
             this.btChange = new System.Windows.Forms.Button();
             this.btReset = new System.Windows.Forms.Button();
+            this.lMsg = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lTitle
@@ -80,6 +81,7 @@
             this.btPlay.TabIndex = 4;
             this.btPlay.Text = "Jugar";
             this.btPlay.UseVisualStyleBackColor = true;
+            this.btPlay.Click += new System.EventHandler(this.play);
             // 
             // btChange
             // 
@@ -89,6 +91,7 @@
             this.btChange.TabIndex = 5;
             this.btChange.Text = "Cambiar";
             this.btChange.UseVisualStyleBackColor = true;
+            this.btChange.Click += new System.EventHandler(this.change);
             // 
             // btReset
             // 
@@ -98,12 +101,22 @@
             this.btReset.TabIndex = 6;
             this.btReset.Text = "Reiniciar";
             this.btReset.UseVisualStyleBackColor = true;
+            this.btReset.Click += new System.EventHandler(this.reset);
+            // 
+            // lMsg
+            // 
+            this.lMsg.AutoSize = true;
+            this.lMsg.Location = new System.Drawing.Point(16, 76);
+            this.lMsg.Name = "lMsg";
+            this.lMsg.Size = new System.Drawing.Size(0, 13);
+            this.lMsg.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(308, 146);
+            this.Controls.Add(this.lMsg);
             this.Controls.Add(this.btReset);
             this.Controls.Add(this.btChange);
             this.Controls.Add(this.btPlay);
@@ -127,6 +140,7 @@
         private System.Windows.Forms.Button btPlay;
         private System.Windows.Forms.Button btChange;
         private System.Windows.Forms.Button btReset;
+        private System.Windows.Forms.Label lMsg;
     }
 }
 

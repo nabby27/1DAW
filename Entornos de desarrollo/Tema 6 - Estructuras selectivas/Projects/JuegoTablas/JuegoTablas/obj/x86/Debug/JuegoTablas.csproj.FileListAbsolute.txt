@@ -1,0 +1,8 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\bin\Debug\JuegoTablas.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\bin\Debug\JuegoTablas.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\JuegoTablas\JuegoTablas\obj\x86\Debug\JuegoTablas.pdb
