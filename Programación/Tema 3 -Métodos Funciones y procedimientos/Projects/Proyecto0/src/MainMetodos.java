@@ -50,6 +50,8 @@ public class MainMetodos {
         
         //Metodos.ej_11(7);
         
+        Metodos.menu();
+        
     }
     
 }

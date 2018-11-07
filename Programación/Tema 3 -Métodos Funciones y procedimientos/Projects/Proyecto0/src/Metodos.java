@@ -154,7 +154,7 @@ public class Metodos {
      * @param num1
      * @param num2
      * @param num3
-     * @return 
+     * @return media aritemtica
      */
     public static float ej_9(float num1, float num2, float num3) {
         return ((num1 + num2 + num3) / 3);
@@ -202,6 +202,123 @@ public class Metodos {
                 System.out.print("*");
             }
             System.out.println();
+        }
+    }
+    
+    public static void menu() {
+        int opcion = 0;
+        Scanner keyboard = new Scanner(System.in);
+        while (true) {
+            System.out.println("--------------------");
+            System.out.println("Elige una opción");
+            System.out.println("--------------------");
+            System.out.println("1.  Dibujar cuadrado");
+            System.out.println("2.  Calcular número de dígitos");
+            System.out.println("3.  Recoger opción válida en un rango de valores");
+            System.out.println("4.  Calcular el menor de 3 números");
+            System.out.println("5.  Dibujar triángulo de un nº de filas");
+            System.out.println("6.  Calcular el mayor de 3 números");
+            System.out.println("7.  Dibujar triangulo rectángulo de un nº de filas");
+            System.out.println("8.  Mostrar tabla de multiplicar");
+            System.out.println("9.  Calcular media de 3 notas");
+            System.out.println("10. Calcular el sumatorio de un nº");
+            System.out.println("11. Dibujar rombo");
+            System.out.println("12. Salir");
+            opcion = keyboard.nextInt();
+            
+            int num1 = 0;
+            int num2 = 0;
+            int num3 = 0;
+            switch (opcion) {
+
+                case 1:
+                    System.out.println("Dibujar cuadrado");
+                    System.out.print("Dime el número de * por lado: ");
+                    num1 = keyboard.nextInt();
+                    ej_1(num1);
+                    break;
+                case 2:
+                    System.out.println("Calcular número de dígitos");
+                    System.out.print("Dime el número del que quieres calcular sus dígitos: ");
+                    num1 = keyboard.nextInt();
+                    System.out.println("El número " + num1 + " tiene " + ej_2(num1) + " cifras");
+                    break;
+                case 3:
+                    System.out.println("Recoger opción válida en un rango de valores");
+                    System.out.print("Rango mínimo: ");
+                    num1 = keyboard.nextInt();
+                    System.out.print("Rango máximo: ");
+                    num2 = keyboard.nextInt();
+                    System.out.println("El núemro es: " + ej_3(num1, num2));
+                    break;
+                case 4:
+                    System.out.println("Calcular el menor de 3 números");
+                    System.out.print("Dime el número 1");
+                    num1 = keyboard.nextInt();
+                    System.out.print("Dime el número 2");
+                    num2 = keyboard.nextInt();
+                    System.out.print("Dime el número 3");
+                    num3 = keyboard.nextInt();
+                    System.out.println("El número menor es: " + ej_4(num1, num2, num3));
+                    break;
+                case 5:
+                    System.out.println("Dibujar triángulo de un nº de filas");
+                    System.out.print("Dime la altura del triángulo");
+                    num1 = keyboard.nextInt();
+                    ej_5(num1);
+                    break;
+                case 6:
+                    System.out.println("Calcular el mayor de 3 números");
+                    System.out.print("Dime el número 1");
+                    num1 = keyboard.nextInt();
+                    System.out.print("Dime el número 2");
+                    num2 = keyboard.nextInt();
+                    System.out.print("Dime el número 3");
+                    num3 = keyboard.nextInt();
+                    ej_6(num1, num2, num3);
+                    break;
+                case 7:
+                    System.out.println("Dibujar triangulo rectángulo de un nº de filas");
+                    System.out.print("Dime la altura del triángulo");
+                    num1 = keyboard.nextInt();
+                    ej_7(num1);
+                    break;
+                case 8:
+                    System.out.println("Mostrar tabla de multiplicar");
+                    System.out.print("Dime de que número quieres la tabla de múltiplicar");
+                    num1 = keyboard.nextInt();
+                    ej_8(num1);
+                    break;
+                case 9:
+                    System.out.println("Calcular media de 3 notas");
+                    System.out.print("Dime la nota 1");
+                    num1 = keyboard.nextInt();
+                    System.out.print("Dime la nota 2");
+                    num2 = keyboard.nextInt();
+                    System.out.print("Dime la nota 3");
+                    num3 = keyboard.nextInt();
+                    System.out.println("La media es: " + ej_9(num1, num2, num3));
+                    break;
+                case 10:
+                    System.out.println("Calcular el sumatorio de un nº");
+                    System.out.print("Dime el número del que realizar el sumatorio");
+                    num1 = keyboard.nextInt();
+                    ej_10(num1);
+                    break;
+                case 11:
+                    System.out.println("Dibujar rombo");
+                    System.out.println("Dime de que tamaño quieres el rombo");
+                    num1 = keyboard.nextInt();
+                    ej_11(num1);
+                    break;
+                case 12:
+                    System.out.println("Adiós");
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Opción incorrecta");
+                    break;
+            }
         }
     }
     
