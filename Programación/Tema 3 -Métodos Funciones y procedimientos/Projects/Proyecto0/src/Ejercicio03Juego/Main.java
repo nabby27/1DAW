@@ -7,6 +7,9 @@ package Ejercicio03Juego;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -20,7 +23,8 @@ public class Main {
     
     static int maxPt = 500;
     static String[] players;
-    static int[] playersPts;
+    static Integer[] playersPts;
+    static Integer[] playersTotalPts;
     
     public static void main(String[] args) throws InterruptedException, IOException {
        menu(); 
@@ -94,7 +98,8 @@ public class Main {
         System.out.println("¿Cuantos jugadores van a jugar?");
         numPlayers = keyboard.nextInt();
         players = new String[numPlayers];
-        playersPts = new int[numPlayers];
+        playersPts = new Integer[numPlayers];
+        playersTotalPts = new Integer[numPlayers];
         
         for (int i = 1; i <= numPlayers; i++) {
             System.out.println("¿Como se llama el jugador " + i + "?");
@@ -115,34 +120,34 @@ public class Main {
                 dice2 = (int) (Math.random() * 6) + 1;
                 System.out.println("Dado 1: " + dice1);
                 System.out.println("Dado 2: " + dice2);
-                calculate(i-1, dice1, dice2);
+                calculateRoundPointOf(i-1, dice1, dice2);
             }
         }
+        calculatePoints();
         checkWinner();
     }
     
-    private static void calculate(int player, int dice1, int dice2) {
+    private static void calculateRoundPointOf(int player, int dice1, int dice2) {
         switch (dice2){
-            case 1: playersPts[player] += factorial(dice1);
+            case 1: playersPts[player] = factorial(dice1);
                     System.out.println("Has obtenido esta ronda " + factorial(dice1) + " pts");
                     break;
-            case 2: playersPts[player] += sum(dice1);
+            case 2: playersPts[player] = sum(dice1);
                     System.out.println("Has obtenido esta ronda " + sum(dice1) + " pts");
                     break;
-            case 3: playersPts[player] += (dice1*dice1);
+            case 3: playersPts[player] = (dice1*dice1);
                     System.out.println("Has obtenido esta ronda " + (dice1*dice1) + " pts");
                     break;
-            case 4: playersPts[player] += 1;
+            case 4: playersPts[player] = 1;
                     System.out.println("Has obtenido esta ronda 1 pt");
                     break;
-            case 5: playersPts[player] += dice1;
+            case 5: playersPts[player] = dice1;
                     System.out.println("Has obtenido esta ronda " + dice1 + " pt");
                     break;
-            case 6: playersPts[player] += 0;
+            case 6: playersPts[player] = 0;
                     System.out.println("Has obtenido esta ronda 0 pts");
                     break;
         }
-        System.out.println("Puntuación total de " + players[player] + ": " + playersPts[player]);
         try {
             Thread.sleep(3000);
         } catch (InterruptedException ex) {
@@ -169,7 +174,7 @@ public class Main {
     private static void checkWinner() {
         boolean finish = false;
         for (int i = 0; i < players.length; i++) {
-            if (playersPts[i] >= maxPt){
+            if (playersTotalPts[i] >= maxPt){
                 clear();
                 System.out.println(players[i] + " a llegado ya a " + maxPt);
                 finish = true;   
@@ -182,6 +187,89 @@ public class Main {
             } else {
                 shoot();
             }
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    private static void calculatePoints() {
+        List<Integer> playerWinnerOfRound = new ArrayList<Integer>();
+        List<Integer> playerLooserOfRound = new ArrayList<Integer>();
+        int sumWinnerPoints = 0;
+        int sumLooserPoint = 0;
+
+        /* Extraigo los jugadores que han ganado y perdido esta ronda*/
+        for (int i = 0; i < players.length; i++) {
+            playerLooserOfRound.add(i);
+            playerWinnerOfRound.add(i);
+        }
+        
+        if (playerLooserOfRound.size() > 1) {
+            for (int j = 1; j < playerLooserOfRound.size(); j++) {
+                if (playersPts[playerLooserOfRound.get(j-1).intValue()] > playersPts[playerLooserOfRound.get(j).intValue()]) {
+                    playerLooserOfRound.remove(j-1);
+                    j--;
+                } else if (playersPts[playerLooserOfRound.get(j-1).intValue()] < playersPts[playerLooserOfRound.get(j).intValue()]) {
+                    playerLooserOfRound.remove(j);
+                    j--;
+                }
+            }
+        }
+        
+        if (playerWinnerOfRound.size() > 1) {
+            for (int j = 1; j < playerWinnerOfRound.size(); j++) {
+                if (playersPts[playerWinnerOfRound.get(j-1).intValue()] < playersPts[playerWinnerOfRound.get(j).intValue()]) {
+                    playerWinnerOfRound.remove(j-1);
+                    j--;
+                } else if (playersPts[playerWinnerOfRound.get(j-1).intValue()] > playersPts[playerWinnerOfRound.get(j).intValue()]) {
+                    playerWinnerOfRound.remove(j);
+                    j--;
+                }
+            }
+        }
+        
+        /*sumo los puntos de los perdedores (si ha habido empate)*/
+        for (int i = 0; i < playerLooserOfRound.size(); i++){
+            sumLooserPoint += playersPts[playerLooserOfRound.get(i).intValue()];
+        }
+        
+        /*sumo los puntos de los ganadores (si ha habido empate)*/
+        for (int i = 0; i < playerWinnerOfRound.size(); i++) {
+            sumWinnerPoints += playersPts[playerWinnerOfRound.get(i).intValue()];
+        }
+        
+        for (int i = 0; i < players.length; i++) {
+            if (playerLooserOfRound.contains(i)) {
+                playersTotalPts[i] -= sumLooserPoint;
+            } else if (playerWinnerOfRound.contains(i)) {
+                playersTotalPts[i] += sumWinnerPoints;
+            } else {
+                playersTotalPts[i] += playersPts[i];
+            }
+        }
+                
+        clear();
+        
+        /*saco por pantalla la puntuacion de esta ronda*/
+        for (int i = 0; i < players.length; i++) {
+            System.out.println("El jugador " + players[i] + " ha obtenido esta ronda: " + playersPts[i]);
+        }
+        
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        clear();
+        
+        /*saco por pantalla la puntuacion total hasta el momento*/
+        for (int i = 0; i < players.length; i++) {
+            System.out.println("El jugador " + players[i] + " tiene: " + playersTotalPts[i]);
+        }
+        
+        try {
+            Thread.sleep(3000);
         } catch (InterruptedException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }

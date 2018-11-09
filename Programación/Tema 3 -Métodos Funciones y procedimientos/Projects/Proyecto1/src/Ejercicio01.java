@@ -19,6 +19,10 @@ public class Ejercicio01 {
     public static void countRepeat(String oracion, String palabra) {
         int cont = 0;
         oracion = oracion.replace(",", "");
+        oracion = oracion.replace("-", "");
+        oracion = oracion.replace("\"", "");
+        oracion = oracion.replace("'", "");
+        oracion = oracion.replace(";", "");
         oracion = oracion.replace(".", "");
         String[] palabrasOracion = oracion.split(" ");
         for (int i = 0; i < palabrasOracion.length; i++) {

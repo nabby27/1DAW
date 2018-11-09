@@ -26,13 +26,15 @@ public class Ejercicio06 {
         String[] ora = oracion.split("");
         String[] reverse = new String[ora.length];
         
-        for (int i = 0; i < ora.length; i++) {
-            reverse[ora.length-i] = ora[i];
+        for (int i = 1; i <= ora.length; i++) {
+            reverse[ora.length-i] = ora[i-1];
         }
         
         for (int i = 0; i < ora.length; i++) {
             System.out.print(reverse[i]);
         }
+        
+        System.out.println("");
     }
     
 }
