@@ -24,7 +24,7 @@ public class Main {
     static int maxPt = 500;
     static String[] players;
     static Integer[] playersPts;
-    static Integer[] playersTotalPts;
+    static int[] playersTotalPts;
     
     public static void main(String[] args) throws InterruptedException, IOException {
        menu(); 
@@ -99,7 +99,7 @@ public class Main {
         numPlayers = keyboard.nextInt();
         players = new String[numPlayers];
         playersPts = new Integer[numPlayers];
-        playersTotalPts = new Integer[numPlayers];
+        playersTotalPts = new int[numPlayers];
         
         for (int i = 1; i <= numPlayers; i++) {
             System.out.println("¿Como se llama el jugador " + i + "?");
@@ -204,39 +204,38 @@ public class Main {
             playerWinnerOfRound.add(i);
         }
         
-        if (playerLooserOfRound.size() > 1) {
-            for (int j = 1; j < playerLooserOfRound.size(); j++) {
-                if (playersPts[playerLooserOfRound.get(j-1).intValue()] > playersPts[playerLooserOfRound.get(j).intValue()]) {
-                    playerLooserOfRound.remove(j-1);
-                    j--;
-                } else if (playersPts[playerLooserOfRound.get(j-1).intValue()] < playersPts[playerLooserOfRound.get(j).intValue()]) {
-                    playerLooserOfRound.remove(j);
-                    j--;
-                }
+        for (int j = 1; j < playerLooserOfRound.size(); j++) {
+            if (playersPts[playerLooserOfRound.get(j-1).intValue()] > playersPts[playerLooserOfRound.get(j).intValue()]) {
+                playerLooserOfRound.remove(j-1);
+                j--;
+            } else if (playersPts[playerLooserOfRound.get(j-1).intValue()] < playersPts[playerLooserOfRound.get(j).intValue()]) {
+                playerLooserOfRound.remove(j);
+                j--;
             }
         }
         
-        if (playerWinnerOfRound.size() > 1) {
-            for (int j = 1; j < playerWinnerOfRound.size(); j++) {
-                if (playersPts[playerWinnerOfRound.get(j-1).intValue()] < playersPts[playerWinnerOfRound.get(j).intValue()]) {
-                    playerWinnerOfRound.remove(j-1);
-                    j--;
-                } else if (playersPts[playerWinnerOfRound.get(j-1).intValue()] > playersPts[playerWinnerOfRound.get(j).intValue()]) {
-                    playerWinnerOfRound.remove(j);
-                    j--;
-                }
+        for (int j = 1; j < playerWinnerOfRound.size(); j++) {
+            if (playersPts[playerWinnerOfRound.get(j-1).intValue()] < playersPts[playerWinnerOfRound.get(j).intValue()]) {
+                playerWinnerOfRound.remove(j-1);
+                j--;
+            } else if (playersPts[playerWinnerOfRound.get(j-1).intValue()] > playersPts[playerWinnerOfRound.get(j).intValue()]) {
+                playerWinnerOfRound.remove(j);
+                j--;
             }
         }
         
         /*sumo los puntos de los perdedores (si ha habido empate)*/
         for (int i = 0; i < playerLooserOfRound.size(); i++){
             sumLooserPoint += playersPts[playerLooserOfRound.get(i).intValue()];
+            sumWinnerPoints += playersPts[playerLooserOfRound.get(i).intValue()];
         }
+        
         
         /*sumo los puntos de los ganadores (si ha habido empate)*/
         for (int i = 0; i < playerWinnerOfRound.size(); i++) {
             sumWinnerPoints += playersPts[playerWinnerOfRound.get(i).intValue()];
         }
+        
         
         for (int i = 0; i < players.length; i++) {
             if (playerLooserOfRound.contains(i)) {

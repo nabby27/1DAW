@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,8 +15,12 @@
 public class Ejercicio07 {
     
     public static void main(String[] args) {
-        String oracion = "Holaa, soy Iván";        
-        System.out.println(oracion);
+        Scanner keyboard = new Scanner(System.in);
+        String oracion = "";
+        
+        System.out.println("Dime tu nombre y apellidos:");
+        oracion = keyboard.nextLine();
+        
         initialWord(oracion);
     }
     
@@ -26,10 +33,7 @@ public class Ejercicio07 {
         }
         
         for (int i = 0; i < words.length; i++) {
-            if (i == 0)
-                System.out.print(initialWords[i]);
-            else 
-                System.out.print(", " + initialWords[i]);
+            System.out.print(initialWords[i] + ". ");
         }
         
         System.out.println("");
