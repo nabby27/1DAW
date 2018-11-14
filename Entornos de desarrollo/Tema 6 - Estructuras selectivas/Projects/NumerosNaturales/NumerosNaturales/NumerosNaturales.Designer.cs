@@ -50,8 +50,8 @@
             this.tbPar = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbResultadoParImpar = new System.Windows.Forms.TextBox();
             this.tbNumParImpar = new System.Windows.Forms.TextBox();
+            this.lbResultadoParImpar = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -195,6 +195,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.lbResultadoParImpar);
             this.groupBox3.Controls.Add(this.btCalcularParImpar);
             this.groupBox3.Controls.Add(this.btReiniciarParImpar);
             this.groupBox3.Controls.Add(this.tbImpar);
@@ -202,7 +203,6 @@
             this.groupBox3.Controls.Add(this.tbPar);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.tbResultadoParImpar);
             this.groupBox3.Controls.Add(this.tbNumParImpar);
             this.groupBox3.Location = new System.Drawing.Point(529, 13);
             this.groupBox3.Name = "groupBox3";
@@ -276,15 +276,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Inserte 15 números (pulse enter)";
             // 
-            // tbResultadoParImpar
-            // 
-            this.tbResultadoParImpar.Location = new System.Drawing.Point(215, 19);
-            this.tbResultadoParImpar.Multiline = true;
-            this.tbResultadoParImpar.Name = "tbResultadoParImpar";
-            this.tbResultadoParImpar.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbResultadoParImpar.Size = new System.Drawing.Size(100, 202);
-            this.tbResultadoParImpar.TabIndex = 1;
-            // 
             // tbNumParImpar
             // 
             this.tbNumParImpar.Location = new System.Drawing.Point(7, 47);
@@ -292,6 +283,14 @@
             this.tbNumParImpar.Size = new System.Drawing.Size(193, 20);
             this.tbNumParImpar.TabIndex = 0;
             this.tbNumParImpar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.addParImpar);
+            // 
+            // lbResultadoParImpar
+            // 
+            this.lbResultadoParImpar.FormattingEnabled = true;
+            this.lbResultadoParImpar.Location = new System.Drawing.Point(215, 45);
+            this.lbResultadoParImpar.Name = "lbResultadoParImpar";
+            this.lbResultadoParImpar.Size = new System.Drawing.Size(100, 173);
+            this.lbResultadoParImpar.TabIndex = 9;
             // 
             // NumerosNaturales
             // 
@@ -337,8 +336,8 @@
         private System.Windows.Forms.TextBox tbPar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbResultadoParImpar;
         private System.Windows.Forms.TextBox tbNumParImpar;
+        private System.Windows.Forms.ListBox lbResultadoParImpar;
     }
 }
 

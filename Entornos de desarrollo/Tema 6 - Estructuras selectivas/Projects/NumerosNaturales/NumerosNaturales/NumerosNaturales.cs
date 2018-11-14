@@ -16,7 +16,6 @@ namespace NumerosNaturales
             InitializeComponent();
         }
 
-        List<int> nums = new List<int>();
         int contador = 0;
 
         private void contar(object sender, EventArgs e)
@@ -71,12 +70,12 @@ namespace NumerosNaturales
 
         private void calcularParImpar(object sender, EventArgs e)
         {
-            foreach (int num in nums)
+            foreach (int item in lbResultadoParImpar.Items)
             {
-                if (num % 2 == 0)
-                    tbPar.AppendText(num + "\n");
+                if (item % 2 == 0)
+                    tbPar.AppendText(item + "\n");
                 else
-                    tbImpar.AppendText(num + "\n");
+                    tbImpar.AppendText(item + "\n");
             }
         }
 
@@ -84,10 +83,10 @@ namespace NumerosNaturales
         {
             tbImpar.Text = "";
             tbPar.Text = "";
-            tbResultadoParImpar.Text = "";
+            lbResultadoParImpar.Text = "";
             tbNumParImpar.Text = "";
             tbNumParImpar.Enabled = true;
-            List<int> nums = new List<int>();
+            lbResultadoParImpar.Items.Clear();
         }
 
         private void addParImpar(object sender, KeyEventArgs e)
@@ -98,8 +97,7 @@ namespace NumerosNaturales
                     MessageBox.Show("Necesita introducir un número", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                 {
-                    nums.Add((Int32.Parse(tbNumParImpar.Text)));
-                    tbResultadoParImpar.AppendText(tbNumParImpar.Text + "\n");
+                    lbResultadoParImpar.Items.Add((Int32.Parse(tbNumParImpar.Text)));
                     
                     if (contador > 13)
                     {

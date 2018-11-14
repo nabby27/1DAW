@@ -5,3 +5,10 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debu
 C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.csproj.GenerateResource.Cache
 C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.exe
 C:\Users\AlumMati\AppData\Local\Temporary Projects\NumerosNaturales\obj\x86\Debug\NumerosNaturales.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\obj\x86\Debug\NumerosNaturales.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\obj\x86\Debug\NumerosNaturales.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\obj\x86\Debug\NumerosNaturales.NumerosNaturales.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\obj\x86\Debug\NumerosNaturales.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\obj\x86\Debug\NumerosNaturales.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\bin\Debug\NumerosNaturales.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 6 - Estructuras selectivas\Projects\NumerosNaturales\NumerosNaturales\bin\Debug\NumerosNaturales.pdb

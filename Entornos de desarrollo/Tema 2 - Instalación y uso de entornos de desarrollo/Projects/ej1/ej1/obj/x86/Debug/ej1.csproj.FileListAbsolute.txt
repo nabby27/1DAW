@@ -3,3 +3,5 @@ C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej1\ej1\bin\Debug\ej1.pdb
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej1\ej1\obj\x86\Debug\ej1.exe
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej1\ej1\obj\x86\Debug\ej1.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 2 - Instalación y uso de entornos de desarrollo\Projects\ej1\ej1\obj\x86\Debug\ej1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 2 - Instalación y uso de entornos de desarrollo\Projects\ej1\ej1\obj\x86\Debug\ej1.pdb

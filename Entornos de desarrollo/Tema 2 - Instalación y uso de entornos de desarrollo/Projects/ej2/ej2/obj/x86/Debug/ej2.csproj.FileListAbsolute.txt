@@ -2,3 +2,5 @@ C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej2\ej2\bin\Debug\ej2.pdb
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
 C:\Users\ivanc\Documents\1DAW\Entornos\Tema 1 - Desarrollo del software\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 2 - Instalación y uso de entornos de desarrollo\Projects\ej2\ej2\obj\x86\Debug\ej2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 2 - Instalación y uso de entornos de desarrollo\Projects\ej2\ej2\obj\x86\Debug\ej2.pdb
