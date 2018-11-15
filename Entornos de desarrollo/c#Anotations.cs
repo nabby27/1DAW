@@ -1,31 +1,31 @@
-// Cambiar color texto
+// Change text color
 lColorTexto.ForeColor = Color.Red;
 
-// Mover a la izquierda
+// Move to left
 this.Location = new Point(Left - 10, Top);
 
-// Mover a la izquierda
+// Move to right
 this.Location = new Point(Left + 10, Top);
 
-// Mover hacía arriba
+// Move up
 this.Location = new Point(this.Left, this.Top - 10);
 
-// Mover hacía abajo 
+// Move down 
 this.Location = new Point(this.Left, this.Top + 10);
 
-// Centrar a la pantalla
+// Center to screen
 this.CenterToScreen();
 
-// Posicion X del raton
+// Position X of mouse
 e.X
 
-// Posicion Y del raton
+// Position Y of mouse
 e.Y
 
-// Boton del ratón
+// Mouse button
 e.Button
 
-// Tecla apretada
+// Keys
 e.KeyCode
 e.KeyChar
 e.Alt
@@ -33,32 +33,32 @@ e.Control
 e.Shift
 e.KeyCode.Equals(Keys.Enter)
 
-// Mensage en box
+// Box Message
 MessageBox.Show("Necesita introducir un número de inicio", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-// Cerrar 
+// Close 
 Close()
 
 // Set Font
 label.Font = new Font("Microsoft Sans Serif", 8.25f,  FontStyle.Italic);
 label.Font =  new Font(label.Font, FontStyle.Bold);
 
-// Comprobar estado de radio button
+// Check state of radio button
 rb.Checked
 
-// Comprobar estado de check box
+// Check state of check box
 cb.Checked
 
-// Convertir texto a número
+// Change text to number
 Int32.Parse(tb.Text); 
 
-// Crear número random de 0 a 10
+// Create random number (0 - 10)
 Random rnd = new Random();
 numRandom = rnd.Next(11);
 
-// Ocultar y mostrar un componente
+// Hide and show component
 tb.Hide();
 tb.Show();
 
-// Cambiar tamaño
+// Change size
 this.Size = new Size(x, y);
