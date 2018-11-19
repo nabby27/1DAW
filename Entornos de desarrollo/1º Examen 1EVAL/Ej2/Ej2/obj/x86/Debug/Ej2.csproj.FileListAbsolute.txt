@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\bin\Debug\Ej2.exe
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\bin\Debug\Ej2.pdb
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\obj\x86\Debug\Ej2.Form1.resources
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\obj\x86\Debug\Ej2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\obj\x86\Debug\Ej2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\obj\x86\Debug\Ej2.exe
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej2\Ej2\obj\x86\Debug\Ej2.pdb

@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\bin\Debug\Ej1.exe
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\bin\Debug\Ej1.pdb
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\obj\x86\Debug\Ej1.Form1.resources
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\obj\x86\Debug\Ej1.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\obj\x86\Debug\Ej1.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\obj\x86\Debug\Ej1.exe
+C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej1\Ej1\obj\x86\Debug\Ej1.pdb
