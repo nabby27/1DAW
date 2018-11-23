@@ -87,6 +87,7 @@ public class Ejercicio05 {
     }
     
     private static void palindromo(String frase) {
+        frase = frase.replace(" ", "");
         String[] letras = frase.split("");
         boolean palindormo = true;
         for (int i = 0; i < letras.length; i++) {
