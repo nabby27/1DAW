@@ -58,6 +58,8 @@ namespace Ej3
             lCont.Text = "...";
             tbNum.Clear();
             cont = 0;
+            pares = 0;
+            impares = 0;
         }
 
     }

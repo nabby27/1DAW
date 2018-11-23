@@ -7,3 +7,10 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\Ej3\obj\x86\Debug\Ej3.exe
 C:\Users\AlumMati\AppData\Local\Temporary Projects\Ej3\obj\x86\Debug\Ej3.pdb
 C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej3\Ej3\obj\x86\Debug\Ej3.exe
 C:\Users\AlumMati\Desktop\Examen Entornos - Iván Córdoba\Ej3\Ej3\obj\x86\Debug\Ej3.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\obj\x86\Debug\Ej3.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\obj\x86\Debug\Ej3.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\bin\Debug\Ej3.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\bin\Debug\Ej3.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\obj\x86\Debug\Ej3.ParesImpares.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\obj\x86\Debug\Ej3.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\1º Examen 1EVAL\Ej3\Ej3\obj\x86\Debug\Ej3.csproj.GenerateResource.Cache
