@@ -1,0 +1,8 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.Lista.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\bin\Debug\ListBox.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\bin\Debug\ListBox.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\ListBox\ListBox\obj\x86\Debug\ListBox.pdb

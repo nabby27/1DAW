@@ -14,6 +14,11 @@ namespace ListBox
         public Lista()
         {
             InitializeComponent();
+            addItems();
+        }
+
+        private void addItems()
+        {
             lbItems.Items.Add("Dilluns");
             lbItems.Items.Add("Dimarts");
             lbItems.Items.Add("Dimecres");
@@ -25,7 +30,31 @@ namespace ListBox
 
         private void removeFirstItem(object sender, EventArgs e)
         {
-            lbItems.Items.RemoveAt(lbItems.Items.);
+            lbItems.ClearSelected();
+            if (lbItems.Items.Count > 0)
+                lbItems.Items.RemoveAt(0);
+            lIndexItems.Text = "";
+            lNumItems.Text = lbItems.Items.Count.ToString();
+            lElements.Text = "";
+        }
+
+        private void changeSelected(object sender, EventArgs e)
+        {
+            if (null != lbItems.SelectedItem)
+            {
+                lIndexItems.Text = lbItems.SelectedIndex.ToString();
+                lNumItems.Text = lbItems.Items.Count.ToString();
+                lElements.Text = lbItems.SelectedItem.ToString();
+            }
+        }
+
+        private void reset(object sender, EventArgs e)
+        {
+            lbItems.Items.Clear();
+            addItems();
+            lIndexItems.Text = "";
+            lNumItems.Text = "";
+            lElements.Text = "";
         }
     }
 

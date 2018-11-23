@@ -46,6 +46,7 @@
             this.lbItems.Name = "lbItems";
             this.lbItems.Size = new System.Drawing.Size(140, 108);
             this.lbItems.TabIndex = 0;
+            this.lbItems.SelectedIndexChanged += new System.EventHandler(this.changeSelected);
             // 
             // bRemove
             // 
@@ -55,7 +56,7 @@
             this.bRemove.TabIndex = 1;
             this.bRemove.Text = "Borrar el primer elemento";
             this.bRemove.UseVisualStyleBackColor = true;
-            this.bRemove.Click += new System.EventHandler(this.bRemove_Click);
+            this.bRemove.Click += new System.EventHandler(this.removeFirstItem);
             // 
             // label1
             // 
@@ -116,6 +117,7 @@
             this.bReset.TabIndex = 8;
             this.bReset.Text = "Reiniciar";
             this.bReset.UseVisualStyleBackColor = true;
+            this.bReset.Click += new System.EventHandler(this.reset);
             // 
             // Lista
             // 
