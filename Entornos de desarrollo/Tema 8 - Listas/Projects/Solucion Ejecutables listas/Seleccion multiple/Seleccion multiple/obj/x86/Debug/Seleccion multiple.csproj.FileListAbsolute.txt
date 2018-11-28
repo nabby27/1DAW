@@ -7,3 +7,8 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\Seleccion multiple\obj\x86\De
 C:\Users\AlumMati\AppData\Local\Temporary Projects\Seleccion multiple\obj\x86\Debug\Seleccion multiple.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\obj\x86\Debug\Seleccion multiple.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\obj\x86\Debug\Seleccion multiple.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\bin\Debug\Seleccion multiple.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\bin\Debug\Seleccion multiple.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\obj\x86\Debug\Seleccion_multiple.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\obj\x86\Debug\Seleccion_multiple.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\Seleccion multiple\Seleccion multiple\obj\x86\Debug\Seleccion multiple.csproj.GenerateResource.Cache
