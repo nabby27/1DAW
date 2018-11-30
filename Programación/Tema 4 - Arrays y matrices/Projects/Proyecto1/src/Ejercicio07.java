@@ -32,7 +32,7 @@ public class Ejercicio07 {
         
         System.out.println();
                
-        for (int i = 0; i < numeros.size(); i++) {
+        for (int i = 1; i <= numeros.size(); i++) {
             int suma = 0;
             for (int j = 0; j < i; j++) {
                 suma += numeros.get(j);
@@ -41,7 +41,7 @@ public class Ejercicio07 {
         }
                 
         System.out.println("Original: " + numeros);
-        System.out.println("Modificado: " + numeros2);
+        System.out.println("Nuevo: " + numeros2);
     }
     
 }
