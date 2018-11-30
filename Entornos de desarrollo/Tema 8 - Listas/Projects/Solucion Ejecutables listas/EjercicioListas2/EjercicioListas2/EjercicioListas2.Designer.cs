@@ -33,12 +33,21 @@
             this.rbComboBox = new System.Windows.Forms.RadioButton();
             this.rbListBox = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbNum = new System.Windows.Forms.TextBox();
             this.btAdd = new System.Windows.Forms.Button();
             this.btRemove = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.cmb = new System.Windows.Forms.ComboBox();
+            this.lb = new System.Windows.Forms.ListBox();
+            this.clb = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbListBox = new System.Windows.Forms.TextBox();
+            this.tbComboBox = new System.Windows.Forms.TextBox();
+            this.tbCheckListBox = new System.Windows.Forms.TextBox();
+            this.btShow = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbMultiseleccion = new System.Windows.Forms.ListBox();
+            this.lSeleccionUnica = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,12 +105,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Elemento:";
             // 
-            // textBox1
+            // tbNum
             // 
-            this.textBox1.Location = new System.Drawing.Point(414, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(105, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbNum.Location = new System.Drawing.Point(414, 21);
+            this.tbNum.Name = "tbNum";
+            this.tbNum.Size = new System.Drawing.Size(105, 20);
+            this.tbNum.TabIndex = 2;
             // 
             // btAdd
             // 
@@ -111,6 +120,7 @@
             this.btAdd.TabIndex = 3;
             this.btAdd.Text = "Añadir";
             this.btAdd.UseVisualStyleBackColor = true;
+            this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
             // 
             // btRemove
             // 
@@ -120,42 +130,126 @@
             this.btRemove.TabIndex = 4;
             this.btRemove.Text = "Eliminar";
             this.btRemove.UseVisualStyleBackColor = true;
+            this.btRemove.Click += new System.EventHandler(this.btRemove_Click);
             // 
-            // comboBox1
+            // cmb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(179, 81);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 5;
+            this.cmb.FormattingEnabled = true;
+            this.cmb.Location = new System.Drawing.Point(179, 81);
+            this.cmb.Name = "cmb";
+            this.cmb.Size = new System.Drawing.Size(121, 21);
+            this.cmb.TabIndex = 5;
             // 
-            // listBox1
+            // lb
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(19, 81);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 6;
+            this.lb.FormattingEnabled = true;
+            this.lb.Location = new System.Drawing.Point(19, 81);
+            this.lb.Name = "lb";
+            this.lb.Size = new System.Drawing.Size(120, 95);
+            this.lb.TabIndex = 6;
             // 
-            // checkedListBox1
+            // clb
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(346, 82);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
-            this.checkedListBox1.TabIndex = 7;
+            this.clb.FormattingEnabled = true;
+            this.clb.Location = new System.Drawing.Point(346, 82);
+            this.clb.Name = "clb";
+            this.clb.Size = new System.Drawing.Size(120, 94);
+            this.clb.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 194);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Elementos:";
+            // 
+            // tbListBox
+            // 
+            this.tbListBox.Location = new System.Drawing.Point(102, 194);
+            this.tbListBox.Name = "tbListBox";
+            this.tbListBox.Size = new System.Drawing.Size(37, 20);
+            this.tbListBox.TabIndex = 9;
+            // 
+            // tbComboBox
+            // 
+            this.tbComboBox.Location = new System.Drawing.Point(263, 194);
+            this.tbComboBox.Name = "tbComboBox";
+            this.tbComboBox.Size = new System.Drawing.Size(37, 20);
+            this.tbComboBox.TabIndex = 10;
+            // 
+            // tbCheckListBox
+            // 
+            this.tbCheckListBox.Location = new System.Drawing.Point(429, 191);
+            this.tbCheckListBox.Name = "tbCheckListBox";
+            this.tbCheckListBox.Size = new System.Drawing.Size(37, 20);
+            this.tbCheckListBox.TabIndex = 11;
+            // 
+            // btShow
+            // 
+            this.btShow.Location = new System.Drawing.Point(12, 257);
+            this.btShow.Name = "btShow";
+            this.btShow.Size = new System.Drawing.Size(127, 23);
+            this.btShow.TabIndex = 12;
+            this.btShow.Text = "Mostrar seleccionados";
+            this.btShow.UseVisualStyleBackColor = true;
+            this.btShow.Click += new System.EventHandler(this.btShow_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(195, 227);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Selección única";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(372, 227);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 13);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Multiselección";
+            // 
+            // lbMultiseleccion
+            // 
+            this.lbMultiseleccion.FormattingEnabled = true;
+            this.lbMultiseleccion.Location = new System.Drawing.Point(346, 257);
+            this.lbMultiseleccion.Name = "lbMultiseleccion";
+            this.lbMultiseleccion.Size = new System.Drawing.Size(120, 121);
+            this.lbMultiseleccion.TabIndex = 15;
+            // 
+            // lSeleccionUnica
+            // 
+            this.lSeleccionUnica.AutoSize = true;
+            this.lSeleccionUnica.Location = new System.Drawing.Point(213, 262);
+            this.lSeleccionUnica.Name = "lSeleccionUnica";
+            this.lSeleccionUnica.Size = new System.Drawing.Size(0, 13);
+            this.lSeleccionUnica.TabIndex = 16;
             // 
             // EjercicioListas2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 262);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(531, 391);
+            this.Controls.Add(this.lSeleccionUnica);
+            this.Controls.Add(this.lbMultiseleccion);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btShow);
+            this.Controls.Add(this.tbCheckListBox);
+            this.Controls.Add(this.tbComboBox);
+            this.Controls.Add(this.tbListBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.clb);
+            this.Controls.Add(this.lb);
+            this.Controls.Add(this.cmb);
             this.Controls.Add(this.btRemove);
             this.Controls.Add(this.btAdd);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbNum);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Name = "EjercicioListas2";
@@ -174,12 +268,21 @@
         private System.Windows.Forms.RadioButton rbComboBox;
         private System.Windows.Forms.RadioButton rbListBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbNum;
         private System.Windows.Forms.Button btAdd;
         private System.Windows.Forms.Button btRemove;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.ComboBox cmb;
+        private System.Windows.Forms.ListBox lb;
+        private System.Windows.Forms.CheckedListBox clb;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tbListBox;
+        private System.Windows.Forms.TextBox tbComboBox;
+        private System.Windows.Forms.TextBox tbCheckListBox;
+        private System.Windows.Forms.Button btShow;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox lbMultiseleccion;
+        private System.Windows.Forms.Label lSeleccionUnica;
     }
 }
 

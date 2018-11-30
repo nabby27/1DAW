@@ -1,0 +1,8 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\bin\Debug\EjercicioListas2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\bin\Debug\EjercicioListas2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.EjercicioListas2.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\EjercicioListas2\EjercicioListas2\obj\x86\Debug\EjercicioListas2.pdb

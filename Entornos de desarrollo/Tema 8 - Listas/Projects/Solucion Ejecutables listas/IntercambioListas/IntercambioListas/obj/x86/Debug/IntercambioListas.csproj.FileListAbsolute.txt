@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\bin\Debug\IntercambioListas.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\bin\Debug\IntercambioListas.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\obj\x86\Debug\IntercambioListas.IntercambioListas.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\obj\x86\Debug\IntercambioListas.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\obj\x86\Debug\IntercambioListas.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\obj\x86\Debug\IntercambioListas.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\IntercambioListas\obj\x86\Debug\IntercambioListas.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\IntercambioListas\IntercambioListas\obj\x86\Debug\IntercambioListas.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 8 - Listas\Projects\Solucion Ejecutables listas\IntercambioListas\IntercambioListas\obj\x86\Debug\IntercambioListas.pdb
