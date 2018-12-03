@@ -36,13 +36,7 @@ public class Ejercicio08 {
         
         System.out.println();
          
-        System.out.println("Los numeros no introducidos son: " + numerosNoIntroducidos);
-//        for (int i = 1; i <= numeros.size(); i++) {
-//            int suma = 0;
-//            for (int j = 0; j < i; j++) {
-//                suma += numeros.get(j);
-//            }
-//        }           
+        System.out.println("Los numeros no introducidos son: " + numerosNoIntroducidos);           
     }
     
     private static void addNumerosNoIntroducidos() {
