@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\bin\Release\Timer.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\bin\Release\Timer.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Release\Timer.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Release\Timer.Timer.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Release\Timer.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Release\Timer.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Release\Timer.pdb

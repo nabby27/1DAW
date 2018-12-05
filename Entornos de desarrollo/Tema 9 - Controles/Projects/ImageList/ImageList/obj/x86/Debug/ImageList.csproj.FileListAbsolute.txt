@@ -1,0 +1,14 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\bin\Debug\ImageList.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\bin\Debug\ImageList.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\obj\x86\Debug\ImageList.Form1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\obj\x86\Debug\ImageList.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\obj\x86\Debug\ImageList.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\obj\x86\Debug\ImageList.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\ImageList\obj\x86\Debug\ImageList.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\obj\x86\Debug\ImageList.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\obj\x86\Debug\ImageList.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\bin\Debug\ImageList.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\bin\Debug\ImageList.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\obj\x86\Debug\ImageList.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\obj\x86\Debug\ImageList.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\ImageList\ImageList\obj\x86\Debug\ImageList.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\bin\Debug\Peliculas.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\bin\Debug\Peliculas.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.Peliculas.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Peliculas\Peliculas\obj\x86\Debug\Peliculas.pdb

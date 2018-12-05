@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\bin\Debug\Timer.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\bin\Debug\Timer.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\obj\x86\Debug\Timer.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\obj\x86\Debug\Timer.Timer.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\obj\x86\Debug\Timer.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\obj\x86\Debug\Timer.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Timer\obj\x86\Debug\Timer.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Debug\Timer.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 9 - Controles\Projects\Timer\Timer\obj\x86\Debug\Timer.pdb
