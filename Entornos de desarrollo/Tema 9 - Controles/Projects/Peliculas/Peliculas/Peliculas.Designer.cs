@@ -29,36 +29,44 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Peliculas));
             this.ilKillBill = new System.Windows.Forms.ImageList(this.components);
             this.ilDjango = new System.Windows.Forms.ImageList(this.components);
             this.ilAbierto = new System.Windows.Forms.ImageList(this.components);
             this.pbImagenes = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cbPeliculas = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lFichaText = new System.Windows.Forms.Label();
             this.lFichaTecnicaDescripcion = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lSinopsisText = new System.Windows.Forms.Label();
             this.lSinopsisDescripcion = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbImagenes)).BeginInit();
             this.SuspendLayout();
             // 
             // ilKillBill
             // 
-            this.ilKillBill.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.ilKillBill.ImageSize = new System.Drawing.Size(160, 160);
+            this.ilKillBill.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilKillBill.ImageStream")));
             this.ilKillBill.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilKillBill.Images.SetKeyName(0, "kill_bill02.jpg");
+            this.ilKillBill.Images.SetKeyName(1, "resizer.jpg");
+            this.ilKillBill.Images.SetKeyName(2, "venta-al-por-mayor-de-alta-calidad-kill-bill.jpg");
             // 
             // ilDjango
             // 
-            this.ilDjango.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.ilDjango.ImageSize = new System.Drawing.Size(160, 160);
+            this.ilDjango.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilDjango.ImageStream")));
             this.ilDjango.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilDjango.Images.SetKeyName(0, "81GFaYoEjkL._SX342_.jpg");
+            this.ilDjango.Images.SetKeyName(1, "django_1.jpg");
+            this.ilDjango.Images.SetKeyName(2, "Django_Unchained_Poster.jpg");
             // 
             // ilAbierto
             // 
-            this.ilAbierto.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.ilAbierto.ImageSize = new System.Drawing.Size(160, 160);
+            this.ilAbierto.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilAbierto.ImageStream")));
             this.ilAbierto.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilAbierto.Images.SetKeyName(0, "40303526.jpg");
+            this.ilAbierto.Images.SetKeyName(1, "resizer (1).jpg");
+            this.ilAbierto.Images.SetKeyName(2, "still_0_3_790x398.jpg");
             // 
             // pbImagenes
             // 
@@ -85,16 +93,18 @@
             this.cbPeliculas.Name = "cbPeliculas";
             this.cbPeliculas.Size = new System.Drawing.Size(196, 21);
             this.cbPeliculas.TabIndex = 2;
+            this.cbPeliculas.SelectedIndexChanged += new System.EventHandler(this.cbPeliculas_SelectedIndexChanged);
             // 
-            // label2
+            // lFichaText
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ficha Técnica";
+            this.lFichaText.AutoSize = true;
+            this.lFichaText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFichaText.Location = new System.Drawing.Point(14, 79);
+            this.lFichaText.Name = "lFichaText";
+            this.lFichaText.Size = new System.Drawing.Size(109, 17);
+            this.lFichaText.TabIndex = 3;
+            this.lFichaText.Text = "Ficha Técnica";
+            this.lFichaText.Visible = false;
             // 
             // lFichaTecnicaDescripcion
             // 
@@ -103,15 +113,16 @@
             this.lFichaTecnicaDescripcion.Size = new System.Drawing.Size(196, 110);
             this.lFichaTecnicaDescripcion.TabIndex = 4;
             // 
-            // label3
+            // lSinopsisText
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 237);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 17);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Sinópsis";
+            this.lSinopsisText.AutoSize = true;
+            this.lSinopsisText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lSinopsisText.Location = new System.Drawing.Point(14, 237);
+            this.lSinopsisText.Name = "lSinopsisText";
+            this.lSinopsisText.Size = new System.Drawing.Size(69, 17);
+            this.lSinopsisText.TabIndex = 5;
+            this.lSinopsisText.Text = "Sinópsis";
+            this.lSinopsisText.Visible = false;
             // 
             // lSinopsisDescripcion
             // 
@@ -120,15 +131,20 @@
             this.lSinopsisDescripcion.Size = new System.Drawing.Size(383, 120);
             this.lSinopsisDescripcion.TabIndex = 6;
             // 
+            // timer
+            // 
+            this.timer.Interval = 3000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // Peliculas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 392);
             this.Controls.Add(this.lSinopsisDescripcion);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lSinopsisText);
             this.Controls.Add(this.lFichaTecnicaDescripcion);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lFichaText);
             this.Controls.Add(this.cbPeliculas);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbImagenes);
@@ -149,10 +165,11 @@
         private System.Windows.Forms.PictureBox pbImagenes;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbPeliculas;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lFichaText;
         private System.Windows.Forms.Label lFichaTecnicaDescripcion;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lSinopsisText;
         private System.Windows.Forms.Label lSinopsisDescripcion;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
