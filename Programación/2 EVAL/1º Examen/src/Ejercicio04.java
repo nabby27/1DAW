@@ -17,11 +17,13 @@ public class Ejercicio04 {
         
         int numFilas = 0;
         int numColumnas = 0;
+        System.out.print("Dime el tamaño del triangulo: ");
         Scanner sc = new Scanner(System.in);
         numFilas = sc.nextInt();
         
         numColumnas = (numFilas*2)-1;
         
+        System.out.println("");
             for (int j = numFilas; j > 0 ; j--) {
                 
                 for (int k = 0; k < j-1; k++){
