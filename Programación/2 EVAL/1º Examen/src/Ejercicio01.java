@@ -73,15 +73,17 @@ public class Ejercicio01 {
     
     private static void superado10grados() {
         boolean reset = true;
-        for (int i = 0; i < temperaturas.length; i++) {
-            if (temperaturas[i] > 10 && mas10++ > 0 || temperaturas[i] > 10 && reset) {
-                mas10++;
+        int i = 0;
+        while(i < temperaturas.length && mas10 < 3) {
+            if (temperaturas[i] > 10 && mas10 > 0 || temperaturas[i] > 10 && reset) {
+                mas10 += 1;
                 reset = false;
             }
             else {
                 mas10 = 0;
                 reset = true;
             }
+            i++;
         }
     }
     
