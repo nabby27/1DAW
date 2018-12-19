@@ -1,0 +1,14 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\bin\Debug\Menu.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\bin\Debug\Menu.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\obj\x86\Debug\Menu.Form1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\obj\x86\Debug\Menu.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\obj\x86\Debug\Menu.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\obj\x86\Debug\Menu.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Menu\obj\x86\Debug\Menu.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\obj\x86\Debug\Menu.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\obj\x86\Debug\Menu.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\bin\Debug\Menu.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\bin\Debug\Menu.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\obj\x86\Debug\Menu.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\obj\x86\Debug\Menu.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Menu\Menu\obj\x86\Debug\Menu.csproj.GenerateResource.Cache

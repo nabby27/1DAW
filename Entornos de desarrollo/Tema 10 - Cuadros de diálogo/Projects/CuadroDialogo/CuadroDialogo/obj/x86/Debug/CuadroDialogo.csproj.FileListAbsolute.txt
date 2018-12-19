@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\bin\Debug\CuadroDialogo.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\bin\Debug\CuadroDialogo.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\obj\x86\Debug\CuadroDialogo.cuadroDialogo.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\obj\x86\Debug\CuadroDialogo.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\obj\x86\Debug\CuadroDialogo.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\obj\x86\Debug\CuadroDialogo.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\CuadroDialogo\obj\x86\Debug\CuadroDialogo.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\CuadroDialogo\CuadroDialogo\obj\x86\Debug\CuadroDialogo.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\CuadroDialogo\CuadroDialogo\obj\x86\Debug\CuadroDialogo.pdb
