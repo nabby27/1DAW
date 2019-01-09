@@ -89,10 +89,14 @@ public class Ahorcado {
         
         while (intentos < numMaximoIntentos && !palabraAcertada) {
             System.out.println("");
-            System.out.println("Di una letra");
-            letra = sc.nextLine();
-            letra = letra.toUpperCase();
-
+            do {
+                System.out.println("Di una letra");
+                letra = sc.nextLine();
+                letra = letra.toUpperCase();
+                if (letra.length() != 1)
+                    System.out.println("Introduce una sola letra");
+            } while(letra.length() != 1);
+            
             if (letrasAcertadas.contains(letra) || letrasFalladas.contains(letra)) {
                 System.out.println("Letra introducida anteriormente");
             }
