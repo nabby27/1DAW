@@ -30,10 +30,11 @@
         {
             this.btImage = new System.Windows.Forms.Button();
             this.btFuente = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbFile = new System.Windows.Forms.TextBox();
+            this.tbFont = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.fontDialog = new System.Windows.Forms.FontDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             this.btImage.TabIndex = 0;
             this.btImage.Text = "Cargar imagen";
             this.btImage.UseVisualStyleBackColor = true;
+            this.btImage.Click += new System.EventHandler(this.btImage_Click);
             // 
             // btFuente
             // 
@@ -56,29 +58,34 @@
             this.btFuente.UseVisualStyleBackColor = true;
             this.btFuente.Click += new System.EventHandler(this.btFuente_Click);
             // 
-            // textBox1
+            // tbFile
             // 
-            this.textBox1.Location = new System.Drawing.Point(166, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(244, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbFile.Location = new System.Drawing.Point(166, 29);
+            this.tbFile.Name = "tbFile";
+            this.tbFile.ReadOnly = true;
+            this.tbFile.Size = new System.Drawing.Size(244, 20);
+            this.tbFile.TabIndex = 2;
             // 
-            // textBox2
+            // tbFont
             // 
-            this.textBox2.Location = new System.Drawing.Point(166, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(244, 20);
-            this.textBox2.TabIndex = 3;
+            this.tbFont.Location = new System.Drawing.Point(166, 75);
+            this.tbFont.Name = "tbFont";
+            this.tbFont.Size = new System.Drawing.Size(244, 20);
+            this.tbFont.TabIndex = 3;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(95, 119);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 161);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // cuadroDialogo
             // 
@@ -86,8 +93,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(439, 292);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbFont);
+            this.Controls.Add(this.tbFile);
             this.Controls.Add(this.btFuente);
             this.Controls.Add(this.btImage);
             this.Name = "cuadroDialogo";
@@ -102,10 +109,11 @@
 
         private System.Windows.Forms.Button btImage;
         private System.Windows.Forms.Button btFuente;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbFile;
+        private System.Windows.Forms.TextBox tbFont;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.FontDialog fontDialog;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
