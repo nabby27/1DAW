@@ -20,10 +20,10 @@ public class Ahorcado {
     
     public static void main(String[] args) {
         setOpcionesPalabrasInit();
-        menu();
+        ahorcado();
     }
     
-    private static void menu() {
+    private static void ahorcado() {
         int opcion = 0;
         do {
             opcion = menuPrincipal();
@@ -74,7 +74,7 @@ public class Ahorcado {
         ArrayList<String> letrasFalladas = new ArrayList<String>();
         
         int intentos = 0;
-        boolean acertado = false;
+        boolean palabraAcertada = false;
         
         System.out.println("");
         System.out.println("Adivina la palabra!");
@@ -87,7 +87,7 @@ public class Ahorcado {
             System.out.print("_ ");
         }
         
-        while (intentos < numMaximoIntentos && !acertado) {
+        while (intentos < numMaximoIntentos && !palabraAcertada) {
             System.out.println("");
             System.out.println("Di una letra");
             letra = sc.nextLine();
@@ -112,11 +112,11 @@ public class Ahorcado {
             pintarAhorcado(palabra, letrasAcertadas);
             
             if (letrasPalabra.size() < 1) {
-                acertado = true;
+                palabraAcertada = true;
             }
         }
         
-        finalPartida(acertado, intentos);
+        finalPartida(palabraAcertada, intentos);
     }
     
     private static void setOpcionesPalabrasInit() {
@@ -200,7 +200,7 @@ public class Ahorcado {
                 eliminarPalabra();
                 break;
             case 5:
-                menu();
+                ahorcado();
                 break;
         }
     }
