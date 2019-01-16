@@ -57,7 +57,7 @@
             this.toolStripButtonCopiar = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButtonPegar = new System.Windows.Forms.ToolStripButton();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.msMenu.SuspendLayout();
             this.ssStatusStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
@@ -88,6 +88,7 @@
             this.msMenusArchivoSalir.Name = "msMenusArchivoSalir";
             this.msMenusArchivoSalir.Size = new System.Drawing.Size(96, 22);
             this.msMenusArchivoSalir.Text = "Salir";
+            this.msMenusArchivoSalir.Click += new System.EventHandler(this.salir_Click);
             // 
             // msMenuEdicion
             // 
@@ -107,6 +108,7 @@
             this.msMenuEdicionDeshacer.Name = "msMenuEdicionDeshacer";
             this.msMenuEdicionDeshacer.Size = new System.Drawing.Size(147, 22);
             this.msMenuEdicionDeshacer.Text = "Deshacer";
+            this.msMenuEdicionDeshacer.Click += new System.EventHandler(this.deshacer_Click);
             // 
             // toolStripSeparator3
             // 
@@ -115,17 +117,21 @@
             // 
             // msMenuEdicionCortar
             // 
+            this.msMenuEdicionCortar.Enabled = false;
             this.msMenuEdicionCortar.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionCortar.Image")));
             this.msMenuEdicionCortar.Name = "msMenuEdicionCortar";
             this.msMenuEdicionCortar.Size = new System.Drawing.Size(147, 22);
             this.msMenuEdicionCortar.Text = "Cortar Ctrl+X";
+            this.msMenuEdicionCortar.Click += new System.EventHandler(this.cortar_Click);
             // 
             // msMenuEdicionCopiar
             // 
+            this.msMenuEdicionCopiar.Enabled = false;
             this.msMenuEdicionCopiar.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionCopiar.Image")));
             this.msMenuEdicionCopiar.Name = "msMenuEdicionCopiar";
             this.msMenuEdicionCopiar.Size = new System.Drawing.Size(147, 22);
             this.msMenuEdicionCopiar.Text = "Copiar Ctrl+C";
+            this.msMenuEdicionCopiar.Click += new System.EventHandler(this.copiar_Click);
             // 
             // msMenuEdicionPegar
             // 
@@ -133,6 +139,7 @@
             this.msMenuEdicionPegar.Name = "msMenuEdicionPegar";
             this.msMenuEdicionPegar.Size = new System.Drawing.Size(147, 22);
             this.msMenuEdicionPegar.Text = "Pegar Ctrl+V";
+            this.msMenuEdicionPegar.Click += new System.EventHandler(this.pegar_Click);
             // 
             // msMenuOpciones
             // 
@@ -158,18 +165,21 @@
             this.msMenuOpcionesFuente1.Name = "msMenuOpcionesFuente1";
             this.msMenuOpcionesFuente1.Size = new System.Drawing.Size(158, 22);
             this.msMenuOpcionesFuente1.Text = "Courier New";
+            this.msMenuOpcionesFuente1.Click += new System.EventHandler(this.fuente_Click);
             // 
             // msMenuOpcionesFuente2
             // 
             this.msMenuOpcionesFuente2.Name = "msMenuOpcionesFuente2";
             this.msMenuOpcionesFuente2.Size = new System.Drawing.Size(158, 22);
             this.msMenuOpcionesFuente2.Text = "Arial";
+            this.msMenuOpcionesFuente2.Click += new System.EventHandler(this.fuente_Click);
             // 
             // msMenuOpcionesFuente3
             // 
             this.msMenuOpcionesFuente3.Name = "msMenuOpcionesFuente3";
             this.msMenuOpcionesFuente3.Size = new System.Drawing.Size(158, 22);
             this.msMenuOpcionesFuente3.Text = "Predeterminada";
+            this.msMenuOpcionesFuente3.Click += new System.EventHandler(this.fuente_Click);
             // 
             // msMenuOpcionesTamano
             // 
@@ -186,18 +196,21 @@
             this.msMenuOpcionesTamano1.Name = "msMenuOpcionesTamano1";
             this.msMenuOpcionesTamano1.Size = new System.Drawing.Size(159, 22);
             this.msMenuOpcionesTamano1.Text = "16";
+            this.msMenuOpcionesTamano1.Click += new System.EventHandler(this.tamano_Click);
             // 
             // msMenuOpcionesTamano2
             // 
             this.msMenuOpcionesTamano2.Name = "msMenuOpcionesTamano2";
             this.msMenuOpcionesTamano2.Size = new System.Drawing.Size(159, 22);
             this.msMenuOpcionesTamano2.Text = "24";
+            this.msMenuOpcionesTamano2.Click += new System.EventHandler(this.tamano_Click);
             // 
             // msMenuOpcionesTamano3
             // 
             this.msMenuOpcionesTamano3.Name = "msMenuOpcionesTamano3";
             this.msMenuOpcionesTamano3.Size = new System.Drawing.Size(159, 22);
             this.msMenuOpcionesTamano3.Text = "Predeterminado";
+            this.msMenuOpcionesTamano3.Click += new System.EventHandler(this.tamano_Click);
             // 
             // textBox
             // 
@@ -206,6 +219,9 @@
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(384, 185);
             this.textBox.TabIndex = 2;
+            this.textBox.TextChanged += new System.EventHandler(this.textChanged);
+            this.textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyDown);
+            this.textBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // ssStatusStrip
             // 
@@ -276,10 +292,6 @@
             this.toolStripButtonPegar.Text = "Pegar";
             this.toolStripButtonPegar.Click += new System.EventHandler(this.pegar_Click);
             // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,7 +343,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButtonCopiar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripButton toolStripButtonPegar;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
     }
 }
