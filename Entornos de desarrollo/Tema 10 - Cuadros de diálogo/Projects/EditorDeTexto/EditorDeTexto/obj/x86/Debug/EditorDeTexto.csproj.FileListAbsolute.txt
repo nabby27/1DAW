@@ -12,3 +12,4 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diál
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EditorDeTexto\EditorDeTexto\obj\x86\Debug\EditorDeTexto.editor.resources
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EditorDeTexto\EditorDeTexto\obj\x86\Debug\EditorDeTexto.Properties.Resources.resources
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EditorDeTexto\EditorDeTexto\obj\x86\Debug\EditorDeTexto.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EditorDeTexto\EditorDeTexto\obj\x86\Debug\EditorDeTexto.csprojResolveAssemblyReference.cache

@@ -8,7 +8,7 @@
  *
  * @author Iván Córdoba Donet
  */
-public class Alumno {
+public class Alumno4 {
     
     private String nombre;
     private String apellidos;
@@ -17,21 +17,7 @@ public class Alumno {
     private String grupo;
     private char horario;
     private float notaSelectividad;
-    
-    public Alumno() {
         
-    }
-    
-    public Alumno(String nombre, String apellidos, int anoDeNacimiento, int numeroPersonal, String grupo, char horario, float notaSelectividad) {
-        this.nombre = nombre;
-        this.apellidos = apellidos;
-        this.anoDeNacimiento = anoDeNacimiento;
-        this.numeroPersonal = numeroPersonal;
-        this.grupo = grupo;
-        this.horario = horario;
-        this.notaSelectividad = notaSelectividad;
-    }
-    
     public String getNombre() {
         return this.nombre;
     }

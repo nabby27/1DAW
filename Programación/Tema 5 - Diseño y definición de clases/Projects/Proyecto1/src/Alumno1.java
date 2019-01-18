@@ -8,10 +8,13 @@
  *
  * @author Iván Córdoba Donet
  */
-public class Ejercicio01 {
+public class Alumno1 {
     
-    public static void main(String[] args) {
-        
-    }
-    
+    String nombre;
+    String apellidos;
+    int anoDeNacimiento;
+    int numeroPersonal;
+    String grupo;
+    char horario;    
+   
 }

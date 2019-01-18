@@ -106,22 +106,23 @@
             // 
             this.msMenuEdicionDeshacer.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionDeshacer.Image")));
             this.msMenuEdicionDeshacer.Name = "msMenuEdicionDeshacer";
-            this.msMenuEdicionDeshacer.Size = new System.Drawing.Size(147, 22);
+            this.msMenuEdicionDeshacer.Size = new System.Drawing.Size(152, 22);
             this.msMenuEdicionDeshacer.Text = "Deshacer";
             this.msMenuEdicionDeshacer.Click += new System.EventHandler(this.deshacer_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(144, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
             // 
             // msMenuEdicionCortar
             // 
             this.msMenuEdicionCortar.Enabled = false;
             this.msMenuEdicionCortar.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionCortar.Image")));
             this.msMenuEdicionCortar.Name = "msMenuEdicionCortar";
-            this.msMenuEdicionCortar.Size = new System.Drawing.Size(147, 22);
-            this.msMenuEdicionCortar.Text = "Cortar Ctrl+X";
+            this.msMenuEdicionCortar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.msMenuEdicionCortar.Size = new System.Drawing.Size(152, 22);
+            this.msMenuEdicionCortar.Text = "Cortar";
             this.msMenuEdicionCortar.Click += new System.EventHandler(this.cortar_Click);
             // 
             // msMenuEdicionCopiar
@@ -129,16 +130,18 @@
             this.msMenuEdicionCopiar.Enabled = false;
             this.msMenuEdicionCopiar.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionCopiar.Image")));
             this.msMenuEdicionCopiar.Name = "msMenuEdicionCopiar";
-            this.msMenuEdicionCopiar.Size = new System.Drawing.Size(147, 22);
-            this.msMenuEdicionCopiar.Text = "Copiar Ctrl+C";
+            this.msMenuEdicionCopiar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.msMenuEdicionCopiar.Size = new System.Drawing.Size(152, 22);
+            this.msMenuEdicionCopiar.Text = "Copiar";
             this.msMenuEdicionCopiar.Click += new System.EventHandler(this.copiar_Click);
             // 
             // msMenuEdicionPegar
             // 
             this.msMenuEdicionPegar.Image = ((System.Drawing.Image)(resources.GetObject("msMenuEdicionPegar.Image")));
             this.msMenuEdicionPegar.Name = "msMenuEdicionPegar";
-            this.msMenuEdicionPegar.Size = new System.Drawing.Size(147, 22);
-            this.msMenuEdicionPegar.Text = "Pegar Ctrl+V";
+            this.msMenuEdicionPegar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.msMenuEdicionPegar.Size = new System.Drawing.Size(152, 22);
+            this.msMenuEdicionPegar.Text = "Pegar";
             this.msMenuEdicionPegar.Click += new System.EventHandler(this.pegar_Click);
             // 
             // msMenuOpciones
@@ -220,7 +223,6 @@
             this.textBox.Size = new System.Drawing.Size(384, 185);
             this.textBox.TabIndex = 2;
             this.textBox.TextChanged += new System.EventHandler(this.textChanged);
-            this.textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyDown);
             this.textBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // ssStatusStrip

@@ -8,12 +8,11 @@
  *
  * @author Iván Córdoba Donet
  */
-public class PruebaAlumno {
+public class PruebaAlumno3 {
     
     public static void main(String[] args) {
         
-        /*
-        Alumno alumno1 = new Alumno();
+        Alumno3 alumno1 = new Alumno3();
         alumno1.setNombre("Juan");
         alumno1.setApellidos("García Fernández");
         alumno1.setAnoDeNacimiento(1985);
@@ -22,7 +21,7 @@ public class PruebaAlumno {
         alumno1.setHorario('M');
         alumno1.setNotaSelectividad(6.5F);
         
-        Alumno alumno2 = new Alumno();
+        Alumno3 alumno2 = new Alumno3();
         alumno2.setNombre("Iván");
         alumno2.setApellidos("Córdoba Donet");
         alumno2.setAnoDeNacimiento(1996);
@@ -33,42 +32,11 @@ public class PruebaAlumno {
        
         alumno1.imprimir();
         System.out.println("");
-        
         alumno2.imprimir();
         System.out.println("");
         
         System.out.println("Media de selectividad de la pareja: " + ((alumno1.getNotaSelectividad() + alumno2.getNotaSelectividad()) / 2) );
-        */
         
-        /*
-        Alumno alumno1;
-        Alumno alumno4;
-        Alumno alumno5;
-        Alumno delegado;
-        
-        alumno1 = new Alumno();
-        delegado = alumno1;
-        alumno1.setNombre("Juan");
-        
-        alumno4 = new Alumno();
-        alumno4.setNombre("clara");
-        
-        alumno5 = new Alumno();
-        alumno5.setNombre("Juan");
-        
-        System.out.println(alumno1 == delegado);
-        System.out.println(alumno1 == alumno5);
-        System.out.println(alumno5 == alumno4);
-        */
-        
-        /*
-        Alumno alumno1 = new Alumno("Juan", "García Fernández", 1985, 1020034569, "7031-91", 'M', 6.5F);
-        Alumno alumno2 = new Alumno("Iván", "Córdoba Donet", 1996, 1020034570, "7031-92", 'T', 9.3F);
-        
-        alumno1.imprimir();
-        System.out.println("");
-        alumno2.imprimir();
-        */
     }
 
 }

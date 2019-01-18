@@ -20,6 +20,8 @@ namespace EditorDeTexto
             InitializeComponent();
             timer.Start();
             fontPr = textBox.Font;
+            msMenuOpcionesTamano3.Checked = true;
+            msMenuOpcionesFuente3.Checked = true;
         }
 
         private void timer_Tick(object sender, EventArgs e)
