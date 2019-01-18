@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sumatorio", "Sumatorio\Sumatorio.csproj", "{B2FA82CD-1532-47C9-A902-D6A7B0DC84ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2FA82CD-1532-47C9-A902-D6A7B0DC84ED}.Debug|x86.ActiveCfg = Debug|x86
+		{B2FA82CD-1532-47C9-A902-D6A7B0DC84ED}.Debug|x86.Build.0 = Debug|x86
+		{B2FA82CD-1532-47C9-A902-D6A7B0DC84ED}.Release|x86.ActiveCfg = Release|x86
+		{B2FA82CD-1532-47C9-A902-D6A7B0DC84ED}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
