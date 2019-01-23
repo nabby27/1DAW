@@ -1,0 +1,8 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\bin\Debug\Sumatorio.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\bin\Debug\Sumatorio.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.Sumatorio.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\Sumatorio\Sumatorio\obj\x86\Debug\Sumatorio.pdb

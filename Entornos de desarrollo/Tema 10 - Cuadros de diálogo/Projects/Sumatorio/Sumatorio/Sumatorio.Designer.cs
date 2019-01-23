@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbNums = new System.Windows.Forms.ListBox();
             this.tbNum = new System.Windows.Forms.TextBox();
             this.btSum = new System.Windows.Forms.Button();
@@ -36,6 +37,8 @@
             this.lStart = new System.Windows.Forms.Label();
             this.lTotal = new System.Windows.Forms.Label();
             this.lNums = new System.Windows.Forms.Label();
+            this.timerStart = new System.Windows.Forms.Timer(this.components);
+            this.timerSum = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lbNums
@@ -72,6 +75,7 @@
             this.btReset.TabIndex = 3;
             this.btReset.Text = "Reset";
             this.btReset.UseVisualStyleBackColor = true;
+            this.btReset.Click += new System.EventHandler(this.btReset_Click);
             // 
             // label1
             // 
@@ -110,6 +114,16 @@
             this.lNums.TabIndex = 8;
             this.lNums.Text = "Números introducidos:";
             // 
+            // timerStart
+            // 
+            this.timerStart.Interval = 1;
+            this.timerStart.Tick += new System.EventHandler(this.timerStart_Tick);
+            // 
+            // timerSum
+            // 
+            this.timerSum.Interval = 500;
+            this.timerSum.Tick += new System.EventHandler(this.timerSum_Tick);
+            // 
             // Sumatorio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -140,6 +154,8 @@
         private System.Windows.Forms.Label lStart;
         private System.Windows.Forms.Label lTotal;
         private System.Windows.Forms.Label lNums;
+        private System.Windows.Forms.Timer timerStart;
+        private System.Windows.Forms.Timer timerSum;
     }
 }
 
