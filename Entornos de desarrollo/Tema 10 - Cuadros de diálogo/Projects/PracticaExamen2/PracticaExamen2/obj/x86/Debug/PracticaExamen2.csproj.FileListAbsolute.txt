@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\bin\Debug\PracticaExamen2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\bin\Debug\PracticaExamen2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\obj\x86\Debug\PracticaExamen2.PracticaExamen2.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\obj\x86\Debug\PracticaExamen2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\obj\x86\Debug\PracticaExamen2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\obj\x86\Debug\PracticaExamen2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen2\PracticaExamen2\obj\x86\Debug\PracticaExamen2.pdb
