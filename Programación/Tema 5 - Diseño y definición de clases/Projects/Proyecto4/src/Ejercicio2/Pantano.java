@@ -29,7 +29,9 @@ public class Pantano {
     }
 
     public void incrementarCantidad(Integer num) {
-        this.aguaAlmacenada += num;
+        if (this.capacidadTotal >= this.aguaAlmacenada + num){
+            this.aguaAlmacenada += num;
+        }
     }
     
     public Integer redProcentaje() {
