@@ -43,7 +43,7 @@ public class Alimento {
     }
     
     public String muestraAlimento() {
-        return "Nombre: " + this.nombre + "\t"
+        return    "Nombre: " + this.nombre + "\t"
                 + "Lipidos " + this.lipidos + "%\t"
                 + "Hidratos " + this.hidratos + "%\t"
                 + "Proteinas " + this.proteinas + "%\t"
