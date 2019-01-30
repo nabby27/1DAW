@@ -5,3 +5,4 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diál
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen\PracticaExamen\obj\x86\Debug\PracticaExamen.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen\PracticaExamen\obj\x86\Debug\PracticaExamen.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen\PracticaExamen\obj\x86\Debug\PracticaExamen.PracticaExamen.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\PracticaExamen\PracticaExamen\obj\x86\Debug\PracticaExamen.csprojResolveAssemblyReference.cache

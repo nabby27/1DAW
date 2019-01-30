@@ -74,15 +74,18 @@
             this.pictureBox.Location = new System.Drawing.Point(80, 52);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(131, 108);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
             // 
             // listBox
             // 
+            this.listBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox.FormattingEnabled = true;
-            this.listBox.Location = new System.Drawing.Point(80, 263);
+            this.listBox.ItemHeight = 25;
+            this.listBox.Location = new System.Drawing.Point(80, 245);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(131, 121);
+            this.listBox.Size = new System.Drawing.Size(131, 129);
             this.listBox.TabIndex = 2;
             // 
             // timerDate
@@ -113,8 +116,9 @@
             // 
             this.menuArchivoSalir.Name = "menuArchivoSalir";
             this.menuArchivoSalir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.menuArchivoSalir.Size = new System.Drawing.Size(139, 22);
+            this.menuArchivoSalir.Size = new System.Drawing.Size(152, 22);
             this.menuArchivoSalir.Text = "Salir";
+            this.menuArchivoSalir.Click += new System.EventHandler(this.menuArchivoSalir_Click);
             // 
             // menuEdicion
             // 
@@ -139,7 +143,7 @@
             // 
             // btBack
             // 
-            this.btBack.Location = new System.Drawing.Point(12, 192);
+            this.btBack.Location = new System.Drawing.Point(12, 180);
             this.btBack.Name = "btBack";
             this.btBack.Size = new System.Drawing.Size(75, 23);
             this.btBack.TabIndex = 4;
@@ -149,7 +153,7 @@
             // 
             // btStop
             // 
-            this.btStop.Location = new System.Drawing.Point(108, 192);
+            this.btStop.Location = new System.Drawing.Point(108, 180);
             this.btStop.Name = "btStop";
             this.btStop.Size = new System.Drawing.Size(75, 23);
             this.btStop.TabIndex = 5;
@@ -159,7 +163,7 @@
             // 
             // btNext
             // 
-            this.btNext.Location = new System.Drawing.Point(204, 192);
+            this.btNext.Location = new System.Drawing.Point(204, 180);
             this.btNext.Name = "btNext";
             this.btNext.Size = new System.Drawing.Size(75, 23);
             this.btNext.TabIndex = 6;
@@ -179,7 +183,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(125, 247);
+            this.label2.Location = new System.Drawing.Point(125, 229);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 8;
@@ -187,10 +191,12 @@
             // 
             // timerPictureNext
             // 
+            this.timerPictureNext.Interval = 1000;
             this.timerPictureNext.Tick += new System.EventHandler(this.timerPictureNext_Tick);
             // 
             // timerPictureBack
             // 
+            this.timerPictureBack.Interval = 1000;
             this.timerPictureBack.Tick += new System.EventHandler(this.timerPictureBack_Tick);
             // 
             // PracticaExamen2
