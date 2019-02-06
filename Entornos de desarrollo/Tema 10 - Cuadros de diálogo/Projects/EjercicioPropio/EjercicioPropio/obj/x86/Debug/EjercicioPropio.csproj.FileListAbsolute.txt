@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\bin\Debug\EjercicioPropio.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\bin\Debug\EjercicioPropio.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\obj\x86\Debug\EjercicioPropio.CambioDeListas.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\obj\x86\Debug\EjercicioPropio.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\obj\x86\Debug\EjercicioPropio.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\obj\x86\Debug\EjercicioPropio.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 10 - Cuadros de diálogo\Projects\EjercicioPropio\EjercicioPropio\obj\x86\Debug\EjercicioPropio.pdb
