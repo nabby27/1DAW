@@ -6,6 +6,8 @@
 package Ejercicio05;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 /**
@@ -19,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
         
         crearAlmacenes();
-        
+        ordenarAlmacenes();
         do {
             mostrarAlmacenes();
             menu();
@@ -34,6 +36,14 @@ public class Main {
         almacenes.add(almacen1);
         almacenes.add(almacen2);
         almacenes.add(almacen3);
+    }
+    
+    private static void ordenarAlmacenes() {
+//        Collections.sort(almacenes, new Comparator() {
+//            public int compare(Almacen a1, Almacen a2) {
+//                    return new Integer(a1.getDistancia()).compareTo(new Integer(a2.getDistancia()));
+//            }
+//        });       
     }
     
     private static void mostrarAlmacenes() {

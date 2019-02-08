@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\bin\Debug\Ivan_CordobaEj2.exe
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\bin\Debug\Ivan_CordobaEj2.pdb
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\obj\x86\Debug\Ivan_CordobaEj2.Ejercicio2.resources
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\obj\x86\Debug\Ivan_CordobaEj2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\obj\x86\Debug\Ivan_CordobaEj2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\obj\x86\Debug\Ivan_CordobaEj2.exe
+C:\Users\AlumMati\Desktop\EXAMEN - IVAN CORDOBA\Ivan_CordobaEj2\Ivan_CordobaEj2\obj\x86\Debug\Ivan_CordobaEj2.pdb
