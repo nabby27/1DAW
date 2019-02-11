@@ -15,15 +15,8 @@ public class Ejercicio01 {
     
     public static void main(String[] args) {
         
-        for (int linea = 0; linea < 10; linea++) {
-            for (int celda = 0; celda < 10; celda++) {
-                if ((celda+1) % 2 == 0){
-                    tb[linea][celda] = 1;
-                } else {
-                    tb[linea][celda] = 0;
-                }
-            }
-        }
+        filas();
+        //columnas();
         
         paint();
         
@@ -35,6 +28,30 @@ public class Ejercicio01 {
                 System.out.print(celda + " ");
             }
             System.out.println("");
+        }
+    }
+    
+    private static void filas() {
+        for (int linea = 0; linea < 10; linea++) {
+            for (int celda = 0; celda < 10; celda++) {
+                if ((linea+1) % 2 == 0){
+                    tb[linea][celda] = 1;
+                } else {
+                    tb[linea][celda] = 0;
+                }
+            }
+        }
+    }
+    
+    private static void columnas() {
+        for (int linea = 0; linea < 10; linea++) {
+            for (int celda = 0; celda < 10; celda++) {
+                if ((celda+1) % 2 == 0){
+                    tb[linea][celda] = 1;
+                } else {
+                    tb[linea][celda] = 0;
+                }
+            }
         }
     }
     

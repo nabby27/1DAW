@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicio05;
+package Ejercicio05b;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 /**
@@ -19,6 +21,7 @@ public class Main {
     public static void main(String[] args) {
         
         crearAlmacenes();
+        ordenarAlmacenes();
         do {
             mostrarAlmacenes();
             menu();
@@ -26,13 +29,27 @@ public class Main {
     }
     
     private static void crearAlmacenes() {
-        Almacen almacen1 = new Almacen("Alamcen 1", 0, 2);
-        Almacen almacen2 = new Almacen("Alamcen 2", 5, 4);
-        Almacen almacen3 = new Almacen("Alamcen 3", 10, 8);
+        Almacen almacen1 = new Almacen("Alamcen 1", 4, 2);
+        Almacen almacen2 = new Almacen("Alamcen 2", 3, 4);
+        Almacen almacen3 = new Almacen("Alamcen 3", 1, 8);
+        Almacen almacen4 = new Almacen("Alamcen 4", 2, 8);
+        Almacen almacen5 = new Almacen("Alamcen 5", 10, 8);
+        Almacen almacen6 = new Almacen("Alamcen 6", 5, 8);
         
         almacenes.add(almacen1);
-        almacenes.add(almacen2);
+        almacenes.add(almacen2);       
         almacenes.add(almacen3);
+        almacenes.add(almacen4);
+        almacenes.add(almacen5);
+        almacenes.add(almacen6);
+    }
+    
+    private static void ordenarAlmacenes() {
+        Collections.sort(almacenes, new Comparator<Almacen>() {
+            public int compare(Almacen a1, Almacen a2) {
+                    return new Integer(a1.getDistancia()).compareTo(new Integer(a2.getDistancia()));
+            }
+        });
     }
     
     private static void mostrarAlmacenes() {
