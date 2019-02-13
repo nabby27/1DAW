@@ -45,6 +45,7 @@
             this.lbNums1.Name = "lbNums1";
             this.lbNums1.Size = new System.Drawing.Size(120, 212);
             this.lbNums1.TabIndex = 0;
+            this.lbNums1.DoubleClick += new System.EventHandler(this.btToRightOne_Click);
             // 
             // lbNums2
             // 
@@ -53,6 +54,7 @@
             this.lbNums2.Name = "lbNums2";
             this.lbNums2.Size = new System.Drawing.Size(120, 212);
             this.lbNums2.TabIndex = 1;
+            this.lbNums2.DoubleClick += new System.EventHandler(this.btToLeftOne_Click);
             // 
             // btToRightOne
             // 

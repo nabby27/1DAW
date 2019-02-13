@@ -69,6 +69,7 @@ namespace Ivan_CordobaEj1
                 int total = precio * Int32.Parse(tbCant.Text);
                 String registro = fruta + "\t" + tbCant.Text + "Kg.\t" + precio + "\t" + total + "€";
                 lbTicket.Items.Add(registro);
+                lTotal.Text = (Int32.Parse(lTotal.Text) + total).ToString();
             }
         }
 
@@ -85,6 +86,7 @@ namespace Ivan_CordobaEj1
                 int total = precio * Int32.Parse(tbCant.Text);
                 String registro = fruta + "\t\t" + tbCant.Text + "Kg.\t" + precio + "\t" + total + "€";
                 lbTicket.Items.Add(registro);
+                lTotal.Text = (Int32.Parse(lTotal.Text) + total).ToString();
             }
         }
 
@@ -101,6 +103,7 @@ namespace Ivan_CordobaEj1
                 int total = precio * Int32.Parse(tbCant.Text);
                 String registro = fruta + "\t" + tbCant.Text + "Kg.\t" + precio + "\t" + total + "€";
                 lbTicket.Items.Add(registro);
+                lTotal.Text = (Int32.Parse(lTotal.Text) + total).ToString();
             }
         }
 
@@ -117,6 +120,7 @@ namespace Ivan_CordobaEj1
                 int total = precio * Int32.Parse(tbCant.Text);
                 String registro = fruta + "\t" + tbCant.Text + "Kg.\t" + precio + "\t" + total + "€";
                 lbTicket.Items.Add(registro);
+                lTotal.Text = (Int32.Parse(lTotal.Text) + total).ToString();
             }
         }
 
@@ -133,7 +137,9 @@ namespace Ivan_CordobaEj1
                 int total = precio * Int32.Parse(tbCant.Text);
                 String registro = fruta + "\t\t" + tbCant.Text + "Kg.\t" + precio + "\t" + total + "€";
                 lbTicket.Items.Add(registro);
+                lTotal.Text = (Int32.Parse(lTotal.Text) + total).ToString();
             }
         }
+
     }
 }

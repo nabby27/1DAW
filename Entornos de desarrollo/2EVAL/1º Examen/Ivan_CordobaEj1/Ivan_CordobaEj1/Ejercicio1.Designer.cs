@@ -50,6 +50,7 @@
             this.tbPriceMelocontones = new System.Windows.Forms.TextBox();
             this.tbPriceNaranjas = new System.Windows.Forms.TextBox();
             this.tbPriceFresas = new System.Windows.Forms.TextBox();
+            this.lTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -273,11 +274,22 @@
             this.tbPriceFresas.Size = new System.Drawing.Size(23, 20);
             this.tbPriceFresas.TabIndex = 20;
             // 
+            // lTotal
+            // 
+            this.lTotal.AutoSize = true;
+            this.lTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lTotal.Location = new System.Drawing.Point(350, 115);
+            this.lTotal.Name = "lTotal";
+            this.lTotal.Size = new System.Drawing.Size(19, 20);
+            this.lTotal.TabIndex = 21;
+            this.lTotal.Text = "0";
+            // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 449);
+            this.Controls.Add(this.lTotal);
             this.Controls.Add(this.tbPriceFresas);
             this.Controls.Add(this.tbPriceNaranjas);
             this.Controls.Add(this.tbPriceMelocontones);
@@ -334,6 +346,7 @@
         private System.Windows.Forms.TextBox tbPriceMelocontones;
         private System.Windows.Forms.TextBox tbPriceNaranjas;
         private System.Windows.Forms.TextBox tbPriceFresas;
+        private System.Windows.Forms.Label lTotal;
     }
 }
 
