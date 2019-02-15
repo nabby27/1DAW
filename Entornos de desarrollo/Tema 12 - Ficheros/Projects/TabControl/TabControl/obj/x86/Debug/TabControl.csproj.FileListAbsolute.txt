@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\bin\Debug\TabControl.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\bin\Debug\TabControl.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\obj\x86\Debug\TabControl.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\obj\x86\Debug\TabControl.TabControl.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\obj\x86\Debug\TabControl.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\obj\x86\Debug\TabControl.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\TabControl\obj\x86\Debug\TabControl.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\TabControl\TabControl\obj\x86\Debug\TabControl.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\TabControl\TabControl\obj\x86\Debug\TabControl.pdb

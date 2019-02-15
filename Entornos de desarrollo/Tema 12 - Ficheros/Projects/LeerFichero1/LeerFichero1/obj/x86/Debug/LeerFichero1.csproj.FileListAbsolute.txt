@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\bin\Debug\LeerFichero1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\bin\Debug\LeerFichero1.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\obj\x86\Debug\LeerFichero1.LeerFichero.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\obj\x86\Debug\LeerFichero1.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\obj\x86\Debug\LeerFichero1.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\obj\x86\Debug\LeerFichero1.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\LeerFichero1\LeerFichero1\obj\x86\Debug\LeerFichero1.pdb
