@@ -15,7 +15,7 @@ namespace Comensales
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new comensales());
+            Application.Run(new Comensales());
         }
     }
 }

@@ -7,3 +7,9 @@ C:\Users\AlumMati\AppData\Local\Temporary Projects\Comensales\obj\x86\Debug\Come
 C:\Users\AlumMati\AppData\Local\Temporary Projects\Comensales\obj\x86\Debug\Comensales.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\bin\Debug\Comensales.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\bin\Debug\Comensales.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.Comensales.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.NuevoComensal.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.csproj.GenerateResource.Cache

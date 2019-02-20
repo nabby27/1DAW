@@ -1,6 +1,6 @@
 ﻿namespace Comensales
 {
-    partial class comensales
+    partial class Comensales
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btTab1Siquiente = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -38,7 +38,9 @@
             this.btTab2Siguiente = new System.Windows.Forms.Button();
             this.btTab2NuevoComensal = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.clbTab2 = new System.Windows.Forms.CheckedListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btTab3Siguiente = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,17 +52,15 @@
             this.cbTab3Postre = new System.Windows.Forms.ComboBox();
             this.cbTab3Plato1 = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btTab3Asiganr = new System.Windows.Forms.Button();
+            this.btTab3Asignar = new System.Windows.Forms.Button();
             this.tbTab3Comensal = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lbTab3 = new System.Windows.Forms.ListBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.btTab3Siguiente = new System.Windows.Forms.Button();
+            this.btTab4Finalizar = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.lbTab4 = new System.Windows.Forms.ListBox();
-            this.btTab4Finalizar = new System.Windows.Forms.Button();
-            this.clbTab2 = new System.Windows.Forms.CheckedListBox();
-            this.tabControl1.SuspendLayout();
+            this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -73,17 +73,17 @@
             this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabControl
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(434, 451);
-            this.tabControl1.TabIndex = 0;
+            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPage2);
+            this.tabControl.Controls.Add(this.tabPage3);
+            this.tabControl.Controls.Add(this.tabPage4);
+            this.tabControl.Location = new System.Drawing.Point(12, 12);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(434, 451);
+            this.tabControl.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -168,6 +168,7 @@
             this.btTab2NuevoComensal.TabIndex = 3;
             this.btTab2NuevoComensal.Text = "NUEVO COMENSAL";
             this.btTab2NuevoComensal.UseVisualStyleBackColor = true;
+            this.btTab2NuevoComensal.Click += new System.EventHandler(this.btTab2NuevoComensal_Click);
             // 
             // groupBox2
             // 
@@ -179,6 +180,14 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "SELECCIONE LOS COMENSALES QUE PARTICIPARAN EN LA COMIDA";
+            // 
+            // clbTab2
+            // 
+            this.clbTab2.FormattingEnabled = true;
+            this.clbTab2.Location = new System.Drawing.Point(6, 19);
+            this.clbTab2.Name = "clbTab2";
+            this.clbTab2.Size = new System.Drawing.Size(402, 349);
+            this.clbTab2.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -193,6 +202,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "ASIGNACIÓN DE MENU";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btTab3Siguiente
+            // 
+            this.btTab3Siguiente.Enabled = false;
+            this.btTab3Siguiente.Location = new System.Drawing.Point(6, 388);
+            this.btTab3Siguiente.Name = "btTab3Siguiente";
+            this.btTab3Siguiente.Size = new System.Drawing.Size(414, 31);
+            this.btTab3Siguiente.TabIndex = 5;
+            this.btTab3Siguiente.Text = "SIGUIENTE";
+            this.btTab3Siguiente.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
@@ -251,12 +270,14 @@
             // 
             // btTab3AsignarMenu
             // 
+            this.btTab3AsignarMenu.Enabled = false;
             this.btTab3AsignarMenu.Location = new System.Drawing.Point(35, 141);
             this.btTab3AsignarMenu.Name = "btTab3AsignarMenu";
             this.btTab3AsignarMenu.Size = new System.Drawing.Size(345, 23);
             this.btTab3AsignarMenu.TabIndex = 4;
             this.btTab3AsignarMenu.Text = "ASIGNAR MENU SELECCIONADO AL COMENSAL";
             this.btTab3AsignarMenu.UseVisualStyleBackColor = true;
+            this.btTab3AsignarMenu.Click += new System.EventHandler(this.btTab3AsignarMenu_Click);
             // 
             // cbTab3Plato2
             // 
@@ -293,7 +314,7 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.groupBox4.Controls.Add(this.btTab3Asiganr);
+            this.groupBox4.Controls.Add(this.btTab3Asignar);
             this.groupBox4.Controls.Add(this.tbTab3Comensal);
             this.groupBox4.Location = new System.Drawing.Point(6, 147);
             this.groupBox4.Name = "groupBox4";
@@ -302,15 +323,15 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "COMENSAL";
             // 
-            // btTab3Asiganr
+            // btTab3Asignar
             // 
-            this.btTab3Asiganr.Location = new System.Drawing.Point(333, 19);
-            this.btTab3Asiganr.Name = "btTab3Asiganr";
-            this.btTab3Asiganr.Size = new System.Drawing.Size(75, 20);
-            this.btTab3Asiganr.TabIndex = 5;
-            this.btTab3Asiganr.Text = "ASIGNAR";
-            this.btTab3Asiganr.UseVisualStyleBackColor = true;
-            this.btTab3Asiganr.Click += new System.EventHandler(this.btTab3Asiganr_Click);
+            this.btTab3Asignar.Location = new System.Drawing.Point(333, 19);
+            this.btTab3Asignar.Name = "btTab3Asignar";
+            this.btTab3Asignar.Size = new System.Drawing.Size(75, 20);
+            this.btTab3Asignar.TabIndex = 5;
+            this.btTab3Asignar.Text = "ASIGNAR";
+            this.btTab3Asignar.UseVisualStyleBackColor = true;
+            this.btTab3Asignar.Click += new System.EventHandler(this.btTab3Asignar_Click);
             // 
             // tbTab3Comensal
             // 
@@ -351,14 +372,14 @@
             this.tabPage4.Text = "COMIDA";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // btTab3Siguiente
+            // btTab4Finalizar
             // 
-            this.btTab3Siguiente.Location = new System.Drawing.Point(6, 388);
-            this.btTab3Siguiente.Name = "btTab3Siguiente";
-            this.btTab3Siguiente.Size = new System.Drawing.Size(414, 31);
-            this.btTab3Siguiente.TabIndex = 5;
-            this.btTab3Siguiente.Text = "SIGUIENTE";
-            this.btTab3Siguiente.UseVisualStyleBackColor = true;
+            this.btTab4Finalizar.Location = new System.Drawing.Point(6, 388);
+            this.btTab4Finalizar.Name = "btTab4Finalizar";
+            this.btTab4Finalizar.Size = new System.Drawing.Size(414, 31);
+            this.btTab4Finalizar.TabIndex = 6;
+            this.btTab4Finalizar.Text = "FINALIZAR";
+            this.btTab4Finalizar.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 
@@ -379,32 +400,15 @@
             this.lbTab4.Size = new System.Drawing.Size(387, 342);
             this.lbTab4.TabIndex = 0;
             // 
-            // btTab4Finalizar
-            // 
-            this.btTab4Finalizar.Location = new System.Drawing.Point(6, 388);
-            this.btTab4Finalizar.Name = "btTab4Finalizar";
-            this.btTab4Finalizar.Size = new System.Drawing.Size(414, 31);
-            this.btTab4Finalizar.TabIndex = 6;
-            this.btTab4Finalizar.Text = "FINALIZAR";
-            this.btTab4Finalizar.UseVisualStyleBackColor = true;
-            // 
-            // clbTab2
-            // 
-            this.clbTab2.FormattingEnabled = true;
-            this.clbTab2.Location = new System.Drawing.Point(6, 19);
-            this.clbTab2.Name = "clbTab2";
-            this.clbTab2.Size = new System.Drawing.Size(402, 349);
-            this.clbTab2.TabIndex = 0;
-            // 
-            // comensales
+            // Comensales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 475);
-            this.Controls.Add(this.tabControl1);
-            this.Name = "comensales";
+            this.Controls.Add(this.tabControl);
+            this.Name = "Comensales";
             this.Text = "Comensales";
-            this.tabControl1.ResumeLayout(false);
+            this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -423,7 +427,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
@@ -446,7 +450,7 @@
         private System.Windows.Forms.ComboBox cbTab3Postre;
         private System.Windows.Forms.ComboBox cbTab3Plato1;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button btTab3Asiganr;
+        private System.Windows.Forms.Button btTab3Asignar;
         private System.Windows.Forms.TextBox tbTab3Comensal;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.ListBox lbTab3;
