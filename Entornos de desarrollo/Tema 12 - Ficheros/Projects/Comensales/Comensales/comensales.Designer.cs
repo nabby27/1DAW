@@ -212,6 +212,7 @@
             this.btTab3Siguiente.TabIndex = 5;
             this.btTab3Siguiente.Text = "SIGUIENTE";
             this.btTab3Siguiente.UseVisualStyleBackColor = true;
+            this.btTab3Siguiente.Click += new System.EventHandler(this.btTab3Siguiente_Click);
             // 
             // groupBox5
             // 
@@ -281,6 +282,7 @@
             // 
             // cbTab3Plato2
             // 
+            this.cbTab3Plato2.Enabled = false;
             this.cbTab3Plato2.FormattingEnabled = true;
             this.cbTab3Plato2.Location = new System.Drawing.Point(73, 46);
             this.cbTab3Plato2.Name = "cbTab3Plato2";
@@ -289,6 +291,7 @@
             // 
             // cbTab3Bebida
             // 
+            this.cbTab3Bebida.Enabled = false;
             this.cbTab3Bebida.FormattingEnabled = true;
             this.cbTab3Bebida.Location = new System.Drawing.Point(73, 73);
             this.cbTab3Bebida.Name = "cbTab3Bebida";
@@ -297,6 +300,7 @@
             // 
             // cbTab3Postre
             // 
+            this.cbTab3Postre.Enabled = false;
             this.cbTab3Postre.FormattingEnabled = true;
             this.cbTab3Postre.Location = new System.Drawing.Point(73, 100);
             this.cbTab3Postre.Name = "cbTab3Postre";
@@ -305,6 +309,7 @@
             // 
             // cbTab3Plato1
             // 
+            this.cbTab3Plato1.Enabled = false;
             this.cbTab3Plato1.FormattingEnabled = true;
             this.cbTab3Plato1.Location = new System.Drawing.Point(73, 19);
             this.cbTab3Plato1.Name = "cbTab3Plato1";
@@ -374,12 +379,14 @@
             // 
             // btTab4Finalizar
             // 
+            this.btTab4Finalizar.Enabled = false;
             this.btTab4Finalizar.Location = new System.Drawing.Point(6, 388);
             this.btTab4Finalizar.Name = "btTab4Finalizar";
             this.btTab4Finalizar.Size = new System.Drawing.Size(414, 31);
             this.btTab4Finalizar.TabIndex = 6;
             this.btTab4Finalizar.Text = "FINALIZAR";
             this.btTab4Finalizar.UseVisualStyleBackColor = true;
+            this.btTab4Finalizar.Click += new System.EventHandler(this.btTab4Finalizar_Click);
             // 
             // groupBox6
             // 
@@ -397,6 +404,7 @@
             this.lbTab4.FormattingEnabled = true;
             this.lbTab4.Location = new System.Drawing.Point(6, 19);
             this.lbTab4.Name = "lbTab4";
+            this.lbTab4.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.lbTab4.Size = new System.Drawing.Size(387, 342);
             this.lbTab4.TabIndex = 0;
             // 

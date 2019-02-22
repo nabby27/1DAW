@@ -1,7 +1,0 @@
-<Comensal>
-	<Nombre>AGUIRRE MALDONADO, DANIEL FELIPE</Nombre>
-	<Plato1>ARROZ CON POLLO</Plato1>
-	<Plato2>CARNE EN SALSA</Plato2>
-	<Postre>MANZANA ASADA</Postre>
-	<Bebida>AGUA</Bebida>
-</Comensal>

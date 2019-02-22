@@ -13,3 +13,4 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Project
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.NuevoComensal.resources
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.Properties.Resources.resources
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Debug\Comensales.csprojResolveAssemblyReference.cache

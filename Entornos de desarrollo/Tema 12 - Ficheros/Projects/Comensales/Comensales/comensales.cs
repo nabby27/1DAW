@@ -12,6 +12,7 @@ namespace Comensales
 {
     public partial class Comensales : Form
     {
+        FileStream ficheroDestino;
         public Comensales()
         {
             InitializeComponent();
@@ -55,6 +56,7 @@ namespace Comensales
 
         private void btTab2Siguiente_Click(object sender, EventArgs e)
         {
+            lbTab3.Items.Clear();
             foreach(string item in clbTab2.CheckedItems) 
             {
                 lbTab3.Items.Add(item);
@@ -73,14 +75,17 @@ namespace Comensales
 
         private void btTab3Asignar_Click(object sender, EventArgs e)
         {
-            lbTab3.Enabled = false;
-            tbTab3Comensal.Enabled = false;
-            btTab3Asignar.Enabled = false;
-            cbTab3Plato1.Enabled = true;
-            cbTab3Plato2.Enabled = true;
-            cbTab3Postre.Enabled = true;
-            cbTab3Bebida.Enabled = true;
-            btTab3AsignarMenu.Enabled = true;
+            if (!tbTab3Comensal.Text.Equals(""))
+            {
+                lbTab3.Enabled = false;
+                tbTab3Comensal.Enabled = false;
+                btTab3Asignar.Enabled = false;
+                cbTab3Plato1.Enabled = true;
+                cbTab3Plato2.Enabled = true;
+                cbTab3Postre.Enabled = true;
+                cbTab3Bebida.Enabled = true;
+                btTab3AsignarMenu.Enabled = true;
+            }
         }
 
         private void btTab3AsignarMenu_Click(object sender, EventArgs e)
@@ -94,15 +99,17 @@ namespace Comensales
                 {
                     btTab3Siguiente.Enabled = true;
                 }
-                StreamWriter stw = new StreamWriter("../../../ListaComensales.txt");
+                ficheroDestino = new FileStream("../../../ListaComensales.txt", FileMode.Append, FileAccess.Write);
+                StreamWriter stw = new StreamWriter(ficheroDestino);
                 stw.WriteLine(  "<Comensal>\n" + 
-                                "\t<Nombre>" + tbTab3Comensal.Text + "</Nombre>\n" +
-                                "\t<Plato1>" + cbTab3Plato1.Text + "</Plato1>\n" +
-                                "\t<Plato2>" + cbTab3Plato2.Text + "</Plato2>\n" +
-                                "\t<Postre>" + cbTab3Postre.Text + "</Postre>\n" + 
-                                "\t<Bebida>" + cbTab3Bebida.Text + "</Bebida>\n" +
-                            "</Comensal>");
+                                    "\t<Nombre>" + tbTab3Comensal.Text + "</Nombre>\n" +
+                                    "\t<Plato1>" + cbTab3Plato1.Text + "</Plato1>\n" +
+                                    "\t<Plato2>" + cbTab3Plato2.Text + "</Plato2>\n" +
+                                    "\t<Postre>" + cbTab3Postre.Text + "</Postre>\n" + 
+                                    "\t<Bebida>" + cbTab3Bebida.Text + "</Bebida>\n" +
+                                "</Comensal>");
                 stw.Close();
+                ficheroDestino.Close();
                 lbTab3.Enabled = true;
                 tbTab3Comensal.Enabled = true;
                 btTab3Asignar.Enabled = true;
@@ -111,13 +118,41 @@ namespace Comensales
                 cbTab3Postre.Enabled = false;
                 cbTab3Bebida.Enabled = false;
                 btTab3AsignarMenu.Enabled = false;
+                tbTab3Comensal.Clear();
+                cbTab3Plato1.Text = "";
+                cbTab3Plato2.Text = "";
+                cbTab3Postre.Text = "";
+                cbTab3Bebida.Text = "";
             }
-            tbTab3Comensal.Clear();
-            cbTab3Plato1.Text = "";
-            cbTab3Plato2.Text = "";
-            cbTab3Postre.Text = "";
-            cbTab3Bebida.Text = "";
         }
+
+        private void btTab3Siguiente_Click(object sender, EventArgs e)
+        {
+            String linea;
+            StreamReader nombre = new StreamReader("../../../ListaComensales.txt");
+            while ((linea = nombre.ReadLine()) != null)
+            {
+                lbTab4.Items.Add(linea);
+            }
+            nombre.Close();
+            tabControl.SelectTab(3);
+            btTab4Finalizar.Enabled = true;
+        }
+
+        private void btTab4Finalizar_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("../../../ListaComensales.txt"))
+            {
+                File.Delete("../../../ListaComensales.txt");
+            }
+            lbTab1.Items.Clear();
+            clbTab2.Items.Clear();
+            lbTab3.Items.Clear();
+            lbTab4.Items.Clear();
+            btTab4Finalizar.Enabled = false;
+            tabControl.SelectTab(0);
+        }
+
 
         private void loadPlato1()
         {
