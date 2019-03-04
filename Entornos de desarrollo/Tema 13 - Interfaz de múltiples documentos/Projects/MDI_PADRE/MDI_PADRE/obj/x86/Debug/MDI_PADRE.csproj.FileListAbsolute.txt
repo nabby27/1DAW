@@ -1,0 +1,11 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\bin\Debug\MDI_PADRE.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\bin\Debug\MDI_PADRE.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.Hijo2.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.Padre.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MDI_PADRE\obj\x86\Debug\MDI_PADRE.Hijo1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI_PADRE\MDI_PADRE\obj\x86\Debug\MDI_PADRE.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI_PADRE\MDI_PADRE\obj\x86\Debug\MDI_PADRE.pdb

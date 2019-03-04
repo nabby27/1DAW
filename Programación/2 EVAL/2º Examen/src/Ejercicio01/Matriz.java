@@ -88,15 +88,9 @@ public class Matriz {
     }
     
     private static void cambio(int[][] matriz, int filaCambio1, int filaCambio2) {
-        int filaAux[] = new int[filas];
-        for (int columna = 0; columna < columnas; columna++) {
-            filaAux[columna] = matriz[filaCambio2][columna];
-            matriz[filaCambio2][columna] = matriz[filaCambio1][columna];
-        }
-        
-        for (int columna = 0; columna < columnas; columna++) {
-            matriz[filaCambio1][columna] = filaAux[columna];
-        }
+        int filaAux[] = matriz[filaCambio1];
+        matriz[filaCambio1] = matriz[filaCambio2];
+        matriz[filaCambio2] = filaAux;
     }
     
     private static void mayorDeLaFila() {
