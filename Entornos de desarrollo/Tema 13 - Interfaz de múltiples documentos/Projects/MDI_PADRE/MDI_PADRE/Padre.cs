@@ -47,5 +47,25 @@ namespace MDI_PADRE
             MenuHijo1.Enabled = !hijo1Active;
             MenuHijo2.Enabled = !hijo2Active;
         }
+
+        private void cascadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void mosaicoHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal);
+        }
+
+        private void mosaicoVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void organizarIconosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.ArrangeIcons);
+        }
     }
 }

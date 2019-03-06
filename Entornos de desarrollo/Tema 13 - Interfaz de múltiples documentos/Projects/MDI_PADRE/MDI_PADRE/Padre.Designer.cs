@@ -33,8 +33,11 @@
             this.MenuHijo1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuHijo2 = new System.Windows.Forms.ToolStripMenuItem();
             this.ventanaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hijo1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hijo2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cascadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mosaicoHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mosaicoVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.organizarIconosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +47,7 @@
             this.menuToolStripMenuItem,
             this.ventanaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.ventanaToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(519, 24);
             this.menuStrip1.TabIndex = 1;
@@ -76,23 +80,47 @@
             // ventanaToolStripMenuItem
             // 
             this.ventanaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hijo1ToolStripMenuItem,
-            this.hijo2ToolStripMenuItem});
+            this.cascadaToolStripMenuItem,
+            this.mosaicoHorizontalToolStripMenuItem,
+            this.mosaicoVerticalToolStripMenuItem,
+            this.organizarIconosToolStripMenuItem,
+            this.toolStripSeparator1});
             this.ventanaToolStripMenuItem.Name = "ventanaToolStripMenuItem";
             this.ventanaToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.ventanaToolStripMenuItem.Text = "Ventana";
             // 
-            // hijo1ToolStripMenuItem
+            // cascadaToolStripMenuItem
             // 
-            this.hijo1ToolStripMenuItem.Name = "hijo1ToolStripMenuItem";
-            this.hijo1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.hijo1ToolStripMenuItem.Text = "Hijo 1";
+            this.cascadaToolStripMenuItem.Name = "cascadaToolStripMenuItem";
+            this.cascadaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.cascadaToolStripMenuItem.Text = "Cascada";
+            this.cascadaToolStripMenuItem.Click += new System.EventHandler(this.cascadaToolStripMenuItem_Click);
             // 
-            // hijo2ToolStripMenuItem
+            // mosaicoHorizontalToolStripMenuItem
             // 
-            this.hijo2ToolStripMenuItem.Name = "hijo2ToolStripMenuItem";
-            this.hijo2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.hijo2ToolStripMenuItem.Text = "Hijo 2";
+            this.mosaicoHorizontalToolStripMenuItem.Name = "mosaicoHorizontalToolStripMenuItem";
+            this.mosaicoHorizontalToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.mosaicoHorizontalToolStripMenuItem.Text = "Mosaico Horizontal";
+            this.mosaicoHorizontalToolStripMenuItem.Click += new System.EventHandler(this.mosaicoHorizontalToolStripMenuItem_Click);
+            // 
+            // mosaicoVerticalToolStripMenuItem
+            // 
+            this.mosaicoVerticalToolStripMenuItem.Name = "mosaicoVerticalToolStripMenuItem";
+            this.mosaicoVerticalToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.mosaicoVerticalToolStripMenuItem.Text = "Mosaico Vertical";
+            this.mosaicoVerticalToolStripMenuItem.Click += new System.EventHandler(this.mosaicoVerticalToolStripMenuItem_Click);
+            // 
+            // organizarIconosToolStripMenuItem
+            // 
+            this.organizarIconosToolStripMenuItem.Name = "organizarIconosToolStripMenuItem";
+            this.organizarIconosToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.organizarIconosToolStripMenuItem.Text = "Organizar Iconos";
+            this.organizarIconosToolStripMenuItem.Click += new System.EventHandler(this.organizarIconosToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(174, 6);
             // 
             // Padre
             // 
@@ -118,8 +146,11 @@
         private System.Windows.Forms.ToolStripMenuItem MenuHijo1;
         private System.Windows.Forms.ToolStripMenuItem MenuHijo2;
         private System.Windows.Forms.ToolStripMenuItem ventanaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hijo1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hijo2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cascadaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mosaicoHorizontalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mosaicoVerticalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem organizarIconosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }
 
