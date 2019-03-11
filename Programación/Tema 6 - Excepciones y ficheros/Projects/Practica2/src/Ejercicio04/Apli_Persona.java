@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Iván Córdoba Donet
  */
-public class apli_Persona {
+public class Apli_Persona {
     
     public static void main(String[] args) throws Exception {
         int edad = 0;
@@ -21,7 +21,7 @@ public class apli_Persona {
             edad = sc.nextInt();
             Persona persona = new Persona();
             persona.setEdad(edad);
-            System.out.println(persona.getEdad());
+            System.out.println(persona.toString());
         } while(edad < 0 || edad > 100);
     }
     
