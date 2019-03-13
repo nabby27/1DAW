@@ -1,0 +1,2 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.pdb

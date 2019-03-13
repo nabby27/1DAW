@@ -11,13 +11,19 @@ namespace H_Peliculas
 {
     public partial class H_EjercicioPeliculas : Form
     {
-        MDI2_PADRE padre; 
-        public H_EjercicioPeliculas(MDI2_PADRE padre)
+        //Padre padre;
+        public H_EjercicioPeliculas()
         {
             InitializeComponent();
-            this.padre = padre;
             addItems();
         }
+
+        //public H_EjercicioPeliculas(Padre padre)
+        //{
+        //    InitializeComponent();
+        //    this.padre = padre;
+        //    addItems();
+        //}
 
         int i = 1;
 

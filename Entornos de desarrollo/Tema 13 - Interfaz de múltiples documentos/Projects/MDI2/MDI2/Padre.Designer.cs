@@ -1,6 +1,6 @@
 ﻿namespace MDI2
 {
-    partial class MDI2_PADRE
+    partial class Padre
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -123,7 +123,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MDI2";
-            this.Text = "Form1";
+            this.Text = "Padre";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

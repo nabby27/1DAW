@@ -13,13 +13,13 @@ using H_Peliculas;
 
 namespace MDI2
 {
-    public partial class MDI2_PADRE : Form
+    public partial class Padre : Form
     {
         public bool listasActive;
         public bool editorActive;
         public bool peliculasActive;
 
-        public MDI2_PADRE()
+        public Padre()
         {
             InitializeComponent();
             listasActive = false;

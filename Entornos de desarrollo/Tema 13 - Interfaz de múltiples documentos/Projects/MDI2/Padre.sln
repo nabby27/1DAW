@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Padre", "MDI2\Padre.csproj", "{03363455-88B6-4B86-A7FA-B208C1B69919}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "MDI2\MDI.csproj", "{03363455-88B6-4B86-A7FA-B208C1B69919}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peliculas", "Peliculas\Peliculas\Peliculas.csproj", "{E2665371-143A-47ED-BCB3-2618EB3E04E7}"
 EndProject

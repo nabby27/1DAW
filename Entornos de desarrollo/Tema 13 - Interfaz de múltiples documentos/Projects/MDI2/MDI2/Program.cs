@@ -15,7 +15,7 @@ namespace MDI2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDI2_PADRE());
+            Application.Run(new Padre());
         }
     }
 }

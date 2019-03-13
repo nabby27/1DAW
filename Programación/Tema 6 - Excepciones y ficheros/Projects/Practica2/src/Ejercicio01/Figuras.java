@@ -31,7 +31,7 @@ public class Figuras {
         if (nLados == 4)
             return base * 2 + altura * 2;
         else 
-            return 0;
+            return Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
     }
     
     public double dameArea() {

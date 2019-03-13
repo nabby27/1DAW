@@ -7,8 +7,8 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múl
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\bin\Debug\EjercicioListas2.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\bin\Debug\Peliculas.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\Padre.csprojResolveAssemblyReference.cache
-C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.MDI2.resources
-C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.Properties.Resources.resources
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\Padre.csproj.GenerateResource.Cache
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI2.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI_2.Padre.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\MDI2\MDI2\obj\x86\Debug\MDI_2.Properties.Resources.resources
