@@ -21,7 +21,17 @@ public class Vehiculo {
     public Vehiculo(int numRuedas, int numPuertas) {
         this.numRuedas = numRuedas;
         this.numPuertas = numPuertas;
-        System.out.println("Vehiculo con " + numRuedas + " ruedas y " + numPuertas + " puertas");
+        System.out.println("Vehiculo con " + numPuertas + " puertas y " + numRuedas + " ruedas");
+    }
+    
+    public void conducir() {
+        System.out.print("Estoy conduciendo ");
+        if (llevaRadio) {
+            System.out.println("con la radio puesta");
+        }
+        else {
+            System.out.println("con la radio apagada");
+        }
     }
     
 }
