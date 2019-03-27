@@ -25,7 +25,10 @@ public class Main {
         paintArray(arrayInt);
         System.arraycopy(arrayInt, 0, copiaArray, 0, arrayInt.length);
         paintArray(copiaArray);
-        
+        System.out.println(Arrays.binarySearch(arrayInt, 8));
+        System.out.println(Arrays.equals(arrayInt, copiaArray));
+        boolean bool = Arrays.equals(arrayInt, copiaArray);
+        System.out.printf("arrayInt %s copiaArray\n", (bool ? "==" : "!="));
     }
     
     private static void paintArray(int[] vector) {
