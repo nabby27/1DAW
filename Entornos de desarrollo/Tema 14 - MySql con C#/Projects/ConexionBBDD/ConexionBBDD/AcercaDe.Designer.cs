@@ -1,6 +1,6 @@
 ﻿namespace ConexionBBDD
 {
-    partial class Mostrar
+    partial class AcercaDe
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -28,32 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // listBox1
+            // label1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(378, 238);
-            this.listBox1.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(120, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(202, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Programa hecho por Iván Córdoba Donet";
             // 
-            // Mostrar
+            // AcercaDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 262);
-            this.Controls.Add(this.listBox1);
-            this.Name = "Mostrar";
-            this.Text = "Clientes";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Mostrar_FormClosing);
+            this.ClientSize = new System.Drawing.Size(442, 97);
+            this.Controls.Add(this.label1);
+            this.Name = "AcercaDe";
+            this.Text = "AcercaDe";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

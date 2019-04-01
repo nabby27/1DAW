@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{45ACA412-9DE9-444E-94F0-4A5DD9400B5A}</ProjectGuid>
+    <ProjectGuid>{9AAC7EDE-DA5F-4F7E-A18B-4C30E4D347BD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConexionBBDD</RootNamespace>
-    <AssemblyName>ConexionBBDD</AssemblyName>
+    <RootNamespace>MiPrimeraBBDD</RootNamespace>
+    <AssemblyName>MiPrimeraBBDD</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -50,52 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcercaDe.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AcercaDe.Designer.cs">
-      <DependentUpon>AcercaDe.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Añadir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Añadir.Designer.cs">
-      <DependentUpon>Añadir.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConexionBBDD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ConexionBBDD.Designer.cs">
-      <DependentUpon>ConexionBBDD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Eliminar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eliminar.Designer.cs">
-      <DependentUpon>Eliminar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mostrar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mostrar.Designer.cs">
-      <DependentUpon>Mostrar.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AcercaDe.resx">
-      <DependentUpon>AcercaDe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Añadir.resx">
-      <DependentUpon>Añadir.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ConexionBBDD.resx">
-      <DependentUpon>ConexionBBDD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Eliminar.resx">
-      <DependentUpon>Eliminar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mostrar.resx">
-      <DependentUpon>Mostrar.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

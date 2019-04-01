@@ -1,0 +1,9 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\bin\Debug\MiPrimeraBBDD.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\bin\Debug\MiPrimeraBBDD.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.Form1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\MiPrimeraBBDD\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\MiPrimeraBBDD\MiPrimeraBBDD\obj\x86\Debug\MiPrimeraBBDD.pdb

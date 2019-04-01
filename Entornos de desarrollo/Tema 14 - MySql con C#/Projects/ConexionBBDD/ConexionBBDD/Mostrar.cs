@@ -15,9 +15,16 @@ namespace ConexionBBDD
         ConexionBBDD padre;
         public Mostrar(ConexionBBDD padre)
         {
+            padre.isShowMostrarClientes = true;
             this.padre = padre;
             InitializeComponent();
             cargarClientes();
+        }
+
+        public Mostrar()
+        {
+            padre.isShowMostrarClientes = true;
+            InitializeComponent();
         }
 
         private void cargarClientes() {
@@ -39,6 +46,11 @@ namespace ConexionBBDD
             {
                 MessageBox.Show("Error en la conexión", "ERROR");
             }
+        }
+
+        private void Mostrar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            padre.isShowMostrarClientes = false;
         }
     }
 }

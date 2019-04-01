@@ -6,3 +6,7 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Pro
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.csproj.GenerateResource.Cache
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.AcercaDe.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.Añadir.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 14 - MySql con C#\Projects\ConexionBBDD\ConexionBBDD\obj\x86\Debug\ConexionBBDD.Eliminar.resources
