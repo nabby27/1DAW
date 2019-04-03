@@ -19,6 +19,7 @@ namespace ConexionBBDD
             this.padre = padre;
             InitializeComponent();
             cargarClientes();
+            timer1.Start();
         }
 
         public Mostrar()
@@ -37,6 +38,7 @@ namespace ConexionBBDD
                 String query = "Select * from clientes";
                 MySqlCommand resolveQuery = new MySqlCommand(query, connection);
                 MySqlDataReader reader = resolveQuery.ExecuteReader();
+                listBox1.Items.Clear();
                 while (reader.Read())
                 {
                     listBox1.Items.Add(reader.GetString("IdCliente") + "\t" + reader.GetString("Telefono") + "\t" + reader.GetString("Nombre"));
@@ -51,6 +53,16 @@ namespace ConexionBBDD
         private void Mostrar_FormClosing(object sender, FormClosingEventArgs e)
         {
             padre.isShowMostrarClientes = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            cargarClientes();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            cargarClientes();
         }
     }
 }

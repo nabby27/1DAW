@@ -69,6 +69,7 @@
             this.Controls.Add(this.tbIDToDelete);
             this.Name = "Eliminar";
             this.Text = "Eliminar";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Eliminar_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

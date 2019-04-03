@@ -209,6 +209,7 @@
             this.Controls.Add(this.btAddCliente);
             this.Name = "Añadir";
             this.Text = "Añadir";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Añadir_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

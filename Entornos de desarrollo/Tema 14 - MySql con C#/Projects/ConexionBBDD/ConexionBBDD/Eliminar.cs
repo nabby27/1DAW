@@ -49,6 +49,15 @@ namespace ConexionBBDD
                     MessageBox.Show("Error");
                 }
             }
+            else
+            {
+                MessageBox.Show("Introduce un ID a eliminar");
+            }
+        }
+
+        private void Eliminar_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            padre.isShowEliminarClientes = false;
         }
     }
 }

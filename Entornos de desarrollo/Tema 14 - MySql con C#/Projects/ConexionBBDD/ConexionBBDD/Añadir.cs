@@ -69,6 +69,15 @@ namespace ConexionBBDD
                     MessageBox.Show("Error");
                 }
             }
+            else
+            {
+                MessageBox.Show("Introduce todos los datos");
+            }
+        }
+
+        private void Añadir_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            padre.isShowAnadirClientes = false;
         }
 
     }

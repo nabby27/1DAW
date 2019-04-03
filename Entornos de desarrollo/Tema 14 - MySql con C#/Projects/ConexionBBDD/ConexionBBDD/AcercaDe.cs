@@ -24,5 +24,10 @@ namespace ConexionBBDD
             padre.isShowAcercaDe = true;
             InitializeComponent();
         }
+
+        private void AcercaDe_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            padre.isShowAcercaDe = false;
+        }
     }
 }
