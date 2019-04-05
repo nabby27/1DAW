@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\bin\Release\Comensales.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\bin\Release\Comensales.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Release\Comensales.comensales.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Release\Comensales.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Release\Comensales.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Release\Comensales.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\Comensales\Comensales\obj\x86\Release\Comensales.pdb
