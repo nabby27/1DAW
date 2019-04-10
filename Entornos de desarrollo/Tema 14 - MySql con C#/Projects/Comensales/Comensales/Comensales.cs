@@ -26,30 +26,19 @@ namespace Comensales
 
         private void btTab1Seleccionar_Click(object sender, EventArgs e)
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+            DBConnect db = new DBConnect();
+            MySqlDataReader data = db.select("SELECT * FROM PERSONAS");
+            lbTab1.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM PERSONAS";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                lbTab1.Items.Clear();
-                while (reader.Read())
-                {
-                    lbTab1.Items.Add(reader.GetString("NOMBRE") + "\t" + reader.GetString("APELLIDOS"));
-                }
-                connection.Close();
+                lbTab1.Items.Add(data.GetString("NOMBRE") + "\t" + data.GetString("APELLIDOS"));
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
         }
 
         private void btTab1Siquiente_Click(object sender, EventArgs e)
         {
+            clbTab2.Items.Clear();
             foreach(String item in lbTab1.Items) 
             {
                 clbTab2.Items.Add(item);
@@ -62,28 +51,15 @@ namespace Comensales
             NuevoComensal nc = new NuevoComensal();
             if ((nc.ShowDialog() == DialogResult.OK) && !nc.tbNameNewComensalNombre.Text.Equals("") && !nc.tbNameNewComensalApellido.Text.Equals(""))
             {
-                MySqlConnection conn = new MySqlConnection();
-                String connectionString = "server=localhost;UserID=root;database=COMENSALES";
-                try
-                {
-                    conn.ConnectionString = connectionString;
-                    conn.Open();
-                    String query =
-                        "INSERT INTO PERSONAS (NOMBRE, APELLIDOS) VALUES (" +
+                DBConnect db = new DBConnect();
+                db.insert("INSERT INTO PERSONAS (NOMBRE, APELLIDOS) VALUES (" +
                             "'" + nc.tbNameNewComensalNombre.Text +
-                            "','" + nc.tbNameNewComensalApellido.Text + 
-                            "');";
-                    MySqlCommand q = new MySqlCommand(query, conn);
-                    q.ExecuteNonQuery();
-                    MessageBox.Show("Insercción correcta");
-                    conn.Close();
-                    nc.tbNameNewComensalNombre.Clear();
-                    nc.tbNameNewComensalApellido.Clear();
-                }
-                catch (MySqlException)
-                {
-                    MessageBox.Show("Error");
-                }
+                            "','" + nc.tbNameNewComensalApellido.Text +
+                            "');");
+
+                MessageBox.Show("Insercción correcta");
+                nc.tbNameNewComensalNombre.Clear();
+                nc.tbNameNewComensalApellido.Clear();
             }
         }
 
@@ -132,72 +108,48 @@ namespace Comensales
                 {
                     btTab3Siguiente.Enabled = true;
                 }
-                MySqlConnection conn = new MySqlConnection();
-                String connectionString = "server=localhost;UserID=root;database=COMENSALES";
-                try
-                {
-                    conn.ConnectionString = connectionString;
-                    conn.Open();
-                    String query =
-                        "INSERT INTO MENU_PERSONA (PERSONA, PLATO_PRINCIPAL, PLATO_SECUNDARIO, BEBIDA, POSTRE) VALUES (" +
-                            "'" + tbTab3Comensal.Text +
-                            "', '" + cbTab3Plato1.Text +
-                            "', '" + cbTab3Plato2.Text +
-                            "', '" + cbTab3Bebida.Text +
-                            "', '" + cbTab3Postre.Text +
-                        "');";
-                    MySqlCommand q = new MySqlCommand(query, conn);
-                    q.ExecuteNonQuery();
-                    MessageBox.Show("Insercción correcta");
-                    conn.Close();
-                    lbTab3.Enabled = true;
-                    tbTab3Comensal.Enabled = true;
-                    btTab3Asignar.Enabled = true;
-                    cbTab3Plato1.Enabled = false;
-                    cbTab3Plato2.Enabled = false;
-                    cbTab3Postre.Enabled = false;
-                    cbTab3Bebida.Enabled = false;
-                    btTab3AsignarMenu.Enabled = false;
-                    tbTab3Comensal.Clear();
-                    cbTab3Plato1.Text = "";
-                    cbTab3Plato2.Text = "";
-                    cbTab3Postre.Text = "";
-                    cbTab3Bebida.Text = "";
-                }
-                catch (MySqlException)
-                {
-                    MessageBox.Show("Error");
-                }
+                DBConnect db = new DBConnect();
+                db.insert("INSERT INTO MENU_PERSONA (PERSONA, PLATO_PRINCIPAL, PLATO_SECUNDARIO, BEBIDA, POSTRE) VALUES (" +
+                        "'" + tbTab3Comensal.Text +
+                        "', '" + cbTab3Plato1.Text +
+                        "', '" + cbTab3Plato2.Text +
+                        "', '" + cbTab3Bebida.Text +
+                        "', '" + cbTab3Postre.Text +
+                    "');");    
+                MessageBox.Show("Insercción correcta");
+                db.closeConnection();
+                lbTab3.Enabled = true;
+                tbTab3Comensal.Enabled = true;
+                btTab3Asignar.Enabled = true;
+                cbTab3Plato1.Enabled = false;
+                cbTab3Plato2.Enabled = false;
+                cbTab3Postre.Enabled = false;
+                cbTab3Bebida.Enabled = false;
+                btTab3AsignarMenu.Enabled = false;
+                tbTab3Comensal.Clear();
+                cbTab3Plato1.Text = "";
+                cbTab3Plato2.Text = "";
+                cbTab3Postre.Text = "";
+                cbTab3Bebida.Text = "";
             }
         }
 
         private void btTab3Siguiente_Click(object sender, EventArgs e)
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+
+            DBConnect db = new DBConnect();
+            MySqlDataReader data = db.select("SELECT * FROM MENU_PERSONA");
+            lbTab4.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM MENU_PERSONA";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                lbTab4.Items.Clear();
-                while (reader.Read())
-                {
-                    lbTab4.Items.Add(reader.GetString("PERSONA"));
-                    lbTab4.Items.Add(reader.GetString("PLATO_PRINCIPAL"));
-                    lbTab4.Items.Add(reader.GetString("PLATO_SECUNDARIO"));
-                    lbTab4.Items.Add(reader.GetString("BEBIDA"));
-                    lbTab4.Items.Add(reader.GetString("POSTRE"));
-                    lbTab4.Items.Add("");
-                }
-                connection.Close();
+                lbTab4.Items.Add(data.GetString("PERSONA"));
+                lbTab4.Items.Add(data.GetString("PLATO_PRINCIPAL"));
+                lbTab4.Items.Add(data.GetString("PLATO_SECUNDARIO"));
+                lbTab4.Items.Add(data.GetString("BEBIDA"));
+                lbTab4.Items.Add(data.GetString("POSTRE"));
+                lbTab4.Items.Add("");
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
             tabControl.SelectTab(3);
             btTab4Finalizar.Enabled = true;
         }
@@ -214,118 +166,59 @@ namespace Comensales
 
         private void loadPlato1()
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+            DBConnect db = new DBConnect();
+            MySqlDataReader data = db.select("SELECT * FROM PLATOS WHERE TIPO_PLATO = 1");
+            cbTab3Plato1.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM PLATOS WHERE TIPO_PLATO = 1";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                cbTab3Plato1.Items.Clear();
-                while (reader.Read())
-                {
-                    cbTab3Plato1.Items.Add(reader.GetString("NOMBRE"));
-                }
-                connection.Close();
+                cbTab3Plato1.Items.Add(data.GetString("NOMBRE"));
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
         }
 
         private void loadPlato2()
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+            DBConnect db = new DBConnect();
+            MySqlDataReader data =  db.select("SELECT * FROM PLATOS WHERE TIPO_PLATO = 2");
+            cbTab3Plato2.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM PLATOS WHERE TIPO_PLATO = 2";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                cbTab3Plato2.Items.Clear();
-                while (reader.Read())
-                {
-                    cbTab3Plato2.Items.Add(reader.GetString("NOMBRE"));
-                }
-                connection.Close();
+                cbTab3Plato2.Items.Add(data.GetString("NOMBRE"));
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
         }
 
         private void loadPostre()
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+            DBConnect db = new DBConnect();
+            MySqlDataReader data = db.select("SELECT * FROM POSTRES");
+            cbTab3Postre.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM POSTRES";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                cbTab3Postre.Items.Clear();
-                while (reader.Read())
-                {
-                    cbTab3Postre.Items.Add(reader.GetString("NOMBRE"));
-                }
-                connection.Close();
+                cbTab3Postre.Items.Add(data.GetString("NOMBRE"));
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
         }
 
         private void loadBebida()
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
+            DBConnect db = new DBConnect();
+            MySqlDataReader data = db.select("SELECT * FROM BEBIDAS");
+            cbTab3Bebida.Items.Clear();
+            while (data.Read())
             {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query = "SELECT * FROM BEBIDAS";
-                MySqlCommand resolveQuery = new MySqlCommand(query, connection);
-                MySqlDataReader reader = resolveQuery.ExecuteReader();
-                cbTab3Bebida.Items.Clear();
-                while (reader.Read())
-                {
-                    cbTab3Bebida.Items.Add(reader.GetString("NOMBRE"));
-                }
-                connection.Close();
+                cbTab3Bebida.Items.Add(data.GetString("NOMBRE"));
             }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            db.closeConnection();
         }
 
         private void eliminarMenuPersona()
         {
-            MySqlConnection connection = new MySqlConnection();
-            String connectionString = "Server='localhost';User Id='root';Password='';Database='COMENSALES'";
-            try
-            {
-                connection.ConnectionString = connectionString;
-                connection.Open();
-                String query =
-                        "DELETE FROM MENU_PERSONA;";
-                MySqlCommand q = new MySqlCommand(query, connection);
-                q.ExecuteNonQuery();
-                connection.Close();
-            }
-            catch (MySqlException)
-            {
-                MessageBox.Show("Error en la conexión", "ERROR");
-            }
+            DBConnect db = new DBConnect();
+            db.delete("DELETE FROM MENU_PERSONA;");
+            db.closeConnection();
         }
+
     }
+
 }

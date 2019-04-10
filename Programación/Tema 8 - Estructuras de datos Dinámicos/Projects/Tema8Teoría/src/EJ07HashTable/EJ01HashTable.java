@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EJ06HashSet;
+package EJ07HashTable;
 
 import java.util.Hashtable;
 import java.util.Map;
