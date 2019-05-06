@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\bin\Release\POO.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\bin\Release\POO.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\obj\x86\Release\POO.Form1.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\obj\x86\Release\POO.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\obj\x86\Release\POO.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\obj\x86\Release\POO.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 15 - POO y XML\Projects\POO\POO\obj\x86\Release\POO.pdb

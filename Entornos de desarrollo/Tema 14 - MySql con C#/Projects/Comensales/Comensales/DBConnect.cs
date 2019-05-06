@@ -38,7 +38,8 @@ namespace Comensales
             {
                 return false;
             }
-        } 
+        }
+ 
         private bool closeConn() {
             try {
                 connection.Close();
@@ -88,7 +89,8 @@ namespace Comensales
         public void closeConnection()
         {
             closeConn();
-        }
+        }
+
     }
 
 }

@@ -1,0 +1,3 @@
+Codigo 	 Fecha Venta 	 Importe Total 	 Libros Adquiridos
+QWE	06-05-2019		23.5		2	
+RETY	02-04-2018		45		3	
