@@ -114,7 +114,7 @@ import java.sql.Statement;
         closeConnection(con);
     }
     
-    public static void insertSale(Sale sale) throws Exception {
+    public static int insertSale(Sale sale) throws Exception {
         Connection con = openConnection();
         try {
             PreparedStatement pstat = con.prepareStatement("INSERT INTO ventas (codigoventa, fechaventa, importetotal, librosadquiridos) values (?, ?, ?, ?)");
@@ -122,12 +122,12 @@ import java.sql.Statement;
             pstat.setString(2, sale.getDateSale());
             pstat.setString(3, sale.getTotalPrice());
             pstat.setString(4, sale.getNumOfBooks());
-            pstat.execute();
-            System.out.println("Venta insertado");
+            System.out.println("Insertando venta");
+            return pstat.executeUpdate();
         } catch (Exception e) {
             System.out.println("Algo ha fallado");
+            return 0;
         }
-        closeConnection(con);
     }
     
     public static ResultSet selectAllSales() throws Exception {

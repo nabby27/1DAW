@@ -1,0 +1,11 @@
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\bin\Debug\Prueba.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\bin\Debug\Prueba.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.Form1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.Properties.Resources.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.csproj.GenerateResource.Cache
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.exe
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.pdb
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.Hijo1.resources
+C:\Users\AlumMati\AppData\Local\Temporary Projects\Prueba\obj\x86\Debug\Prueba.Hijo2.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\Prueba\Prueba\obj\x86\Debug\Prueba.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 13 - Interfaz de múltiples documentos\Projects\Prueba\Prueba\obj\x86\Debug\Prueba.pdb

@@ -163,11 +163,20 @@ public class Main {
             ResultSet book = DBConnection.selectBook(codBook);
             while(book.next()) {
                 totalPrice = (Float.parseFloat(totalPrice) + Float.parseFloat(book.getString(4))) + "";
-                DBConnection.changeStock(codBook, (Integer.parseInt(book.getString(5)) - 1) + "");
             }
         }
+        
         Sale sale = new Sale(codSale, LocalDate.now().toString(), totalPrice, cods.toString());
-        DBConnection.insertSale(sale);
+        
+        int insertSucces = DBConnection.insertSale(sale);
+        if (insertSucces > 0) {
+            for (String codBook : cods) {
+                ResultSet book = DBConnection.selectBook(codBook);
+                while(book.next()) {
+                    DBConnection.changeStock(codBook, (Integer.parseInt(book.getString(5)) - 1) + "");
+                }
+            }   
+        }
     }
     
     private static String getBookToList() throws Exception {
@@ -184,15 +193,15 @@ public class Main {
         File file = new File("registroDeVentas.txt");
         if (file.exists()) {
             file.delete();
-            file.createNewFile();
         }
+        file.createNewFile();
         FileWriter fileW = new FileWriter(file, true);
         ResultSet sales = DBConnection.selectAllSales();
         fileW.write("Codigo \t Fecha Venta \t Importe Total \t Libros Adquiridos");
         fileW.write("\n");
         while (sales.next()) {
-            fileW.write(sales.getString(1) + "\t" + sales.getString(2) + "\t" + sales.getString(3) + "\t" +
-                                sales.getString(4) + "\t");
+            fileW.write(sales.getString(1) + "\t" + sales.getString(2) + "\t" + 
+                        sales.getString(3) + "\t" + sales.getString(4) + "\t");
             fileW.write("\n");
         }
         fileW.close();
