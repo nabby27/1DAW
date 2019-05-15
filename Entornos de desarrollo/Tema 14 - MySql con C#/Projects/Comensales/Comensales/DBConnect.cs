@@ -45,7 +45,7 @@ namespace Comensales
                 connection.Close();
                 return true;
             }
-            catch (MySqlException ex) {
+            catch (MySqlException) {
                 return false;
             }
         }

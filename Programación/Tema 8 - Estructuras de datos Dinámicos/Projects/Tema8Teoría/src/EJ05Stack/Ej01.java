@@ -19,16 +19,18 @@ public class Ej01 {
         Stack<Integer> stack = new Stack<Integer>();
         
         stack = saveItemsInStack(stack, 4);
-        System.out.println("Average: " + getAverage(stack));
-        System.out.println("Bigger than average: " + getBiggerThanAverage(stack));
-        System.out.println("How many numbers smaller than average: " + getSmallerThanAverage(stack).size());
+        float average = getAverage(stack);
+        
+        System.out.println("Average: " + average);
+        System.out.println("Bigger than average: " + getBiggerThanAverage(stack, average));
+        System.out.println("How many numbers smaller than average: " + getSmallerThanAverage(stack, average).size());
         System.out.println("Num of items to pop item: " + getNumItemsToPopItemInStack(stack, 2));
     }
     
     private static Stack<Integer> saveItemsInStack(Stack<Integer> stack, int numOfItems) {
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < numOfItems; i++) {
-            System.out.println("Elemento " + (i+1) + ": " );
+            System.out.println("Elemento " + (i+1) + "/" + numOfItems + ": " );
             stack.push(sc.nextInt());
         }
         return stack;
@@ -42,9 +44,8 @@ public class Ej01 {
         return sum/stack.size();
     }
     
-    private static Stack<Integer> getBiggerThanAverage(Stack<Integer> stack) {
+    private static Stack<Integer> getBiggerThanAverage(Stack<Integer> stack, float average) {
         Stack<Integer> biggerThanAverage = new Stack<Integer>();
-        float average = getAverage(stack);
         
         for (Integer number : stack) {
             if (number > average)
@@ -53,9 +54,8 @@ public class Ej01 {
         return biggerThanAverage;
     }
     
-    private static Stack<Integer> getSmallerThanAverage(Stack<Integer> stack) {
+    private static Stack<Integer> getSmallerThanAverage(Stack<Integer> stack, float average) {
         Stack<Integer> smallerThanAverage = new Stack<Integer>();
-        float average = getAverage(stack);
         
         for (Integer number : stack) {
             if (number < average)
