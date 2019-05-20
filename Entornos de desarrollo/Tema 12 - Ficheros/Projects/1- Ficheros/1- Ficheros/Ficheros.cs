@@ -34,8 +34,6 @@ namespace _1__Ficheros
 
         private void btWrite_Click(object sender, EventArgs e)
         {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-
             StreamWriter fichero = new StreamWriter("../../../TestEj1.txt");
             
             fichero.WriteLine("Hola");

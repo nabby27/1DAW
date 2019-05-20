@@ -1,0 +1,4 @@
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.exe
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.pdb
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.exe
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.pdb

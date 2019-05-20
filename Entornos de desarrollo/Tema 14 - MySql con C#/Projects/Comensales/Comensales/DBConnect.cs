@@ -76,11 +76,10 @@ namespace Comensales
         }
 
         public MySqlDataReader select(String query) {
-            List<string> list = new List<string>();
-            if (this.openConnection()) {
+            if (this.openConnection()) 
+            {
                 MySqlCommand cmd = new MySqlCommand(query, connection);
-                MySqlDataReader dataReader = cmd.ExecuteReader();
-                return dataReader;
+                return cmd.ExecuteReader();
             } else {
                 return null;
             }

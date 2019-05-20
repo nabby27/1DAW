@@ -135,9 +135,18 @@ public class MainTest {
     
     @Test
     public void testCalcularDesdeTexto7() {
-        int expResult = 5;
+        int expResult = 8;
         
         int result = Main.calcular("5 + 4 / 2 * 2 - 1");
+        
+        checkAssert(expResult, result);
+    }
+    
+    @Test
+    public void testCalcularDesdeTexto8() {
+        int expResult = 10;
+
+        int result = Main.calcular("5 + 4 / 2 * 2 - 1 * 6 / 6 + 5 * 2 - 8 / 2 * 2");
         
         checkAssert(expResult, result);
     }

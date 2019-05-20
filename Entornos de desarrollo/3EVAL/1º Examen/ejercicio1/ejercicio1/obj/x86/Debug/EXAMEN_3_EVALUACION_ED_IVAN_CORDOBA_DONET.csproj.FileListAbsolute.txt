@@ -1,0 +1,7 @@
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\bin\Debug\ejercicio1.exe
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\bin\Debug\ejercicio1.pdb
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.Form1.resources
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.exe
+C:\Users\AlumMati\Desktop\ejercicio1\ejercicio1\obj\x86\Debug\ejercicio1.pdb

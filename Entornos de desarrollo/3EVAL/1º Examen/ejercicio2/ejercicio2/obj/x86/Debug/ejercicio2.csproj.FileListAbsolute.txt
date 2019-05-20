@@ -1,0 +1,12 @@
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\bin\Debug\ejercicio2.exe
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\bin\Debug\ejercicio2.pdb
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.Form1.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.csproj.GenerateResource.Cache
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.exe
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.pdb
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.AddAlumno.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.addProfesores.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.ShowAsignaturas.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.AcercaDe.resources
+C:\Users\AlumMati\Desktop\Examen_ED_3Evaluacion_Ivan_Cordoba_Donet\ejercicio2\ejercicio2\obj\x86\Debug\ejercicio2.EliminarAula.resources

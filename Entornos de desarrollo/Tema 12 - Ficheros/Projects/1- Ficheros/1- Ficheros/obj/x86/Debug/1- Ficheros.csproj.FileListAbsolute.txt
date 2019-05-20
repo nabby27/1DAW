@@ -7,3 +7,9 @@ C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 -\Projects\1- Fich
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 -\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\1- Ficheros.pdb
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\1- Ficheros.exe
 C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\1- Ficheros.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\bin\Debug\1- Ficheros.exe
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\bin\Debug\1- Ficheros.pdb
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\1- Ficheros.csprojResolveAssemblyReference.cache
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\_1__Ficheros.Ficheros.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\_1__Ficheros.Properties.Resources.resources
+C:\Users\AlumMati\Desktop\1DAW\Entornos de desarrollo\Tema 12 - Ficheros\Projects\1- Ficheros\1- Ficheros\obj\x86\Debug\1- Ficheros.csproj.GenerateResource.Cache
